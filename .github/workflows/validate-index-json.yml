@@ -1,0 +1,23 @@
+name: Validate index.json
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 1" # midnight every Monday
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r dev-requirements.txt
+      - name: Validate index.json
+        run: python validate_index_json.py data/index.json
