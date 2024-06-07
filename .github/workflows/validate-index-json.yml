@@ -18,6 +18,6 @@ jobs:
           python-version: "3.12"
           cache: pip
       - name: Install dependencies
-        run: pip install check-jsonschema
+        run: pip install -r requirements.txt
       - name: Validate index.json
         run: check-jsonschema data/index.json --schemafile https://raw.githubusercontent.com/imperialCHEPI/healthgps/main/schemas/v1/data_index.json
