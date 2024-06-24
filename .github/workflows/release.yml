@@ -1,0 +1,21 @@
+name: Release
+run-name: Publishing release ${{ github.ref_name }}
+on:
+  release:
+    types: [published]
+jobs:
+  generate-release-artifacts:
+    name: Generate release artifacts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Zip data directory
+        working-directory: data
+        run: zip -r ../data_${{ github.ref_name }}.zip
+      - name: Calculate SHA256 sum
+        run: sha256sum data_${{ github.ref_name }}.zip > sha256sum.txt
+      - name: Upload sha256sum file
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            data_${{ github.ref_name }}.zip
+            sha256sum.txt
