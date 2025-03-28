@@ -75,10 +75,26 @@
             }
         },
         "registry": [
-            { "group": "other", "id": "alzheimer", "name": "Alzheimer" },
-            { "group": "other", "id": "angina", "name": "Angina" },
-            { "group": "other", "id": "anxiety", "name": "Anxiety Disorder" },
-            { "group": "other", "id": "asthma", "name": "Asthma" },
+            {
+                "group": "other",
+                "id": "alzheimer",
+                "name": "Alzheimer"
+            },
+            {
+                "group": "other",
+                "id": "angina",
+                "name": "Angina"
+            },
+            {
+                "group": "other",
+                "id": "anxiety",
+                "name": "Anxiety Disorder"
+            },
+            {
+                "group": "other",
+                "id": "asthma",
+                "name": "Asthma"
+            },
             {
                 "group": "other",
                 "id": "dermatitis",
@@ -99,8 +115,16 @@
                 "id": "pancreatitis",
                 "name": "Chronic Pancreatitis"
             },
-            { "group": "other", "id": "cirrhosis", "name": "Cirrhosis" },
-            { "group": "other", "id": "diabetes", "name": "Diabetes" },
+            {
+                "group": "other",
+                "id": "cirrhosis",
+                "name": "Cirrhosis"
+            },
+            {
+                "group": "other",
+                "id": "diabetes",
+                "name": "Diabetes"
+            },
             {
                 "group": "other",
                 "id": "gallbladder",
@@ -111,14 +135,26 @@
                 "id": "reflux",
                 "name": "Gastroesophageal Reflux Disease"
             },
-            { "group": "other", "id": "gout", "name": "Gout" },
-            { "group": "other", "id": "lowbackpain", "name": "Low Back Pain" },
+            {
+                "group": "other",
+                "id": "gout",
+                "name": "Gout"
+            },
+            {
+                "group": "other",
+                "id": "lowbackpain",
+                "name": "Low Back Pain"
+            },
             {
                 "group": "other",
                 "id": "depression",
                 "name": "Major Depressive Disorder"
             },
-            { "group": "other", "id": "migraine", "name": "Migraine" },
+            {
+                "group": "other",
+                "id": "migraine",
+                "name": "Migraine"
+            },
             {
                 "group": "other",
                 "id": "multiplesclerosis",
@@ -144,7 +180,11 @@
                 "id": "parkinson",
                 "name": "Parkinson Disease"
             },
-            { "group": "other", "id": "psoriasis", "name": "Psoriasis" },
+            {
+                "group": "other",
+                "id": "psoriasis",
+                "name": "Psoriasis"
+            },
             {
                 "group": "other",
                 "id": "arthritis",
@@ -164,6 +204,11 @@
                 "group": "other",
                 "id": "ischemicheartdisease",
                 "name": "Ischemic Heart Disease"
+            },
+            {
+                "group": "other",
+                "id": "stroke",
+                "name": "stroke"
             },
             {
                 "group": "other",
@@ -205,8 +250,16 @@
                 "id": "kidneycancer",
                 "name": "Kidney Cancer"
             },
-            { "group": "cancer", "id": "livercancer", "name": "Liver Cancer" },
-            { "group": "cancer", "id": "ovarycancer", "name": "Ovary Cancer" },
+            {
+                "group": "cancer",
+                "id": "livercancer",
+                "name": "Liver Cancer"
+            },
+            {
+                "group": "cancer",
+                "id": "ovarycancer",
+                "name": "Ovary Cancer"
+            },
             {
                 "group": "cancer",
                 "id": "pancreascancer",
