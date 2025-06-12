@@ -1,8 +1,8 @@
-#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== 
-#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== 
+#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ====
+#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ====
 #### ==== Script checks the disease data for completeness
 
-#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== 
+#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ====
 
 rm(list = ls())
 
@@ -24,7 +24,7 @@ getwd()
 #		"ischemicstroke",
 #		"intracerebralhemorrhage",
 #		"subarachnoidhemorrhage"
-#) 
+#)
 Diseases	= c(
 		"chronickidneydisease",
 		"ischemicheartdisease",
@@ -39,9 +39,9 @@ Diseases	= c(
 		"colorectalcancer",
 		"esophaguscancer",
 		"kidneycancer",
-		"breastcancer", 
+		"breastcancer",
 		"trachealbronchuslungcancer"
-		) 
+		)
 
 Sexes				= c("male", "female")
 SentenceCaseSexes 	= c("Male", "Female")
@@ -62,18 +62,18 @@ DiseaseDataChecks$AllAgesFinite 	= 1
 #colnames(DiseaseDataChecks) = Measures
 #rownames(DiseaseDataChecks) = Diseases
 
-#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== 
+#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ====
 #### ==== First Check overall disease data "D{COUNTRY_CODE}.csv"
 for (DiseaseIndex in 1:length(Diseases))
 {
 	Disease = Diseases[DiseaseIndex]
-	
+
 	## Load D{COUNTRY_CODE}.csv
-	DiseaseData = read.csv(file = paste0(Disease, "/D", CountryCode,  ".csv")) 
+	DiseaseData = read.csv(file = paste0(Disease, "/D", CountryCode,  ".csv"))
 	# take relevant columns only
 	DiseaseData = DiseaseData[, c("gender", "age", "measure", "mean", "lower", "upper")]
-	
-	
+
+
 	# checks
 	Measure = "prevalence"
 	Sex = "Male"
@@ -81,19 +81,19 @@ for (DiseaseIndex in 1:length(Diseases))
 		 for (Sex in SentenceCaseSexes)
 		 {
 			 # get index
-			 RowIndex = which(DiseaseDataChecks$Disease == Disease & 
-							 DiseaseDataChecks$Sex == Sex & 
+			 RowIndex = which(DiseaseDataChecks$Disease == Disease &
+							 DiseaseDataChecks$Sex == Sex &
 							 DiseaseDataChecks$Measure == Measure)
-			 
+
 			 SubDiseaseData = DiseaseData[DiseaseData$measure == Measure & DiseaseData$gender == Sex,]
-			 
-			 ## all ages present? 
-			 if (!identical(sort(SubDiseaseData$age), Ages)) 
+
+			 ## all ages present?
+			 if (!identical(sort(SubDiseaseData$age), Ages))
 			 {
 				 DiseaseDataChecks[DiseaseIndex, Measure] = NA
 				 cat(paste0("\nDisease ", DiseaseIndex, " = ", Disease, ", ", Measure, ", ", Sex, ", Incomplete ages"))
 			 }
-			 
+
 			 ## all ages have a value?
 			 if (any (is.na(SubDiseaseData[, c("mean", "lower", "upper")])))
 			 {
@@ -116,7 +116,7 @@ FilesWithIssues
 
 
 
-#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== 
+#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ====
 #### ==== now check "risk_factor"
 
 
@@ -136,51 +136,51 @@ DiseaseIndex = 1
 for (DiseaseIndex in 1:length(Diseases))
 {
 	Disease = Diseases[DiseaseIndex]
-	
+
 	RiskFactorIndex = 3
 	for (RiskFactorIndex in 1:length(RiskFactors))
 	{
 		RiskFactor = RiskFactors[RiskFactorIndex]
-		
+
 		Sex = "male"
 #		Sex = "female"
 		for (Sex in Sexes)
 		{
 			Filename = paste0(Disease, "/relative_risk/risk_factor/", Sex, "_", Disease, "_", RiskFactor, ".csv")
 			# get index
-			RowIndex = which(RiskFactorChecks$Disease == Disease & RiskFactorChecks$Sex == Sex & 
+			RowIndex = which(RiskFactorChecks$Disease == Disease & RiskFactorChecks$Sex == Sex &
 							RiskFactorChecks$RiskFactor == RiskFactor)
-			
-			if (file.exists(Filename))	
+
+			if (file.exists(Filename))
 			{
-				RiskFactorData = read.csv(file = paste0(Disease, "/relative_risk/risk_factor/", Sex, "_", Disease, "_", RiskFactor, ".csv")) 
-				
-				
-				## all ages present? 
-				if (!identical(sort(RiskFactorData[,1]), Ages)) 
+				RiskFactorData = read.csv(file = paste0(Disease, "/relative_risk/risk_factor/", Sex, "_", Disease, "_", RiskFactor, ".csv"))
+
+
+				## all ages present?
+				if (!identical(sort(RiskFactorData[,1]), Ages))
 				{
 					RiskFactorChecks[RowIndex, "AllAgesPresent"] = NA
 					cat(paste0("\nDisease ", DiseaseIndex, " = ", Disease, ", ", RiskFactor, ", ", Sex, ", Incomplete ages"))
-					
+
 					print("")
 					print(RiskFactorData[,1])
 				}
-				
+
 				## all ages have a value?
 				if (any(is.na(RiskFactorData)))
 				{
 					RiskFactorChecks[RowIndex, "AllAgesHaveValue"] = NA
 					cat(paste0("\nDisease ", DiseaseIndex, " = ", Disease, ", ", RiskFactor, ", ", Sex, ", has NAs"))
 				}
-				
+
 				## all ages have finite value?
 				if (any(RiskFactorData == Inf))
 				{
 					RiskFactorChecks[RowIndex, "AllAgesFinite"] = NA
 					cat(paste0("\nDisease ", DiseaseIndex, " = ", Disease, ", ", RiskFactor, ", ", Sex, ", has Infs"))
 				}
-				
-			} else 
+
+			} else
 			{
 				cat(paste0("\n", Disease, ", ", RiskFactor, ", ", Sex, ", file doesn't exist"))
 #				RiskFactorChecks[RowIndex, "FileThere"] = NA
@@ -197,7 +197,7 @@ write.table(FilesWithIssues, file = file.path(getwd(), paste0("FilesWithIssues.t
 
 
 
-#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== 
+#### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ====
 #### ==== now check "/relative_risk/disease/"
 
 
@@ -216,33 +216,33 @@ for (Disease1 in Diseases)
 	for (Disease2 in Diseases)
 	{
 		Filename = paste0(Disease1, "/relative_risk/disease/", Disease1, "_", Disease2, ".csv")
-		
+
 		# get index1
 		RowIndex = which(RR_DiseaseChecks$Disease1 == Disease1 & RR_DiseaseChecks$Disease2 == Disease2)
-		
-		if (file.exists(Filename))	
+
+		if (file.exists(Filename))
 		{
-			RR_DiseaseData = read.csv(file = Filename) 
-			
-			## all ages present? 
-			if (!identical(sort(RR_DiseaseData$Age), Ages)) 
+			RR_DiseaseData = read.csv(file = Filename)
+
+			## all ages present?
+			if (!identical(sort(RR_DiseaseData$Age), Ages))
 			{
 				RR_DiseaseChecks[RowIndex, "AllAgesPresent"] = NA
 				cat(paste0("\n", Disease1, ", ", Disease2, ", Incomplete ages"))
-				
+
 				print("")
 				print(length(RR_DiseaseData$Age))
 				print(range(RR_DiseaseData$Age))
 				print(RR_DiseaseData$Age)
 			}
-			
+
 			## all ages have a value?
 			if (any(is.na(RR_DiseaseData)))
 			{
 				RR_DiseaseChecks[RowIndex, "AllAgesHaveValue"] = NA
 				cat(paste0("\n", Disease1, ", ", Disease2, ", has NAs"))
 			}
-			
+
 			## all ages have finite value?
 			if (any(RR_DiseaseData == Inf))
 			{
@@ -258,22 +258,3 @@ FilesWithIssues[is.na(FilesWithIssues)] = FALSE
 FilesWithIssues
 
 write.table(FilesWithIssues, file = file.path(getwd(), paste0("RR_Disease_FilesWithIssues.txt")), row.names = F, col.names = T, quote = F, sep = "\t")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
