@@ -39,8 +39,8 @@ Diseases	= c(
 		"colorectalcancer",
 		"esophaguscancer",
 		"kidneycancer",
-		"breastcancer", 
-		"trachealbronchuslungcancer", 
+		"breastcancer",
+		"trachealbronchuslungcancer",
 		"ischemicstroke",
 		"intracerebralhemorrhage",
 		"subarachnoidhemorrhage"
