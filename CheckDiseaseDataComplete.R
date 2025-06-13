@@ -40,7 +40,10 @@ Diseases	= c(
 		"esophaguscancer",
 		"kidneycancer",
 		"breastcancer", 
-		"trachealbronchuslungcancer"
+		"trachealbronchuslungcancer", 
+		"ischemicstroke",
+		"intracerebralhemorrhage",
+		"subarachnoidhemorrhage"
 		) 
 
 Sexes				= c("male", "female")
@@ -120,8 +123,11 @@ FilesWithIssues
 #### ==== now check "risk_factor"
 
 
+#RiskFactors	= c("bmi", "sodium", "fruit", "processedmeat", "redmeat", "vegetable", "fibre",
+#		"fat", "alcohol", "legume", "saturatedfat")
 RiskFactors	= c("bmi", "sodium", "fruit", "processedmeat", "redmeat", "vegetable", "fibre",
-				"fat", "alcohol", "legume", "saturatedfat")
+		"fat", "alcohol", "legume", "saturatedfat", "alcohol", "polyunsaturatedfattyacid",
+		"monounsaturatedfat", "totalsugar", "addedsugar")
 RiskFactorChecks 	= expand.grid(Sex = Sexes, RiskFactor = RiskFactors, Disease = Diseases)
 RiskFactorChecks 	= RiskFactorChecks[, c("Disease", "RiskFactor", "Sex")]
 
