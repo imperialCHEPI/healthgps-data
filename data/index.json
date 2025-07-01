@@ -237,6 +237,11 @@
             },
             {
                 "group": "cancer",
+                "id": "trachealbronchuslungcancer",
+                "name": "Tracheal, bronchus, and lung cancer"
+            },
+            {
+                "group": "cancer",
                 "id": "esophaguscancer",
                 "name": "Esophagus Cancer"
             },
