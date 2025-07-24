@@ -40,12 +40,12 @@ ConvertYearStringToVector = function(YearString)
 	{
 		LowerBound = 80
 		UpperBound = 110
-		
+
 	} else if (YearString == "0-4" | YearString == "5-9")
 	{
 		LowerBound = as.numeric(substr(YearString, 1,1))
 		UpperBound = as.numeric(substr(YearString, 3,3))
-		
+
 	} else
 	{
 		LowerBound = as.numeric(substr(YearString, 1,2))
@@ -90,7 +90,7 @@ IF_Data_Raw$Gender[which(IF_Data_Raw$Gender == "Female")] 	= "1"
 IF_Data_Raw$Gender[which(IF_Data_Raw$Gender == "Male")] 	= "0"
 IF_Data_Raw$Gender = as.numeric(IF_Data_Raw$Gender)
 
-## Convert Disease names in this data to their HGPS-data counterparts. 
+## Convert Disease names in this data to their HGPS-data counterparts.
 # "diabetes", "stroke" already in same format
 IF_Data_Raw$disease[which(IF_Data_Raw$disease == "IHD")] 			= "ischemicheartdisease"
 IF_Data_Raw$disease[which(IF_Data_Raw$disease == "lung_cancer")] 	= "trachealbronchuslungcancer"
@@ -109,20 +109,20 @@ IF_Data_Raw$disease[which(IF_Data_Raw$disease == "IHD")] 			= "ischemicheartdise
 YearsPostInt
 
 
-Disease = DiseasesToProcess[1] 
+Disease = DiseasesToProcess[1]
 for (Disease in DiseasesToProcess)
 {
 	## Subset raw data
 	IF_Data_Raw_thisDisease = IF_Data_Raw[which(IF_Data_Raw$disease == Disease), ]
 #	head(IF_Data_Raw_thisDisease)
-	
+
 	## Create Empty Data Frame to file for this disease
 	Processed_IFData_thisDisease 	= expand.grid(Age = Ages, Sex = Sexes, YearPostInt = Years)
 	Processed_IFData_thisDisease 	= Processed_IFData_thisDisease[, c("Sex", "Age", "YearPostInt")]
 	IF_Mean_ThisDisease 			= rep(0, dim(Processed_IFData_thisDisease)[1])
 	Processed_IFData_thisDisease 	= cbind(Processed_IFData_thisDisease, IF_Mean = IF_Mean_ThisDisease)
 #	head(Processed_IFData_thisDisease)
-	
+
 	Row = 1
 	for (Row in 1:dim(IF_Data_Raw_thisDisease)[1])
 	{
@@ -133,47 +133,23 @@ for (Disease in DiseasesToProcess)
 		years_post_int_ThisRow 	= IF_Data_Raw_thisDisease$years_post_int[Row]
 		years_post_int_ThisRow	= ConvertYearStringToVector(years_post_int_ThisRow)
 		IF_Mean_ThisRow			= IF_Data_Raw_thisDisease$IF_Mean[Row]
-		
+
 #		Gender_ThisRow
 #		Ages_ThisRow
 #		years_post_int_ThisRow
-				
+
 		# find relevant indices
 		IndicesOfProcessedData 	= which(
-				Processed_IFData_thisDisease$Sex 			== 		Gender_ThisRow 			& 
-				Processed_IFData_thisDisease$Age 			%in% 	Ages_ThisRow 			& 
+				Processed_IFData_thisDisease$Sex 			== 		Gender_ThisRow 			&
+				Processed_IFData_thisDisease$Age 			%in% 	Ages_ThisRow 			&
 				Processed_IFData_thisDisease$YearPostInt 	%in% 	years_post_int_ThisRow 	)
-		
-		# now populate processed data with IF in relevant indices			
+
+		# now populate processed data with IF in relevant indices
 		Processed_IFData_thisDisease$IF_Mean[IndicesOfProcessedData] = IF_Mean_ThisRow
 	}
-	
-	# write Processed data to relevant disease folder. 
-	write.table(Processed_IFData_thisDisease, 
-			file = file.path(getwd(), Disease, paste0("IF", COUNTRY_CODE, ".csv")), 
+
+	# write Processed data to relevant disease folder.
+	write.table(Processed_IFData_thisDisease,
+			file = file.path(getwd(), Disease, paste0("IF", COUNTRY_CODE, ".csv")),
 			row.names = F, col.names = T, quote = F, sep = ",")
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
-		
-		
