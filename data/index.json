@@ -20,8 +20,8 @@
         "url": "https://population.un.org/wpp/",
         "license": "Creative Commons license",
         "path": "undb",
-        "age_limits": [ 0, 110 ],
-        "time_limits": [ 1950, 2100 ],
+        "age_limits": [0, 110],
+        "time_limits": [1950, 2100],
         "projections": 2022,
         "population": {
             "description": "Total population by sex, annually from 1950 to 2100.",
@@ -48,7 +48,7 @@
         "url": "http://www.healthdata.org/",
         "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License",
         "path": "diseases",
-        "age_limits": [ 1, 110 ],
+        "age_limits": [1, 110],
         "time_year": 2019,
         "disease": {
             "path": "{DISEASE_TYPE}",
@@ -295,7 +295,7 @@
         "url": "http://www.healthdata.org/",
         "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License",
         "path": "analysis",
-        "age_limits": [ 1, 110 ],
+        "age_limits": [1, 110],
         "time_year": 2019,
         "disability_file_name": "disability_weights.csv",
         "lms_file_name": "lms_parameters.csv",
@@ -305,5 +305,3 @@
         }
     }
 }
-
-
