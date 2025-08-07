@@ -72,6 +72,10 @@
                     "survival_rate": "survival_rate_parameters.csv",
                     "death_weight": "death_weights.csv"
                 }
+            },
+            "population_impact_fraction": {
+                "file_name": "IF{COUNTRY_CODE}.csv",
+                "description": "Population Impact Fraction data for intervention scenarios"
             }
         },
         "registry": [
