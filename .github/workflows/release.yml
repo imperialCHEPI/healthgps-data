@@ -8,7 +8,7 @@ jobs:
     name: Generate release artifacts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Zip data directory
         working-directory: data
         run: zip -r ../data_${{ github.ref_name }}.zip *
