@@ -93,9 +93,9 @@ for (RiskFactor in RiskFactors)
 	IF_Data_Raw$Gender[which(IF_Data_Raw$Gender == "Male")] 	= "0"
 	IF_Data_Raw$Gender = as.numeric(IF_Data_Raw$Gender)
 
-#	# Find overlap between IF diseases and disease already in HGPS data
-#	DiseasesToProcess = DiseasesIFData[which(DiseasesIFData %in% HGPS_diseases)]
-#	DiseasesToProcess
+	DiseasesIFData = unique(IF_Data_Raw$disease)
+	DiseasesIFData
+
 
 	# Expand years pot intervention data
 	IF_Data_Raw$years_post_int = gsub(pattern = " years", replacement = "", IF_Data_Raw$years_post_int)
@@ -106,9 +106,6 @@ for (RiskFactor in RiskFactors)
 	for (Disease_IF in DiseasesIFData)
 	{
 		## Convert Disease names in this data to their HGPS-data counterparts.
-		
-		
-		
 		if (RiskFactor == "Smoking")
 		{
 			# Diseases in smoking analysis

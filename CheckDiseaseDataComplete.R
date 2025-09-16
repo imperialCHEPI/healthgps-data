@@ -50,7 +50,7 @@ getwd()
 
 Dir = "C:\\Users\\dlaydon\\OneDrive - Imperial College London\\Health-GPS_SHARED\\healthgps_data_update\\disease\\Health-GPS_disease_India_2021"
 Diseases	= list.dirs(Dir, full.names = FALSE, recursive = FALSE)
-		
+
 
 
 Sexes				= c("male", "female")
@@ -88,10 +88,10 @@ for (DiseaseIndex in 1:length(Diseases))
 	DiseaseData$measure[which(DiseaseData$measure == "Incidence" )] = "incidence"
 	DiseaseData$measure[which(DiseaseData$measure == "Mortality" )] = "mortality"
 	DiseaseData$measure[which(DiseaseData$measure == "Remission" )] = "remission"
-	
+
 	DiseaseData$gender[which(DiseaseData$gender == "Male" )] = "male"
 	DiseaseData$gender[which(DiseaseData$gender == "Female" )] = "female"
-	
+
 	# checks
 	Measure = Measures[1]
 	Sex = Sexes[1]
@@ -109,8 +109,8 @@ for (DiseaseIndex in 1:length(Diseases))
 			 if (!identical(sort(SubDiseaseData$age), Ages))
 			 {
 				 DiseaseDataChecks[RowIndex, "AllAgesPresent"] = NA
-				 
-				 
+
+
 				 cat(paste0("\nDisease ", DiseaseIndex, " = ", Disease, ", ", Measure, ", ", Sex, ", Incomplete ages"))
 			 }
 
