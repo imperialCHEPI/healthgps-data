@@ -40,7 +40,8 @@ ConvertYearStringToVector = function(YearString)
 }
 
 RiskFactor 		= RiskFactors[1]
-#RiskFactor 		= RiskFactors[2]
+RiskFactor 		= RiskFactors[2]
+#RiskFactor
 ScenarioNumber 	= 1
 
 for (RiskFactor in RiskFactors)
@@ -92,54 +93,56 @@ for (RiskFactor in RiskFactors)
 	IF_Data_Raw$Gender[which(IF_Data_Raw$Gender == "Male")] 	= "0"
 	IF_Data_Raw$Gender = as.numeric(IF_Data_Raw$Gender)
 
-	## Convert Disease names in this data to their HGPS-data counterparts.
-	# "diabetes", "stroke" already in same format
-
-	# Diseases in smoking analysis
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "COPD")] 					= "pulmonary"
-	#IF_Data_Raw$disease[which(IF_Data_Raw$disease == "diabetes")] 				= "diabetes"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "IHD")] 					= "ischemicheartdisease"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "lung_cancer")] 			= "trachealbronchuslungcancer"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "mouth_orophar_cancer")] 	= "lipandoralcavitycancer"
-	#IF_Data_Raw$disease[which(IF_Data_Raw$disease == "other_CVD")] 				= "???????"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "other_resp_dis")] 		= "asthma"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "stroke")] 				= "stroke"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "cervix_uter_cancer")] 	= "cervicalcancer"
-	
-	# Diseases in alcohol analysis
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "alcohol_use_disorders")] 		= "alcoholusedisorders"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "liver_cirrhosis")] 			= "cirrhosis"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "lip_oral_cancer")] 			= "lipandoralcavitycancer"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "liver_cancer")] 				= "livercancer"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "other_pharyngeal_cancers")] 	= "otherpharynxcancer"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "road_injury")] 				= "roadinjuries"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "self_harm")] 					= "selfharm"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "intracerebral_haemorrhage")] 	= "intracerebralhemorrhage"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "ischaemic_stroke")] 			= "ischemicstroke"
-	#IF_Data_Raw$disease[which(IF_Data_Raw$disease == "tuberculosis")] 			= "tuberculosis"
-	
-	DiseasesIFData = unique(IF_Data_Raw$disease)
-	DiseasesIFData
-
-	# Find overlap between IF diseases and disease already in HGPS data
-	DiseasesToProcess = DiseasesIFData[which(DiseasesIFData %in% HGPS_diseases)]
-	DiseasesToProcess
+#	# Find overlap between IF diseases and disease already in HGPS data
+#	DiseasesToProcess = DiseasesIFData[which(DiseasesIFData %in% HGPS_diseases)]
+#	DiseasesToProcess
 
 	# Expand years pot intervention data
 	IF_Data_Raw$years_post_int = gsub(pattern = " years", replacement = "", IF_Data_Raw$years_post_int)
 	YearsPostInt = unique(IF_Data_Raw$years_post_int)
 	YearsPostInt
 
-	Disease = DiseasesToProcess[1]
-	for (Disease in DiseasesToProcess)
+	Disease_IF = DiseasesIFData[1]
+	for (Disease_IF in DiseasesIFData)
 	{
+		## Convert Disease names in this data to their HGPS-data counterparts.
+		
+		
+		
+		if (RiskFactor == "Smoking")
+		{
+			# Diseases in smoking analysis
+			if (Disease_IF  == "COPD") 					DiseasesHGPS_Data = "pulmonary"
+			if (Disease_IF 	== "diabetes") 				DiseasesHGPS_Data = "diabetes"
+			if (Disease_IF  == "IHD")					DiseasesHGPS_Data = "ischemicheartdisease"
+			if (Disease_IF  == "lung_cancer") 			DiseasesHGPS_Data = "trachealbronchuslungcancer"
+			if (Disease_IF  == "mouth_orophar_cancer") 	DiseasesHGPS_Data = "otherpharynxcancer"
+			if (Disease_IF  == "other_resp_dis") 		DiseasesHGPS_Data = c("asthma", "lowerrespiratoryinfections", "tuberculosis")
+			if (Disease_IF  == "stroke") 				DiseasesHGPS_Data = "stroke"
+			if (Disease_IF  == "cervix_uter_cancer") 	DiseasesHGPS_Data = "cervicalcancer"
+			
+		} else if (RiskFactor == "Alcohol")
+		{
+			# Diseases in alcohol analysis
+			if (Disease_IF  == "alcohol_use_disorders") 	DiseasesHGPS_Data = "alcoholusedisorders"     
+			if (Disease_IF 	== "liver_cirrhosis") 			DiseasesHGPS_Data = "cirrhosis"               
+			if (Disease_IF  == "lip_oral_cancer") 			DiseasesHGPS_Data = "lipandoralcavitycancer"  
+			if (Disease_IF  == "liver_cancer") 				DiseasesHGPS_Data = "livercancer"             
+			if (Disease_IF  == "other_pharyngeal_cancers") 	DiseasesHGPS_Data = "otherpharynxcancer"      
+			if (Disease_IF  == "road_injury") 				DiseasesHGPS_Data = "roadinjuries"            
+			if (Disease_IF  == "self_harm") 				DiseasesHGPS_Data = "selfharm"                
+			if (Disease_IF  == "intracerebral_haemorrhage") DiseasesHGPS_Data = c("intracerebralhemorrhage", "subarachnoidhemorrhage") 
+			if (Disease_IF  == "ischaemic_stroke") 			DiseasesHGPS_Data = "ischemicstroke"          
+			if (Disease_IF  == "tuberculosis") 				DiseasesHGPS_Data = "tuberculosis"          
+		}	
+		
 		## Subset raw data
-		IF_Data_Raw_thisDisease = IF_Data_Raw[which(IF_Data_Raw$disease == Disease), ]
+		IF_Data_Raw_thisDisease = IF_Data_Raw[which(IF_Data_Raw$disease == Disease_IF), ]
 		#head(IF_Data_Raw_thisDisease)
 
 		## Create Empty Data Frame to file for this disease
-		Processed_IFData_thisDisease 	= expand.grid(Age = Ages, Sex = Sexes, YearPostInt = Years)
-		Processed_IFData_thisDisease 	= Processed_IFData_thisDisease[, c("Sex", "Age", "YearPostInt")]
+		Processed_IFData_thisDisease 	= expand.grid(Age = Ages, Gender = Sexes, YearPostInt = Years)
+		Processed_IFData_thisDisease 	= Processed_IFData_thisDisease[, c("Gender", "Age", "YearPostInt")]
 		IF_Mean_ThisDisease 			= rep(0, dim(Processed_IFData_thisDisease)[1])
 		Processed_IFData_thisDisease 	= cbind(Processed_IFData_thisDisease, IF_Mean = IF_Mean_ThisDisease)
 		#head(Processed_IFData_thisDisease)
@@ -161,7 +164,7 @@ for (RiskFactor in RiskFactors)
 
 			# find relevant indices
 			IndicesOfProcessedData 	= which(
-					Processed_IFData_thisDisease$Sex 			== 		Gender_ThisRow 			&
+					Processed_IFData_thisDisease$Gender 			== 		Gender_ThisRow 			&
 							Processed_IFData_thisDisease$Age 			%in% 	Ages_ThisRow 			&
 							Processed_IFData_thisDisease$YearPostInt 	%in% 	years_post_int_ThisRow 	)
 
@@ -170,12 +173,15 @@ for (RiskFactor in RiskFactors)
 		}
 
 		# create directory for this disease, and this scenario, for this risk factor.
-		Dir = file.path(getwd(), Disease, "PIF", RiskFactor, paste0("Scenario", ScenarioNumber))
-		dir.create(Dir, recursive = T)
-
-		# write Processed data to relevant disease folder.
-		write.table(Processed_IFData_thisDisease,
-				file = file.path(Dir, paste0("IF", COUNTRY_CODE, ".csv")),
-				row.names = F, col.names = T, quote = F, sep = ",")
+		for (Disease_HGPS_Data in DiseasesHGPS_Data)
+		{
+			Dir = file.path(getwd(), Disease_HGPS_Data, "PIF", RiskFactor, paste0("Scenario", ScenarioNumber))
+			dir.create(Dir, recursive = T)
+			
+			# write Processed data to relevant disease folder.
+			write.table(Processed_IFData_thisDisease,
+					file = file.path(Dir, paste0("IF", COUNTRY_CODE, ".csv")),
+					row.names = F, col.names = T, quote = F, sep = ",")
+		}
 	}
 }
