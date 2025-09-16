@@ -1,801 +1,889 @@
-location_id,location,disease,time,age_group_id,age_group,age,is_filled,gender_id,gender,measure_id,measure,mean,lower,upper
-D356,India,Ischemic heart disease,2019,5,1 to 4,1,FALSE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,1,FALSE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,2,TRUE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,2,TRUE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,3,TRUE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,3,TRUE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,4,TRUE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,4,TRUE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,5,FALSE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,5,FALSE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,6,TRUE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,6,TRUE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,7,TRUE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,7,TRUE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,8,TRUE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,8,TRUE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,9,TRUE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,9,TRUE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,10,FALSE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,10,FALSE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,11,TRUE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,11,TRUE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,12,TRUE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,12,TRUE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,13,TRUE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,13,TRUE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,14,TRUE,1,Male,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,14,TRUE,2,Female,5,prevalence,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,15,FALSE,1,Male,5,prevalence,0.000136344,9.32E-05,0.000189969
-D356,India,Ischemic heart disease,2019,8,15 to 19,15,FALSE,2,Female,5,prevalence,0.000112857,7.74E-05,0.000157214
-D356,India,Ischemic heart disease,2019,8,15 to 19,16,TRUE,1,Male,5,prevalence,0.000136344,9.32E-05,0.000189969
-D356,India,Ischemic heart disease,2019,8,15 to 19,16,TRUE,2,Female,5,prevalence,0.000112857,7.74E-05,0.000157214
-D356,India,Ischemic heart disease,2019,8,15 to 19,17,TRUE,1,Male,5,prevalence,0.000136344,9.32E-05,0.000189969
-D356,India,Ischemic heart disease,2019,8,15 to 19,17,TRUE,2,Female,5,prevalence,0.000112857,7.74E-05,0.000157214
-D356,India,Ischemic heart disease,2019,8,15 to 19,18,TRUE,1,Male,5,prevalence,0.000136344,9.32E-05,0.000189969
-D356,India,Ischemic heart disease,2019,8,15 to 19,18,TRUE,2,Female,5,prevalence,0.000112857,7.74E-05,0.000157214
-D356,India,Ischemic heart disease,2019,8,15 to 19,19,TRUE,1,Male,5,prevalence,0.000136344,9.32E-05,0.000189969
-D356,India,Ischemic heart disease,2019,8,15 to 19,19,TRUE,2,Female,5,prevalence,0.000112857,7.74E-05,0.000157214
-D356,India,Ischemic heart disease,2019,9,20 to 24,20,FALSE,1,Male,5,prevalence,0.000373281,0.000285738,0.000474954
-D356,India,Ischemic heart disease,2019,9,20 to 24,20,FALSE,2,Female,5,prevalence,0.000309855,0.000237091,0.000399324
-D356,India,Ischemic heart disease,2019,9,20 to 24,21,TRUE,1,Male,5,prevalence,0.000373281,0.000285738,0.000474954
-D356,India,Ischemic heart disease,2019,9,20 to 24,21,TRUE,2,Female,5,prevalence,0.000309855,0.000237091,0.000399324
-D356,India,Ischemic heart disease,2019,9,20 to 24,22,TRUE,1,Male,5,prevalence,0.000373281,0.000285738,0.000474954
-D356,India,Ischemic heart disease,2019,9,20 to 24,22,TRUE,2,Female,5,prevalence,0.000309855,0.000237091,0.000399324
-D356,India,Ischemic heart disease,2019,9,20 to 24,23,TRUE,1,Male,5,prevalence,0.000373281,0.000285738,0.000474954
-D356,India,Ischemic heart disease,2019,9,20 to 24,23,TRUE,2,Female,5,prevalence,0.000309855,0.000237091,0.000399324
-D356,India,Ischemic heart disease,2019,9,20 to 24,24,TRUE,1,Male,5,prevalence,0.000373281,0.000285738,0.000474954
-D356,India,Ischemic heart disease,2019,9,20 to 24,24,TRUE,2,Female,5,prevalence,0.000309855,0.000237091,0.000399324
-D356,India,Ischemic heart disease,2019,10,25 to 29,25,FALSE,1,Male,5,prevalence,0.001138729,0.000919501,0.001382308
-D356,India,Ischemic heart disease,2019,10,25 to 29,25,FALSE,2,Female,5,prevalence,0.000934974,0.000754428,0.001138778
-D356,India,Ischemic heart disease,2019,10,25 to 29,26,TRUE,1,Male,5,prevalence,0.001138729,0.000919501,0.001382308
-D356,India,Ischemic heart disease,2019,10,25 to 29,26,TRUE,2,Female,5,prevalence,0.000934974,0.000754428,0.001138778
-D356,India,Ischemic heart disease,2019,10,25 to 29,27,TRUE,1,Male,5,prevalence,0.001138729,0.000919501,0.001382308
-D356,India,Ischemic heart disease,2019,10,25 to 29,27,TRUE,2,Female,5,prevalence,0.000934974,0.000754428,0.001138778
-D356,India,Ischemic heart disease,2019,10,25 to 29,28,TRUE,1,Male,5,prevalence,0.001138729,0.000919501,0.001382308
-D356,India,Ischemic heart disease,2019,10,25 to 29,28,TRUE,2,Female,5,prevalence,0.000934974,0.000754428,0.001138778
-D356,India,Ischemic heart disease,2019,10,25 to 29,29,TRUE,1,Male,5,prevalence,0.001138729,0.000919501,0.001382308
-D356,India,Ischemic heart disease,2019,10,25 to 29,29,TRUE,2,Female,5,prevalence,0.000934974,0.000754428,0.001138778
-D356,India,Ischemic heart disease,2019,11,30 to 34,30,FALSE,1,Male,5,prevalence,0.002579045,0.002107703,0.003107507
-D356,India,Ischemic heart disease,2019,11,30 to 34,30,FALSE,2,Female,5,prevalence,0.002091487,0.001698944,0.002539005
-D356,India,Ischemic heart disease,2019,11,30 to 34,31,TRUE,1,Male,5,prevalence,0.002579045,0.002107703,0.003107507
-D356,India,Ischemic heart disease,2019,11,30 to 34,31,TRUE,2,Female,5,prevalence,0.002091487,0.001698944,0.002539005
-D356,India,Ischemic heart disease,2019,11,30 to 34,32,TRUE,1,Male,5,prevalence,0.002579045,0.002107703,0.003107507
-D356,India,Ischemic heart disease,2019,11,30 to 34,32,TRUE,2,Female,5,prevalence,0.002091487,0.001698944,0.002539005
-D356,India,Ischemic heart disease,2019,11,30 to 34,33,TRUE,1,Male,5,prevalence,0.002579045,0.002107703,0.003107507
-D356,India,Ischemic heart disease,2019,11,30 to 34,33,TRUE,2,Female,5,prevalence,0.002091487,0.001698944,0.002539005
-D356,India,Ischemic heart disease,2019,11,30 to 34,34,TRUE,1,Male,5,prevalence,0.002579045,0.002107703,0.003107507
-D356,India,Ischemic heart disease,2019,11,30 to 34,34,TRUE,2,Female,5,prevalence,0.002091487,0.001698944,0.002539005
-D356,India,Ischemic heart disease,2019,12,35 to 39,35,FALSE,1,Male,5,prevalence,0.005099698,0.004249003,0.006192566
-D356,India,Ischemic heart disease,2019,12,35 to 39,35,FALSE,2,Female,5,prevalence,0.004060634,0.003343184,0.004956963
-D356,India,Ischemic heart disease,2019,12,35 to 39,36,TRUE,1,Male,5,prevalence,0.005099698,0.004249003,0.006192566
-D356,India,Ischemic heart disease,2019,12,35 to 39,36,TRUE,2,Female,5,prevalence,0.004060634,0.003343184,0.004956963
-D356,India,Ischemic heart disease,2019,12,35 to 39,37,TRUE,1,Male,5,prevalence,0.005099698,0.004249003,0.006192566
-D356,India,Ischemic heart disease,2019,12,35 to 39,37,TRUE,2,Female,5,prevalence,0.004060634,0.003343184,0.004956963
-D356,India,Ischemic heart disease,2019,12,35 to 39,38,TRUE,1,Male,5,prevalence,0.005099698,0.004249003,0.006192566
-D356,India,Ischemic heart disease,2019,12,35 to 39,38,TRUE,2,Female,5,prevalence,0.004060634,0.003343184,0.004956963
-D356,India,Ischemic heart disease,2019,12,35 to 39,39,TRUE,1,Male,5,prevalence,0.005099698,0.004249003,0.006192566
-D356,India,Ischemic heart disease,2019,12,35 to 39,39,TRUE,2,Female,5,prevalence,0.004060634,0.003343184,0.004956963
-D356,India,Ischemic heart disease,2019,13,40 to 44,40,FALSE,1,Male,5,prevalence,0.010094569,0.008494399,0.012183397
-D356,India,Ischemic heart disease,2019,13,40 to 44,40,FALSE,2,Female,5,prevalence,0.00772232,0.006431729,0.009433669
-D356,India,Ischemic heart disease,2019,13,40 to 44,41,TRUE,1,Male,5,prevalence,0.010094569,0.008494399,0.012183397
-D356,India,Ischemic heart disease,2019,13,40 to 44,41,TRUE,2,Female,5,prevalence,0.00772232,0.006431729,0.009433669
-D356,India,Ischemic heart disease,2019,13,40 to 44,42,TRUE,1,Male,5,prevalence,0.010094569,0.008494399,0.012183397
-D356,India,Ischemic heart disease,2019,13,40 to 44,42,TRUE,2,Female,5,prevalence,0.00772232,0.006431729,0.009433669
-D356,India,Ischemic heart disease,2019,13,40 to 44,43,TRUE,1,Male,5,prevalence,0.010094569,0.008494399,0.012183397
-D356,India,Ischemic heart disease,2019,13,40 to 44,43,TRUE,2,Female,5,prevalence,0.00772232,0.006431729,0.009433669
-D356,India,Ischemic heart disease,2019,13,40 to 44,44,TRUE,1,Male,5,prevalence,0.010094569,0.008494399,0.012183397
-D356,India,Ischemic heart disease,2019,13,40 to 44,44,TRUE,2,Female,5,prevalence,0.00772232,0.006431729,0.009433669
-D356,India,Ischemic heart disease,2019,14,45 to 49,45,FALSE,1,Male,5,prevalence,0.020628977,0.017507744,0.024328353
-D356,India,Ischemic heart disease,2019,14,45 to 49,45,FALSE,2,Female,5,prevalence,0.01422582,0.011926669,0.017018852
-D356,India,Ischemic heart disease,2019,14,45 to 49,46,TRUE,1,Male,5,prevalence,0.020628977,0.017507744,0.024328353
-D356,India,Ischemic heart disease,2019,14,45 to 49,46,TRUE,2,Female,5,prevalence,0.01422582,0.011926669,0.017018852
-D356,India,Ischemic heart disease,2019,14,45 to 49,47,TRUE,1,Male,5,prevalence,0.020628977,0.017507744,0.024328353
-D356,India,Ischemic heart disease,2019,14,45 to 49,47,TRUE,2,Female,5,prevalence,0.01422582,0.011926669,0.017018852
-D356,India,Ischemic heart disease,2019,14,45 to 49,48,TRUE,1,Male,5,prevalence,0.020628977,0.017507744,0.024328353
-D356,India,Ischemic heart disease,2019,14,45 to 49,48,TRUE,2,Female,5,prevalence,0.01422582,0.011926669,0.017018852
-D356,India,Ischemic heart disease,2019,14,45 to 49,49,TRUE,1,Male,5,prevalence,0.020628977,0.017507744,0.024328353
-D356,India,Ischemic heart disease,2019,14,45 to 49,49,TRUE,2,Female,5,prevalence,0.01422582,0.011926669,0.017018852
-D356,India,Ischemic heart disease,2019,15,50 to 54,50,FALSE,1,Male,5,prevalence,0.041734712,0.035373174,0.049051223
-D356,India,Ischemic heart disease,2019,15,50 to 54,50,FALSE,2,Female,5,prevalence,0.025593353,0.021413365,0.031194462
-D356,India,Ischemic heart disease,2019,15,50 to 54,51,TRUE,1,Male,5,prevalence,0.041734712,0.035373174,0.049051223
-D356,India,Ischemic heart disease,2019,15,50 to 54,51,TRUE,2,Female,5,prevalence,0.025593353,0.021413365,0.031194462
-D356,India,Ischemic heart disease,2019,15,50 to 54,52,TRUE,1,Male,5,prevalence,0.041734712,0.035373174,0.049051223
-D356,India,Ischemic heart disease,2019,15,50 to 54,52,TRUE,2,Female,5,prevalence,0.025593353,0.021413365,0.031194462
-D356,India,Ischemic heart disease,2019,15,50 to 54,53,TRUE,1,Male,5,prevalence,0.041734712,0.035373174,0.049051223
-D356,India,Ischemic heart disease,2019,15,50 to 54,53,TRUE,2,Female,5,prevalence,0.025593353,0.021413365,0.031194462
-D356,India,Ischemic heart disease,2019,15,50 to 54,54,TRUE,1,Male,5,prevalence,0.041734712,0.035373174,0.049051223
-D356,India,Ischemic heart disease,2019,15,50 to 54,54,TRUE,2,Female,5,prevalence,0.025593353,0.021413365,0.031194462
-D356,India,Ischemic heart disease,2019,16,55 to 59,55,FALSE,1,Male,5,prevalence,0.084068201,0.071301907,0.098493534
-D356,India,Ischemic heart disease,2019,16,55 to 59,55,FALSE,2,Female,5,prevalence,0.045819042,0.038562432,0.054870087
-D356,India,Ischemic heart disease,2019,16,55 to 59,56,TRUE,1,Male,5,prevalence,0.084068201,0.071301907,0.098493534
-D356,India,Ischemic heart disease,2019,16,55 to 59,56,TRUE,2,Female,5,prevalence,0.045819042,0.038562432,0.054870087
-D356,India,Ischemic heart disease,2019,16,55 to 59,57,TRUE,1,Male,5,prevalence,0.084068201,0.071301907,0.098493534
-D356,India,Ischemic heart disease,2019,16,55 to 59,57,TRUE,2,Female,5,prevalence,0.045819042,0.038562432,0.054870087
-D356,India,Ischemic heart disease,2019,16,55 to 59,58,TRUE,1,Male,5,prevalence,0.084068201,0.071301907,0.098493534
-D356,India,Ischemic heart disease,2019,16,55 to 59,58,TRUE,2,Female,5,prevalence,0.045819042,0.038562432,0.054870087
-D356,India,Ischemic heart disease,2019,16,55 to 59,59,TRUE,1,Male,5,prevalence,0.084068201,0.071301907,0.098493534
-D356,India,Ischemic heart disease,2019,16,55 to 59,59,TRUE,2,Female,5,prevalence,0.045819042,0.038562432,0.054870087
-D356,India,Ischemic heart disease,2019,17,60 to 64,60,FALSE,1,Male,5,prevalence,0.14638507,0.122839737,0.176110127
-D356,India,Ischemic heart disease,2019,17,60 to 64,60,FALSE,2,Female,5,prevalence,0.076919024,0.064153112,0.093189984
-D356,India,Ischemic heart disease,2019,17,60 to 64,61,TRUE,1,Male,5,prevalence,0.14638507,0.122839737,0.176110127
-D356,India,Ischemic heart disease,2019,17,60 to 64,61,TRUE,2,Female,5,prevalence,0.076919024,0.064153112,0.093189984
-D356,India,Ischemic heart disease,2019,17,60 to 64,62,TRUE,1,Male,5,prevalence,0.14638507,0.122839737,0.176110127
-D356,India,Ischemic heart disease,2019,17,60 to 64,62,TRUE,2,Female,5,prevalence,0.076919024,0.064153112,0.093189984
-D356,India,Ischemic heart disease,2019,17,60 to 64,63,TRUE,1,Male,5,prevalence,0.14638507,0.122839737,0.176110127
-D356,India,Ischemic heart disease,2019,17,60 to 64,63,TRUE,2,Female,5,prevalence,0.076919024,0.064153112,0.093189984
-D356,India,Ischemic heart disease,2019,17,60 to 64,64,TRUE,1,Male,5,prevalence,0.14638507,0.122839737,0.176110127
-D356,India,Ischemic heart disease,2019,17,60 to 64,64,TRUE,2,Female,5,prevalence,0.076919024,0.064153112,0.093189984
-D356,India,Ischemic heart disease,2019,18,65 to 69,65,FALSE,1,Male,5,prevalence,0.240130071,0.206350594,0.277019472
-D356,India,Ischemic heart disease,2019,18,65 to 69,65,FALSE,2,Female,5,prevalence,0.13113169,0.111583853,0.153682983
-D356,India,Ischemic heart disease,2019,18,65 to 69,66,TRUE,1,Male,5,prevalence,0.240130071,0.206350594,0.277019472
-D356,India,Ischemic heart disease,2019,18,65 to 69,66,TRUE,2,Female,5,prevalence,0.13113169,0.111583853,0.153682983
-D356,India,Ischemic heart disease,2019,18,65 to 69,67,TRUE,1,Male,5,prevalence,0.240130071,0.206350594,0.277019472
-D356,India,Ischemic heart disease,2019,18,65 to 69,67,TRUE,2,Female,5,prevalence,0.13113169,0.111583853,0.153682983
-D356,India,Ischemic heart disease,2019,18,65 to 69,68,TRUE,1,Male,5,prevalence,0.240130071,0.206350594,0.277019472
-D356,India,Ischemic heart disease,2019,18,65 to 69,68,TRUE,2,Female,5,prevalence,0.13113169,0.111583853,0.153682983
-D356,India,Ischemic heart disease,2019,18,65 to 69,69,TRUE,1,Male,5,prevalence,0.240130071,0.206350594,0.277019472
-D356,India,Ischemic heart disease,2019,18,65 to 69,69,TRUE,2,Female,5,prevalence,0.13113169,0.111583853,0.153682983
-D356,India,Ischemic heart disease,2019,19,70 to 74,70,FALSE,1,Male,5,prevalence,0.325362551,0.281074796,0.373610268
-D356,India,Ischemic heart disease,2019,19,70 to 74,70,FALSE,2,Female,5,prevalence,0.190157266,0.161166084,0.222285491
-D356,India,Ischemic heart disease,2019,19,70 to 74,71,TRUE,1,Male,5,prevalence,0.325362551,0.281074796,0.373610268
-D356,India,Ischemic heart disease,2019,19,70 to 74,71,TRUE,2,Female,5,prevalence,0.190157266,0.161166084,0.222285491
-D356,India,Ischemic heart disease,2019,19,70 to 74,72,TRUE,1,Male,5,prevalence,0.325362551,0.281074796,0.373610268
-D356,India,Ischemic heart disease,2019,19,70 to 74,72,TRUE,2,Female,5,prevalence,0.190157266,0.161166084,0.222285491
-D356,India,Ischemic heart disease,2019,19,70 to 74,73,TRUE,1,Male,5,prevalence,0.325362551,0.281074796,0.373610268
-D356,India,Ischemic heart disease,2019,19,70 to 74,73,TRUE,2,Female,5,prevalence,0.190157266,0.161166084,0.222285491
-D356,India,Ischemic heart disease,2019,19,70 to 74,74,TRUE,1,Male,5,prevalence,0.325362551,0.281074796,0.373610268
-D356,India,Ischemic heart disease,2019,19,70 to 74,74,TRUE,2,Female,5,prevalence,0.190157266,0.161166084,0.222285491
-D356,India,Ischemic heart disease,2019,20,75 to 79,75,FALSE,1,Male,5,prevalence,0.408303783,0.355635519,0.464846894
-D356,India,Ischemic heart disease,2019,20,75 to 79,75,FALSE,2,Female,5,prevalence,0.251763491,0.215151194,0.291867225
-D356,India,Ischemic heart disease,2019,20,75 to 79,76,TRUE,1,Male,5,prevalence,0.408303783,0.355635519,0.464846894
-D356,India,Ischemic heart disease,2019,20,75 to 79,76,TRUE,2,Female,5,prevalence,0.251763491,0.215151194,0.291867225
-D356,India,Ischemic heart disease,2019,20,75 to 79,77,TRUE,1,Male,5,prevalence,0.408303783,0.355635519,0.464846894
-D356,India,Ischemic heart disease,2019,20,75 to 79,77,TRUE,2,Female,5,prevalence,0.251763491,0.215151194,0.291867225
-D356,India,Ischemic heart disease,2019,20,75 to 79,78,TRUE,1,Male,5,prevalence,0.408303783,0.355635519,0.464846894
-D356,India,Ischemic heart disease,2019,20,75 to 79,78,TRUE,2,Female,5,prevalence,0.251763491,0.215151194,0.291867225
-D356,India,Ischemic heart disease,2019,20,75 to 79,79,TRUE,1,Male,5,prevalence,0.408303783,0.355635519,0.464846894
-D356,India,Ischemic heart disease,2019,20,75 to 79,79,TRUE,2,Female,5,prevalence,0.251763491,0.215151194,0.291867225
-D356,India,Ischemic heart disease,2019,30,80 to 84,80,FALSE,1,Male,5,prevalence,0.461127833,0.396662487,0.531920894
-D356,India,Ischemic heart disease,2019,30,80 to 84,80,FALSE,2,Female,5,prevalence,0.294746245,0.2485964,0.347054651
-D356,India,Ischemic heart disease,2019,30,80 to 84,81,TRUE,1,Male,5,prevalence,0.461127833,0.396662487,0.531920894
-D356,India,Ischemic heart disease,2019,30,80 to 84,81,TRUE,2,Female,5,prevalence,0.294746245,0.2485964,0.347054651
-D356,India,Ischemic heart disease,2019,30,80 to 84,82,TRUE,1,Male,5,prevalence,0.461127833,0.396662487,0.531920894
-D356,India,Ischemic heart disease,2019,30,80 to 84,82,TRUE,2,Female,5,prevalence,0.294746245,0.2485964,0.347054651
-D356,India,Ischemic heart disease,2019,30,80 to 84,83,TRUE,1,Male,5,prevalence,0.461127833,0.396662487,0.531920894
-D356,India,Ischemic heart disease,2019,30,80 to 84,83,TRUE,2,Female,5,prevalence,0.294746245,0.2485964,0.347054651
-D356,India,Ischemic heart disease,2019,30,80 to 84,84,TRUE,1,Male,5,prevalence,0.461127833,0.396662487,0.531920894
-D356,India,Ischemic heart disease,2019,30,80 to 84,84,TRUE,2,Female,5,prevalence,0.294746245,0.2485964,0.347054651
-D356,India,Ischemic heart disease,2019,31,85 to 89,85,FALSE,1,Male,5,prevalence,0.460260023,0.396163187,0.531542329
-D356,India,Ischemic heart disease,2019,31,85 to 89,85,FALSE,2,Female,5,prevalence,0.298360629,0.250779259,0.352636122
-D356,India,Ischemic heart disease,2019,31,85 to 89,86,TRUE,1,Male,5,prevalence,0.460260023,0.396163187,0.531542329
-D356,India,Ischemic heart disease,2019,31,85 to 89,86,TRUE,2,Female,5,prevalence,0.298360629,0.250779259,0.352636122
-D356,India,Ischemic heart disease,2019,31,85 to 89,87,TRUE,1,Male,5,prevalence,0.460260023,0.396163187,0.531542329
-D356,India,Ischemic heart disease,2019,31,85 to 89,87,TRUE,2,Female,5,prevalence,0.298360629,0.250779259,0.352636122
-D356,India,Ischemic heart disease,2019,31,85 to 89,88,TRUE,1,Male,5,prevalence,0.460260023,0.396163187,0.531542329
-D356,India,Ischemic heart disease,2019,31,85 to 89,88,TRUE,2,Female,5,prevalence,0.298360629,0.250779259,0.352636122
-D356,India,Ischemic heart disease,2019,31,85 to 89,89,TRUE,1,Male,5,prevalence,0.460260023,0.396163187,0.531542329
-D356,India,Ischemic heart disease,2019,31,85 to 89,89,TRUE,2,Female,5,prevalence,0.298360629,0.250779259,0.352636122
-D356,India,Ischemic heart disease,2019,32,90 to 94,90,FALSE,1,Male,5,prevalence,0.422940591,0.345363999,0.499986214
-D356,India,Ischemic heart disease,2019,32,90 to 94,90,FALSE,2,Female,5,prevalence,0.277765598,0.220498831,0.335399798
-D356,India,Ischemic heart disease,2019,32,90 to 94,91,TRUE,1,Male,5,prevalence,0.422940591,0.345363999,0.499986214
-D356,India,Ischemic heart disease,2019,32,90 to 94,91,TRUE,2,Female,5,prevalence,0.277765598,0.220498831,0.335399798
-D356,India,Ischemic heart disease,2019,32,90 to 94,92,TRUE,1,Male,5,prevalence,0.422940591,0.345363999,0.499986214
-D356,India,Ischemic heart disease,2019,32,90 to 94,92,TRUE,2,Female,5,prevalence,0.277765598,0.220498831,0.335399798
-D356,India,Ischemic heart disease,2019,32,90 to 94,93,TRUE,1,Male,5,prevalence,0.422940591,0.345363999,0.499986214
-D356,India,Ischemic heart disease,2019,32,90 to 94,93,TRUE,2,Female,5,prevalence,0.277765598,0.220498831,0.335399798
-D356,India,Ischemic heart disease,2019,32,90 to 94,94,TRUE,1,Male,5,prevalence,0.422940591,0.345363999,0.499986214
-D356,India,Ischemic heart disease,2019,32,90 to 94,94,TRUE,2,Female,5,prevalence,0.277765598,0.220498831,0.335399798
-D356,India,Ischemic heart disease,2019,235,95 plus,95,FALSE,1,Male,5,prevalence,0.386378251,0.304860734,0.484448307
-D356,India,Ischemic heart disease,2019,235,95 plus,95,FALSE,2,Female,5,prevalence,0.250543615,0.192994163,0.325620355
-D356,India,Ischemic heart disease,2019,235,95 plus,96,TRUE,1,Male,5,prevalence,0.386378251,0.304860734,0.484448307
-D356,India,Ischemic heart disease,2019,235,95 plus,96,TRUE,2,Female,5,prevalence,0.250543615,0.192994163,0.325620355
-D356,India,Ischemic heart disease,2019,235,95 plus,97,TRUE,1,Male,5,prevalence,0.386378251,0.304860734,0.484448307
-D356,India,Ischemic heart disease,2019,235,95 plus,97,TRUE,2,Female,5,prevalence,0.250543615,0.192994163,0.325620355
-D356,India,Ischemic heart disease,2019,235,95 plus,98,TRUE,1,Male,5,prevalence,0.386378251,0.304860734,0.484448307
-D356,India,Ischemic heart disease,2019,235,95 plus,98,TRUE,2,Female,5,prevalence,0.250543615,0.192994163,0.325620355
-D356,India,Ischemic heart disease,2019,235,95 plus,99,TRUE,1,Male,5,prevalence,0.386378251,0.304860734,0.484448307
-D356,India,Ischemic heart disease,2019,235,95 plus,99,TRUE,2,Female,5,prevalence,0.250543615,0.192994163,0.325620355
-D356,India,Ischemic heart disease,2019,235,95 plus,100,TRUE,1,Male,5,prevalence,0.386378251,0.304860734,0.484448307
-D356,India,Ischemic heart disease,2019,235,95 plus,100,TRUE,2,Female,5,prevalence,0.250543615,0.192994163,0.325620355
-D356,India,Ischemic heart disease,2019,5,1 to 4,1,FALSE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,1,FALSE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,2,TRUE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,2,TRUE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,3,TRUE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,3,TRUE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,4,TRUE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,4,TRUE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,5,FALSE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,5,FALSE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,6,TRUE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,6,TRUE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,7,TRUE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,7,TRUE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,8,TRUE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,8,TRUE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,9,TRUE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,9,TRUE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,10,FALSE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,10,FALSE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,11,TRUE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,11,TRUE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,12,TRUE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,12,TRUE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,13,TRUE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,13,TRUE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,14,TRUE,1,Male,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,14,TRUE,2,Female,6,incidence,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,15,FALSE,1,Male,6,incidence,4.79E-05,1.09E-05,0.000100814
-D356,India,Ischemic heart disease,2019,8,15 to 19,15,FALSE,2,Female,6,incidence,4.01E-05,7.83E-06,8.60E-05
-D356,India,Ischemic heart disease,2019,8,15 to 19,16,TRUE,1,Male,6,incidence,4.79E-05,1.09E-05,0.000100814
-D356,India,Ischemic heart disease,2019,8,15 to 19,16,TRUE,2,Female,6,incidence,4.01E-05,7.83E-06,8.60E-05
-D356,India,Ischemic heart disease,2019,8,15 to 19,17,TRUE,1,Male,6,incidence,4.79E-05,1.09E-05,0.000100814
-D356,India,Ischemic heart disease,2019,8,15 to 19,17,TRUE,2,Female,6,incidence,4.01E-05,7.83E-06,8.60E-05
-D356,India,Ischemic heart disease,2019,8,15 to 19,18,TRUE,1,Male,6,incidence,4.79E-05,1.09E-05,0.000100814
-D356,India,Ischemic heart disease,2019,8,15 to 19,18,TRUE,2,Female,6,incidence,4.01E-05,7.83E-06,8.60E-05
-D356,India,Ischemic heart disease,2019,8,15 to 19,19,TRUE,1,Male,6,incidence,4.79E-05,1.09E-05,0.000100814
-D356,India,Ischemic heart disease,2019,8,15 to 19,19,TRUE,2,Female,6,incidence,4.01E-05,7.83E-06,8.60E-05
-D356,India,Ischemic heart disease,2019,9,20 to 24,20,FALSE,1,Male,6,incidence,0.000161943,0.000102619,0.000243682
-D356,India,Ischemic heart disease,2019,9,20 to 24,20,FALSE,2,Female,6,incidence,0.000127095,7.72E-05,0.000193551
-D356,India,Ischemic heart disease,2019,9,20 to 24,21,TRUE,1,Male,6,incidence,0.000161943,0.000102619,0.000243682
-D356,India,Ischemic heart disease,2019,9,20 to 24,21,TRUE,2,Female,6,incidence,0.000127095,7.72E-05,0.000193551
-D356,India,Ischemic heart disease,2019,9,20 to 24,22,TRUE,1,Male,6,incidence,0.000161943,0.000102619,0.000243682
-D356,India,Ischemic heart disease,2019,9,20 to 24,22,TRUE,2,Female,6,incidence,0.000127095,7.72E-05,0.000193551
-D356,India,Ischemic heart disease,2019,9,20 to 24,23,TRUE,1,Male,6,incidence,0.000161943,0.000102619,0.000243682
-D356,India,Ischemic heart disease,2019,9,20 to 24,23,TRUE,2,Female,6,incidence,0.000127095,7.72E-05,0.000193551
-D356,India,Ischemic heart disease,2019,9,20 to 24,24,TRUE,1,Male,6,incidence,0.000161943,0.000102619,0.000243682
-D356,India,Ischemic heart disease,2019,9,20 to 24,24,TRUE,2,Female,6,incidence,0.000127095,7.72E-05,0.000193551
-D356,India,Ischemic heart disease,2019,10,25 to 29,25,FALSE,1,Male,6,incidence,0.000294124,0.000173132,0.000418604
-D356,India,Ischemic heart disease,2019,10,25 to 29,25,FALSE,2,Female,6,incidence,0.000220635,0.000132344,0.000320991
-D356,India,Ischemic heart disease,2019,10,25 to 29,26,TRUE,1,Male,6,incidence,0.000294124,0.000173132,0.000418604
-D356,India,Ischemic heart disease,2019,10,25 to 29,26,TRUE,2,Female,6,incidence,0.000220635,0.000132344,0.000320991
-D356,India,Ischemic heart disease,2019,10,25 to 29,27,TRUE,1,Male,6,incidence,0.000294124,0.000173132,0.000418604
-D356,India,Ischemic heart disease,2019,10,25 to 29,27,TRUE,2,Female,6,incidence,0.000220635,0.000132344,0.000320991
-D356,India,Ischemic heart disease,2019,10,25 to 29,28,TRUE,1,Male,6,incidence,0.000294124,0.000173132,0.000418604
-D356,India,Ischemic heart disease,2019,10,25 to 29,28,TRUE,2,Female,6,incidence,0.000220635,0.000132344,0.000320991
-D356,India,Ischemic heart disease,2019,10,25 to 29,29,TRUE,1,Male,6,incidence,0.000294124,0.000173132,0.000418604
-D356,India,Ischemic heart disease,2019,10,25 to 29,29,TRUE,2,Female,6,incidence,0.000220635,0.000132344,0.000320991
-D356,India,Ischemic heart disease,2019,11,30 to 34,30,FALSE,1,Male,6,incidence,0.000453568,0.000318806,0.000592391
-D356,India,Ischemic heart disease,2019,11,30 to 34,30,FALSE,2,Female,6,incidence,0.000321829,0.000221778,0.000429307
-D356,India,Ischemic heart disease,2019,11,30 to 34,31,TRUE,1,Male,6,incidence,0.000453568,0.000318806,0.000592391
-D356,India,Ischemic heart disease,2019,11,30 to 34,31,TRUE,2,Female,6,incidence,0.000321829,0.000221778,0.000429307
-D356,India,Ischemic heart disease,2019,11,30 to 34,32,TRUE,1,Male,6,incidence,0.000453568,0.000318806,0.000592391
-D356,India,Ischemic heart disease,2019,11,30 to 34,32,TRUE,2,Female,6,incidence,0.000321829,0.000221778,0.000429307
-D356,India,Ischemic heart disease,2019,11,30 to 34,33,TRUE,1,Male,6,incidence,0.000453568,0.000318806,0.000592391
-D356,India,Ischemic heart disease,2019,11,30 to 34,33,TRUE,2,Female,6,incidence,0.000321829,0.000221778,0.000429307
-D356,India,Ischemic heart disease,2019,11,30 to 34,34,TRUE,1,Male,6,incidence,0.000453568,0.000318806,0.000592391
-D356,India,Ischemic heart disease,2019,11,30 to 34,34,TRUE,2,Female,6,incidence,0.000321829,0.000221778,0.000429307
-D356,India,Ischemic heart disease,2019,12,35 to 39,35,FALSE,1,Male,6,incidence,0.000640229,0.000419769,0.000959457
-D356,India,Ischemic heart disease,2019,12,35 to 39,35,FALSE,2,Female,6,incidence,0.000430876,0.000282037,0.000634733
-D356,India,Ischemic heart disease,2019,12,35 to 39,36,TRUE,1,Male,6,incidence,0.000640229,0.000419769,0.000959457
-D356,India,Ischemic heart disease,2019,12,35 to 39,36,TRUE,2,Female,6,incidence,0.000430876,0.000282037,0.000634733
-D356,India,Ischemic heart disease,2019,12,35 to 39,37,TRUE,1,Male,6,incidence,0.000640229,0.000419769,0.000959457
-D356,India,Ischemic heart disease,2019,12,35 to 39,37,TRUE,2,Female,6,incidence,0.000430876,0.000282037,0.000634733
-D356,India,Ischemic heart disease,2019,12,35 to 39,38,TRUE,1,Male,6,incidence,0.000640229,0.000419769,0.000959457
-D356,India,Ischemic heart disease,2019,12,35 to 39,38,TRUE,2,Female,6,incidence,0.000430876,0.000282037,0.000634733
-D356,India,Ischemic heart disease,2019,12,35 to 39,39,TRUE,1,Male,6,incidence,0.000640229,0.000419769,0.000959457
-D356,India,Ischemic heart disease,2019,12,35 to 39,39,TRUE,2,Female,6,incidence,0.000430876,0.000282037,0.000634733
-D356,India,Ischemic heart disease,2019,13,40 to 44,40,FALSE,1,Male,6,incidence,0.001688132,0.001283515,0.002127278
-D356,India,Ischemic heart disease,2019,13,40 to 44,40,FALSE,2,Female,6,incidence,0.000822406,0.000615768,0.00105904
-D356,India,Ischemic heart disease,2019,13,40 to 44,41,TRUE,1,Male,6,incidence,0.001688132,0.001283515,0.002127278
-D356,India,Ischemic heart disease,2019,13,40 to 44,41,TRUE,2,Female,6,incidence,0.000822406,0.000615768,0.00105904
-D356,India,Ischemic heart disease,2019,13,40 to 44,42,TRUE,1,Male,6,incidence,0.001688132,0.001283515,0.002127278
-D356,India,Ischemic heart disease,2019,13,40 to 44,42,TRUE,2,Female,6,incidence,0.000822406,0.000615768,0.00105904
-D356,India,Ischemic heart disease,2019,13,40 to 44,43,TRUE,1,Male,6,incidence,0.001688132,0.001283515,0.002127278
-D356,India,Ischemic heart disease,2019,13,40 to 44,43,TRUE,2,Female,6,incidence,0.000822406,0.000615768,0.00105904
-D356,India,Ischemic heart disease,2019,13,40 to 44,44,TRUE,1,Male,6,incidence,0.001688132,0.001283515,0.002127278
-D356,India,Ischemic heart disease,2019,13,40 to 44,44,TRUE,2,Female,6,incidence,0.000822406,0.000615768,0.00105904
-D356,India,Ischemic heart disease,2019,14,45 to 49,45,FALSE,1,Male,6,incidence,0.003600627,0.002553403,0.004734592
-D356,India,Ischemic heart disease,2019,14,45 to 49,45,FALSE,2,Female,6,incidence,0.001497008,0.001028652,0.002032215
-D356,India,Ischemic heart disease,2019,14,45 to 49,46,TRUE,1,Male,6,incidence,0.003600627,0.002553403,0.004734592
-D356,India,Ischemic heart disease,2019,14,45 to 49,46,TRUE,2,Female,6,incidence,0.001497008,0.001028652,0.002032215
-D356,India,Ischemic heart disease,2019,14,45 to 49,47,TRUE,1,Male,6,incidence,0.003600627,0.002553403,0.004734592
-D356,India,Ischemic heart disease,2019,14,45 to 49,47,TRUE,2,Female,6,incidence,0.001497008,0.001028652,0.002032215
-D356,India,Ischemic heart disease,2019,14,45 to 49,48,TRUE,1,Male,6,incidence,0.003600627,0.002553403,0.004734592
-D356,India,Ischemic heart disease,2019,14,45 to 49,48,TRUE,2,Female,6,incidence,0.001497008,0.001028652,0.002032215
-D356,India,Ischemic heart disease,2019,14,45 to 49,49,TRUE,1,Male,6,incidence,0.003600627,0.002553403,0.004734592
-D356,India,Ischemic heart disease,2019,14,45 to 49,49,TRUE,2,Female,6,incidence,0.001497008,0.001028652,0.002032215
-D356,India,Ischemic heart disease,2019,15,50 to 54,50,FALSE,1,Male,6,incidence,0.008486998,0.006924128,0.01045749
-D356,India,Ischemic heart disease,2019,15,50 to 54,50,FALSE,2,Female,6,incidence,0.003139346,0.002462539,0.003964775
-D356,India,Ischemic heart disease,2019,15,50 to 54,51,TRUE,1,Male,6,incidence,0.008486998,0.006924128,0.01045749
-D356,India,Ischemic heart disease,2019,15,50 to 54,51,TRUE,2,Female,6,incidence,0.003139346,0.002462539,0.003964775
-D356,India,Ischemic heart disease,2019,15,50 to 54,52,TRUE,1,Male,6,incidence,0.008486998,0.006924128,0.01045749
-D356,India,Ischemic heart disease,2019,15,50 to 54,52,TRUE,2,Female,6,incidence,0.003139346,0.002462539,0.003964775
-D356,India,Ischemic heart disease,2019,15,50 to 54,53,TRUE,1,Male,6,incidence,0.008486998,0.006924128,0.01045749
-D356,India,Ischemic heart disease,2019,15,50 to 54,53,TRUE,2,Female,6,incidence,0.003139346,0.002462539,0.003964775
-D356,India,Ischemic heart disease,2019,15,50 to 54,54,TRUE,1,Male,6,incidence,0.008486998,0.006924128,0.01045749
-D356,India,Ischemic heart disease,2019,15,50 to 54,54,TRUE,2,Female,6,incidence,0.003139346,0.002462539,0.003964775
-D356,India,Ischemic heart disease,2019,16,55 to 59,55,FALSE,1,Male,6,incidence,0.016357764,0.01192124,0.021501126
-D356,India,Ischemic heart disease,2019,16,55 to 59,55,FALSE,2,Female,6,incidence,0.005755973,0.003975223,0.00789049
-D356,India,Ischemic heart disease,2019,16,55 to 59,56,TRUE,1,Male,6,incidence,0.016357764,0.01192124,0.021501126
-D356,India,Ischemic heart disease,2019,16,55 to 59,56,TRUE,2,Female,6,incidence,0.005755973,0.003975223,0.00789049
-D356,India,Ischemic heart disease,2019,16,55 to 59,57,TRUE,1,Male,6,incidence,0.016357764,0.01192124,0.021501126
-D356,India,Ischemic heart disease,2019,16,55 to 59,57,TRUE,2,Female,6,incidence,0.005755973,0.003975223,0.00789049
-D356,India,Ischemic heart disease,2019,16,55 to 59,58,TRUE,1,Male,6,incidence,0.016357764,0.01192124,0.021501126
-D356,India,Ischemic heart disease,2019,16,55 to 59,58,TRUE,2,Female,6,incidence,0.005755973,0.003975223,0.00789049
-D356,India,Ischemic heart disease,2019,16,55 to 59,59,TRUE,1,Male,6,incidence,0.016357764,0.01192124,0.021501126
-D356,India,Ischemic heart disease,2019,16,55 to 59,59,TRUE,2,Female,6,incidence,0.005755973,0.003975223,0.00789049
-D356,India,Ischemic heart disease,2019,17,60 to 64,60,FALSE,1,Male,6,incidence,0.023218296,0.018906948,0.028833531
-D356,India,Ischemic heart disease,2019,17,60 to 64,60,FALSE,2,Female,6,incidence,0.009968757,0.00794106,0.012353429
-D356,India,Ischemic heart disease,2019,17,60 to 64,61,TRUE,1,Male,6,incidence,0.023218296,0.018906948,0.028833531
-D356,India,Ischemic heart disease,2019,17,60 to 64,61,TRUE,2,Female,6,incidence,0.009968757,0.00794106,0.012353429
-D356,India,Ischemic heart disease,2019,17,60 to 64,62,TRUE,1,Male,6,incidence,0.023218296,0.018906948,0.028833531
-D356,India,Ischemic heart disease,2019,17,60 to 64,62,TRUE,2,Female,6,incidence,0.009968757,0.00794106,0.012353429
-D356,India,Ischemic heart disease,2019,17,60 to 64,63,TRUE,1,Male,6,incidence,0.023218296,0.018906948,0.028833531
-D356,India,Ischemic heart disease,2019,17,60 to 64,63,TRUE,2,Female,6,incidence,0.009968757,0.00794106,0.012353429
-D356,India,Ischemic heart disease,2019,17,60 to 64,64,TRUE,1,Male,6,incidence,0.023218296,0.018906948,0.028833531
-D356,India,Ischemic heart disease,2019,17,60 to 64,64,TRUE,2,Female,6,incidence,0.009968757,0.00794106,0.012353429
-D356,India,Ischemic heart disease,2019,18,65 to 69,65,FALSE,1,Male,6,incidence,0.029028606,0.021814064,0.036767818
-D356,India,Ischemic heart disease,2019,18,65 to 69,65,FALSE,2,Female,6,incidence,0.01571592,0.011620871,0.019945891
-D356,India,Ischemic heart disease,2019,18,65 to 69,66,TRUE,1,Male,6,incidence,0.029028606,0.021814064,0.036767818
-D356,India,Ischemic heart disease,2019,18,65 to 69,66,TRUE,2,Female,6,incidence,0.01571592,0.011620871,0.019945891
-D356,India,Ischemic heart disease,2019,18,65 to 69,67,TRUE,1,Male,6,incidence,0.029028606,0.021814064,0.036767818
-D356,India,Ischemic heart disease,2019,18,65 to 69,67,TRUE,2,Female,6,incidence,0.01571592,0.011620871,0.019945891
-D356,India,Ischemic heart disease,2019,18,65 to 69,68,TRUE,1,Male,6,incidence,0.029028606,0.021814064,0.036767818
-D356,India,Ischemic heart disease,2019,18,65 to 69,68,TRUE,2,Female,6,incidence,0.01571592,0.011620871,0.019945891
-D356,India,Ischemic heart disease,2019,18,65 to 69,69,TRUE,1,Male,6,incidence,0.029028606,0.021814064,0.036767818
-D356,India,Ischemic heart disease,2019,18,65 to 69,69,TRUE,2,Female,6,incidence,0.01571592,0.011620871,0.019945891
-D356,India,Ischemic heart disease,2019,19,70 to 74,70,FALSE,1,Male,6,incidence,0.034535829,0.027196454,0.041766212
-D356,India,Ischemic heart disease,2019,19,70 to 74,70,FALSE,2,Female,6,incidence,0.020999055,0.01675331,0.025081168
-D356,India,Ischemic heart disease,2019,19,70 to 74,71,TRUE,1,Male,6,incidence,0.034535829,0.027196454,0.041766212
-D356,India,Ischemic heart disease,2019,19,70 to 74,71,TRUE,2,Female,6,incidence,0.020999055,0.01675331,0.025081168
-D356,India,Ischemic heart disease,2019,19,70 to 74,72,TRUE,1,Male,6,incidence,0.034535829,0.027196454,0.041766212
-D356,India,Ischemic heart disease,2019,19,70 to 74,72,TRUE,2,Female,6,incidence,0.020999055,0.01675331,0.025081168
-D356,India,Ischemic heart disease,2019,19,70 to 74,73,TRUE,1,Male,6,incidence,0.034535829,0.027196454,0.041766212
-D356,India,Ischemic heart disease,2019,19,70 to 74,73,TRUE,2,Female,6,incidence,0.020999055,0.01675331,0.025081168
-D356,India,Ischemic heart disease,2019,19,70 to 74,74,TRUE,1,Male,6,incidence,0.034535829,0.027196454,0.041766212
-D356,India,Ischemic heart disease,2019,19,70 to 74,74,TRUE,2,Female,6,incidence,0.020999055,0.01675331,0.025081168
-D356,India,Ischemic heart disease,2019,20,75 to 79,75,FALSE,1,Male,6,incidence,0.039726598,0.030080266,0.051689285
-D356,India,Ischemic heart disease,2019,20,75 to 79,75,FALSE,2,Female,6,incidence,0.025799596,0.01937512,0.033891984
-D356,India,Ischemic heart disease,2019,20,75 to 79,76,TRUE,1,Male,6,incidence,0.039726598,0.030080266,0.051689285
-D356,India,Ischemic heart disease,2019,20,75 to 79,76,TRUE,2,Female,6,incidence,0.025799596,0.01937512,0.033891984
-D356,India,Ischemic heart disease,2019,20,75 to 79,77,TRUE,1,Male,6,incidence,0.039726598,0.030080266,0.051689285
-D356,India,Ischemic heart disease,2019,20,75 to 79,77,TRUE,2,Female,6,incidence,0.025799596,0.01937512,0.033891984
-D356,India,Ischemic heart disease,2019,20,75 to 79,78,TRUE,1,Male,6,incidence,0.039726598,0.030080266,0.051689285
-D356,India,Ischemic heart disease,2019,20,75 to 79,78,TRUE,2,Female,6,incidence,0.025799596,0.01937512,0.033891984
-D356,India,Ischemic heart disease,2019,20,75 to 79,79,TRUE,1,Male,6,incidence,0.039726598,0.030080266,0.051689285
-D356,India,Ischemic heart disease,2019,20,75 to 79,79,TRUE,2,Female,6,incidence,0.025799596,0.01937512,0.033891984
-D356,India,Ischemic heart disease,2019,30,80 to 84,80,FALSE,1,Male,6,incidence,0.043277765,0.032949185,0.05529865
-D356,India,Ischemic heart disease,2019,30,80 to 84,80,FALSE,2,Female,6,incidence,0.029469034,0.022641926,0.037331937
-D356,India,Ischemic heart disease,2019,30,80 to 84,81,TRUE,1,Male,6,incidence,0.043277765,0.032949185,0.05529865
-D356,India,Ischemic heart disease,2019,30,80 to 84,81,TRUE,2,Female,6,incidence,0.029469034,0.022641926,0.037331937
-D356,India,Ischemic heart disease,2019,30,80 to 84,82,TRUE,1,Male,6,incidence,0.043277765,0.032949185,0.05529865
-D356,India,Ischemic heart disease,2019,30,80 to 84,82,TRUE,2,Female,6,incidence,0.029469034,0.022641926,0.037331937
-D356,India,Ischemic heart disease,2019,30,80 to 84,83,TRUE,1,Male,6,incidence,0.043277765,0.032949185,0.05529865
-D356,India,Ischemic heart disease,2019,30,80 to 84,83,TRUE,2,Female,6,incidence,0.029469034,0.022641926,0.037331937
-D356,India,Ischemic heart disease,2019,30,80 to 84,84,TRUE,1,Male,6,incidence,0.043277765,0.032949185,0.05529865
-D356,India,Ischemic heart disease,2019,30,80 to 84,84,TRUE,2,Female,6,incidence,0.029469034,0.022641926,0.037331937
-D356,India,Ischemic heart disease,2019,31,85 to 89,85,FALSE,1,Male,6,incidence,0.045042849,0.034386175,0.058451864
-D356,India,Ischemic heart disease,2019,31,85 to 89,85,FALSE,2,Female,6,incidence,0.03182913,0.024432062,0.041253503
-D356,India,Ischemic heart disease,2019,31,85 to 89,86,TRUE,1,Male,6,incidence,0.045042849,0.034386175,0.058451864
-D356,India,Ischemic heart disease,2019,31,85 to 89,86,TRUE,2,Female,6,incidence,0.03182913,0.024432062,0.041253503
-D356,India,Ischemic heart disease,2019,31,85 to 89,87,TRUE,1,Male,6,incidence,0.045042849,0.034386175,0.058451864
-D356,India,Ischemic heart disease,2019,31,85 to 89,87,TRUE,2,Female,6,incidence,0.03182913,0.024432062,0.041253503
-D356,India,Ischemic heart disease,2019,31,85 to 89,88,TRUE,1,Male,6,incidence,0.045042849,0.034386175,0.058451864
-D356,India,Ischemic heart disease,2019,31,85 to 89,88,TRUE,2,Female,6,incidence,0.03182913,0.024432062,0.041253503
-D356,India,Ischemic heart disease,2019,31,85 to 89,89,TRUE,1,Male,6,incidence,0.045042849,0.034386175,0.058451864
-D356,India,Ischemic heart disease,2019,31,85 to 89,89,TRUE,2,Female,6,incidence,0.03182913,0.024432062,0.041253503
-D356,India,Ischemic heart disease,2019,32,90 to 94,90,FALSE,1,Male,6,incidence,0.049829427,0.038949251,0.063743817
-D356,India,Ischemic heart disease,2019,32,90 to 94,90,FALSE,2,Female,6,incidence,0.034408432,0.026988056,0.043935933
-D356,India,Ischemic heart disease,2019,32,90 to 94,91,TRUE,1,Male,6,incidence,0.049829427,0.038949251,0.063743817
-D356,India,Ischemic heart disease,2019,32,90 to 94,91,TRUE,2,Female,6,incidence,0.034408432,0.026988056,0.043935933
-D356,India,Ischemic heart disease,2019,32,90 to 94,92,TRUE,1,Male,6,incidence,0.049829427,0.038949251,0.063743817
-D356,India,Ischemic heart disease,2019,32,90 to 94,92,TRUE,2,Female,6,incidence,0.034408432,0.026988056,0.043935933
-D356,India,Ischemic heart disease,2019,32,90 to 94,93,TRUE,1,Male,6,incidence,0.049829427,0.038949251,0.063743817
-D356,India,Ischemic heart disease,2019,32,90 to 94,93,TRUE,2,Female,6,incidence,0.034408432,0.026988056,0.043935933
-D356,India,Ischemic heart disease,2019,32,90 to 94,94,TRUE,1,Male,6,incidence,0.049829427,0.038949251,0.063743817
-D356,India,Ischemic heart disease,2019,32,90 to 94,94,TRUE,2,Female,6,incidence,0.034408432,0.026988056,0.043935933
-D356,India,Ischemic heart disease,2019,235,95 plus,95,FALSE,1,Male,6,incidence,0.058584945,0.037011877,0.083480714
-D356,India,Ischemic heart disease,2019,235,95 plus,95,FALSE,2,Female,6,incidence,0.037677539,0.023594895,0.053717009
-D356,India,Ischemic heart disease,2019,235,95 plus,96,TRUE,1,Male,6,incidence,0.058584945,0.037011877,0.083480714
-D356,India,Ischemic heart disease,2019,235,95 plus,96,TRUE,2,Female,6,incidence,0.037677539,0.023594895,0.053717009
-D356,India,Ischemic heart disease,2019,235,95 plus,97,TRUE,1,Male,6,incidence,0.058584945,0.037011877,0.083480714
-D356,India,Ischemic heart disease,2019,235,95 plus,97,TRUE,2,Female,6,incidence,0.037677539,0.023594895,0.053717009
-D356,India,Ischemic heart disease,2019,235,95 plus,98,TRUE,1,Male,6,incidence,0.058584945,0.037011877,0.083480714
-D356,India,Ischemic heart disease,2019,235,95 plus,98,TRUE,2,Female,6,incidence,0.037677539,0.023594895,0.053717009
-D356,India,Ischemic heart disease,2019,235,95 plus,99,TRUE,1,Male,6,incidence,0.058584945,0.037011877,0.083480714
-D356,India,Ischemic heart disease,2019,235,95 plus,99,TRUE,2,Female,6,incidence,0.037677539,0.023594895,0.053717009
-D356,India,Ischemic heart disease,2019,235,95 plus,100,TRUE,1,Male,6,incidence,0.058584945,0.037011877,0.083480714
-D356,India,Ischemic heart disease,2019,235,95 plus,100,TRUE,2,Female,6,incidence,0.037677539,0.023594895,0.053717009
-D356,India,Ischemic heart disease,2019,5,1 to 4,1,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,1,FALSE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,1,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,1,FALSE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,2,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,2,TRUE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,2,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,2,TRUE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,3,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,3,TRUE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,3,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,3,TRUE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,4,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,4,TRUE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,4,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,5,1 to 4,4,TRUE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,5,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,5,FALSE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,5,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,5,FALSE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,6,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,6,TRUE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,6,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,6,TRUE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,7,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,7,TRUE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,7,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,7,TRUE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,8,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,8,TRUE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,8,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,8,TRUE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,9,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,9,TRUE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,9,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,6,5 to 9,9,TRUE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,10,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,10,FALSE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,10,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,10,FALSE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,11,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,11,TRUE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,11,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,11,TRUE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,12,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,12,TRUE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,12,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,12,TRUE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,13,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,13,TRUE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,13,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,13,TRUE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,14,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,14,TRUE,1,Male,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,14,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,7,10 to 14,14,TRUE,2,Female,15,mortality,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,15,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,15,FALSE,1,Male,15,mortality,0.107992551,0.107992551,0.107992551
-D356,India,Ischemic heart disease,2019,8,15 to 19,15,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,15,FALSE,2,Female,15,mortality,0.193607507,0.193607507,0.193607507
-D356,India,Ischemic heart disease,2019,8,15 to 19,16,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,16,TRUE,1,Male,15,mortality,0.107992551,0.107992551,0.107992551
-D356,India,Ischemic heart disease,2019,8,15 to 19,16,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,16,TRUE,2,Female,15,mortality,0.193607507,0.193607507,0.193607507
-D356,India,Ischemic heart disease,2019,8,15 to 19,17,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,17,TRUE,1,Male,15,mortality,0.107992551,0.107992551,0.107992551
-D356,India,Ischemic heart disease,2019,8,15 to 19,17,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,17,TRUE,2,Female,15,mortality,0.193607507,0.193607507,0.193607507
-D356,India,Ischemic heart disease,2019,8,15 to 19,18,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,18,TRUE,1,Male,15,mortality,0.107992551,0.107992551,0.107992551
-D356,India,Ischemic heart disease,2019,8,15 to 19,18,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,18,TRUE,2,Female,15,mortality,0.193607507,0.193607507,0.193607507
-D356,India,Ischemic heart disease,2019,8,15 to 19,19,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,19,TRUE,1,Male,15,mortality,0.107992551,0.107992551,0.107992551
-D356,India,Ischemic heart disease,2019,8,15 to 19,19,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,8,15 to 19,19,TRUE,2,Female,15,mortality,0.193607507,0.193607507,0.193607507
-D356,India,Ischemic heart disease,2019,9,20 to 24,20,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,9,20 to 24,20,FALSE,1,Male,15,mortality,0.15194242,0.15194242,0.15194242
-D356,India,Ischemic heart disease,2019,9,20 to 24,20,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,9,20 to 24,20,FALSE,2,Female,15,mortality,0.136898266,0.136898266,0.136898266
-D356,India,Ischemic heart disease,2019,9,20 to 24,21,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,9,20 to 24,21,TRUE,1,Male,15,mortality,0.15194242,0.15194242,0.15194242
-D356,India,Ischemic heart disease,2019,9,20 to 24,21,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,9,20 to 24,21,TRUE,2,Female,15,mortality,0.136898266,0.136898266,0.136898266
-D356,India,Ischemic heart disease,2019,9,20 to 24,22,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,9,20 to 24,22,TRUE,1,Male,15,mortality,0.15194242,0.15194242,0.15194242
-D356,India,Ischemic heart disease,2019,9,20 to 24,22,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,9,20 to 24,22,TRUE,2,Female,15,mortality,0.136898266,0.136898266,0.136898266
-D356,India,Ischemic heart disease,2019,9,20 to 24,23,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,9,20 to 24,23,TRUE,1,Male,15,mortality,0.15194242,0.15194242,0.15194242
-D356,India,Ischemic heart disease,2019,9,20 to 24,23,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,9,20 to 24,23,TRUE,2,Female,15,mortality,0.136898266,0.136898266,0.136898266
-D356,India,Ischemic heart disease,2019,9,20 to 24,24,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,9,20 to 24,24,TRUE,1,Male,15,mortality,0.15194242,0.15194242,0.15194242
-D356,India,Ischemic heart disease,2019,9,20 to 24,24,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,9,20 to 24,24,TRUE,2,Female,15,mortality,0.136898266,0.136898266,0.136898266
-D356,India,Ischemic heart disease,2019,10,25 to 29,25,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,10,25 to 29,25,FALSE,1,Male,15,mortality,0.090785434,0.090785434,0.090785434
-D356,India,Ischemic heart disease,2019,10,25 to 29,25,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,10,25 to 29,25,FALSE,2,Female,15,mortality,0.061987727,0.061987727,0.061987727
-D356,India,Ischemic heart disease,2019,10,25 to 29,26,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,10,25 to 29,26,TRUE,1,Male,15,mortality,0.090785434,0.090785434,0.090785434
-D356,India,Ischemic heart disease,2019,10,25 to 29,26,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,10,25 to 29,26,TRUE,2,Female,15,mortality,0.061987727,0.061987727,0.061987727
-D356,India,Ischemic heart disease,2019,10,25 to 29,27,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,10,25 to 29,27,TRUE,1,Male,15,mortality,0.090785434,0.090785434,0.090785434
-D356,India,Ischemic heart disease,2019,10,25 to 29,27,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,10,25 to 29,27,TRUE,2,Female,15,mortality,0.061987727,0.061987727,0.061987727
-D356,India,Ischemic heart disease,2019,10,25 to 29,28,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,10,25 to 29,28,TRUE,1,Male,15,mortality,0.090785434,0.090785434,0.090785434
-D356,India,Ischemic heart disease,2019,10,25 to 29,28,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,10,25 to 29,28,TRUE,2,Female,15,mortality,0.061987727,0.061987727,0.061987727
-D356,India,Ischemic heart disease,2019,10,25 to 29,29,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,10,25 to 29,29,TRUE,1,Male,15,mortality,0.090785434,0.090785434,0.090785434
-D356,India,Ischemic heart disease,2019,10,25 to 29,29,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,10,25 to 29,29,TRUE,2,Female,15,mortality,0.061987727,0.061987727,0.061987727
-D356,India,Ischemic heart disease,2019,11,30 to 34,30,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,11,30 to 34,30,FALSE,1,Male,15,mortality,0.097006347,0.097006347,0.097006347
-D356,India,Ischemic heart disease,2019,11,30 to 34,30,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,11,30 to 34,30,FALSE,2,Female,15,mortality,0.048294268,0.048294268,0.048294268
-D356,India,Ischemic heart disease,2019,11,30 to 34,31,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,11,30 to 34,31,TRUE,1,Male,15,mortality,0.097006347,0.097006347,0.097006347
-D356,India,Ischemic heart disease,2019,11,30 to 34,31,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,11,30 to 34,31,TRUE,2,Female,15,mortality,0.048294268,0.048294268,0.048294268
-D356,India,Ischemic heart disease,2019,11,30 to 34,32,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,11,30 to 34,32,TRUE,1,Male,15,mortality,0.097006347,0.097006347,0.097006347
-D356,India,Ischemic heart disease,2019,11,30 to 34,32,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,11,30 to 34,32,TRUE,2,Female,15,mortality,0.048294268,0.048294268,0.048294268
-D356,India,Ischemic heart disease,2019,11,30 to 34,33,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,11,30 to 34,33,TRUE,1,Male,15,mortality,0.097006347,0.097006347,0.097006347
-D356,India,Ischemic heart disease,2019,11,30 to 34,33,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,11,30 to 34,33,TRUE,2,Female,15,mortality,0.048294268,0.048294268,0.048294268
-D356,India,Ischemic heart disease,2019,11,30 to 34,34,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,11,30 to 34,34,TRUE,1,Male,15,mortality,0.097006347,0.097006347,0.097006347
-D356,India,Ischemic heart disease,2019,11,30 to 34,34,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,11,30 to 34,34,TRUE,2,Female,15,mortality,0.048294268,0.048294268,0.048294268
-D356,India,Ischemic heart disease,2019,12,35 to 39,35,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,12,35 to 39,35,FALSE,1,Male,15,mortality,0.087732663,0.087732663,0.087732663
-D356,India,Ischemic heart disease,2019,12,35 to 39,35,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,12,35 to 39,35,FALSE,2,Female,15,mortality,0.039150768,0.039150768,0.039150768
-D356,India,Ischemic heart disease,2019,12,35 to 39,36,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,12,35 to 39,36,TRUE,1,Male,15,mortality,0.087732663,0.087732663,0.087732663
-D356,India,Ischemic heart disease,2019,12,35 to 39,36,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,12,35 to 39,36,TRUE,2,Female,15,mortality,0.039150768,0.039150768,0.039150768
-D356,India,Ischemic heart disease,2019,12,35 to 39,37,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,12,35 to 39,37,TRUE,1,Male,15,mortality,0.087732663,0.087732663,0.087732663
-D356,India,Ischemic heart disease,2019,12,35 to 39,37,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,12,35 to 39,37,TRUE,2,Female,15,mortality,0.039150768,0.039150768,0.039150768
-D356,India,Ischemic heart disease,2019,12,35 to 39,38,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,12,35 to 39,38,TRUE,1,Male,15,mortality,0.087732663,0.087732663,0.087732663
-D356,India,Ischemic heart disease,2019,12,35 to 39,38,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,12,35 to 39,38,TRUE,2,Female,15,mortality,0.039150768,0.039150768,0.039150768
-D356,India,Ischemic heart disease,2019,12,35 to 39,39,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,12,35 to 39,39,TRUE,1,Male,15,mortality,0.087732663,0.087732663,0.087732663
-D356,India,Ischemic heart disease,2019,12,35 to 39,39,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,12,35 to 39,39,TRUE,2,Female,15,mortality,0.039150768,0.039150768,0.039150768
-D356,India,Ischemic heart disease,2019,13,40 to 44,40,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,13,40 to 44,40,FALSE,1,Male,15,mortality,0.07139157,0.07139157,0.07139157
-D356,India,Ischemic heart disease,2019,13,40 to 44,40,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,13,40 to 44,40,FALSE,2,Female,15,mortality,0.041507279,0.041507279,0.041507279
-D356,India,Ischemic heart disease,2019,13,40 to 44,41,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,13,40 to 44,41,TRUE,1,Male,15,mortality,0.07139157,0.07139157,0.07139157
-D356,India,Ischemic heart disease,2019,13,40 to 44,41,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,13,40 to 44,41,TRUE,2,Female,15,mortality,0.041507279,0.041507279,0.041507279
-D356,India,Ischemic heart disease,2019,13,40 to 44,42,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,13,40 to 44,42,TRUE,1,Male,15,mortality,0.07139157,0.07139157,0.07139157
-D356,India,Ischemic heart disease,2019,13,40 to 44,42,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,13,40 to 44,42,TRUE,2,Female,15,mortality,0.041507279,0.041507279,0.041507279
-D356,India,Ischemic heart disease,2019,13,40 to 44,43,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,13,40 to 44,43,TRUE,1,Male,15,mortality,0.07139157,0.07139157,0.07139157
-D356,India,Ischemic heart disease,2019,13,40 to 44,43,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,13,40 to 44,43,TRUE,2,Female,15,mortality,0.041507279,0.041507279,0.041507279
-D356,India,Ischemic heart disease,2019,13,40 to 44,44,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,13,40 to 44,44,TRUE,1,Male,15,mortality,0.07139157,0.07139157,0.07139157
-D356,India,Ischemic heart disease,2019,13,40 to 44,44,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,13,40 to 44,44,TRUE,2,Female,15,mortality,0.041507279,0.041507279,0.041507279
-D356,India,Ischemic heart disease,2019,14,45 to 49,45,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,14,45 to 49,45,FALSE,1,Male,15,mortality,0.063265855,0.063265855,0.063265855
-D356,India,Ischemic heart disease,2019,14,45 to 49,45,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,14,45 to 49,45,FALSE,2,Female,15,mortality,0.036532104,0.036532104,0.036532104
-D356,India,Ischemic heart disease,2019,14,45 to 49,46,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,14,45 to 49,46,TRUE,1,Male,15,mortality,0.063265855,0.063265855,0.063265855
-D356,India,Ischemic heart disease,2019,14,45 to 49,46,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,14,45 to 49,46,TRUE,2,Female,15,mortality,0.036532104,0.036532104,0.036532104
-D356,India,Ischemic heart disease,2019,14,45 to 49,47,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,14,45 to 49,47,TRUE,1,Male,15,mortality,0.063265855,0.063265855,0.063265855
-D356,India,Ischemic heart disease,2019,14,45 to 49,47,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,14,45 to 49,47,TRUE,2,Female,15,mortality,0.036532104,0.036532104,0.036532104
-D356,India,Ischemic heart disease,2019,14,45 to 49,48,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,14,45 to 49,48,TRUE,1,Male,15,mortality,0.063265855,0.063265855,0.063265855
-D356,India,Ischemic heart disease,2019,14,45 to 49,48,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,14,45 to 49,48,TRUE,2,Female,15,mortality,0.036532104,0.036532104,0.036532104
-D356,India,Ischemic heart disease,2019,14,45 to 49,49,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,14,45 to 49,49,TRUE,1,Male,15,mortality,0.063265855,0.063265855,0.063265855
-D356,India,Ischemic heart disease,2019,14,45 to 49,49,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,14,45 to 49,49,TRUE,2,Female,15,mortality,0.036532104,0.036532104,0.036532104
-D356,India,Ischemic heart disease,2019,15,50 to 54,50,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,15,50 to 54,50,FALSE,1,Male,15,mortality,0.050841226,0.050841226,0.050841226
-D356,India,Ischemic heart disease,2019,15,50 to 54,50,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,15,50 to 54,50,FALSE,2,Female,15,mortality,0.042923498,0.042923498,0.042923498
-D356,India,Ischemic heart disease,2019,15,50 to 54,51,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,15,50 to 54,51,TRUE,1,Male,15,mortality,0.050841226,0.050841226,0.050841226
-D356,India,Ischemic heart disease,2019,15,50 to 54,51,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,15,50 to 54,51,TRUE,2,Female,15,mortality,0.042923498,0.042923498,0.042923498
-D356,India,Ischemic heart disease,2019,15,50 to 54,52,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,15,50 to 54,52,TRUE,1,Male,15,mortality,0.050841226,0.050841226,0.050841226
-D356,India,Ischemic heart disease,2019,15,50 to 54,52,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,15,50 to 54,52,TRUE,2,Female,15,mortality,0.042923498,0.042923498,0.042923498
-D356,India,Ischemic heart disease,2019,15,50 to 54,53,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,15,50 to 54,53,TRUE,1,Male,15,mortality,0.050841226,0.050841226,0.050841226
-D356,India,Ischemic heart disease,2019,15,50 to 54,53,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,15,50 to 54,53,TRUE,2,Female,15,mortality,0.042923498,0.042923498,0.042923498
-D356,India,Ischemic heart disease,2019,15,50 to 54,54,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,15,50 to 54,54,TRUE,1,Male,15,mortality,0.050841226,0.050841226,0.050841226
-D356,India,Ischemic heart disease,2019,15,50 to 54,54,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,15,50 to 54,54,TRUE,2,Female,15,mortality,0.042923498,0.042923498,0.042923498
-D356,India,Ischemic heart disease,2019,16,55 to 59,55,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,16,55 to 59,55,FALSE,1,Male,15,mortality,0.042320589,0.042320589,0.042320589
-D356,India,Ischemic heart disease,2019,16,55 to 59,55,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,16,55 to 59,55,FALSE,2,Female,15,mortality,0.036918225,0.036918225,0.036918225
-D356,India,Ischemic heart disease,2019,16,55 to 59,56,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,16,55 to 59,56,TRUE,1,Male,15,mortality,0.042320589,0.042320589,0.042320589
-D356,India,Ischemic heart disease,2019,16,55 to 59,56,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,16,55 to 59,56,TRUE,2,Female,15,mortality,0.036918225,0.036918225,0.036918225
-D356,India,Ischemic heart disease,2019,16,55 to 59,57,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,16,55 to 59,57,TRUE,1,Male,15,mortality,0.042320589,0.042320589,0.042320589
-D356,India,Ischemic heart disease,2019,16,55 to 59,57,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,16,55 to 59,57,TRUE,2,Female,15,mortality,0.036918225,0.036918225,0.036918225
-D356,India,Ischemic heart disease,2019,16,55 to 59,58,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,16,55 to 59,58,TRUE,1,Male,15,mortality,0.042320589,0.042320589,0.042320589
-D356,India,Ischemic heart disease,2019,16,55 to 59,58,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,16,55 to 59,58,TRUE,2,Female,15,mortality,0.036918225,0.036918225,0.036918225
-D356,India,Ischemic heart disease,2019,16,55 to 59,59,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,16,55 to 59,59,TRUE,1,Male,15,mortality,0.042320589,0.042320589,0.042320589
-D356,India,Ischemic heart disease,2019,16,55 to 59,59,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,16,55 to 59,59,TRUE,2,Female,15,mortality,0.036918225,0.036918225,0.036918225
-D356,India,Ischemic heart disease,2019,17,60 to 64,60,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,17,60 to 64,60,FALSE,1,Male,15,mortality,0.032061176,0.032061176,0.032061176
-D356,India,Ischemic heart disease,2019,17,60 to 64,60,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,17,60 to 64,60,FALSE,2,Female,15,mortality,0.034960894,0.034960894,0.034960894
-D356,India,Ischemic heart disease,2019,17,60 to 64,61,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,17,60 to 64,61,TRUE,1,Male,15,mortality,0.032061176,0.032061176,0.032061176
-D356,India,Ischemic heart disease,2019,17,60 to 64,61,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,17,60 to 64,61,TRUE,2,Female,15,mortality,0.034960894,0.034960894,0.034960894
-D356,India,Ischemic heart disease,2019,17,60 to 64,62,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,17,60 to 64,62,TRUE,1,Male,15,mortality,0.032061176,0.032061176,0.032061176
-D356,India,Ischemic heart disease,2019,17,60 to 64,62,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,17,60 to 64,62,TRUE,2,Female,15,mortality,0.034960894,0.034960894,0.034960894
-D356,India,Ischemic heart disease,2019,17,60 to 64,63,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,17,60 to 64,63,TRUE,1,Male,15,mortality,0.032061176,0.032061176,0.032061176
-D356,India,Ischemic heart disease,2019,17,60 to 64,63,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,17,60 to 64,63,TRUE,2,Female,15,mortality,0.034960894,0.034960894,0.034960894
-D356,India,Ischemic heart disease,2019,17,60 to 64,64,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,17,60 to 64,64,TRUE,1,Male,15,mortality,0.032061176,0.032061176,0.032061176
-D356,India,Ischemic heart disease,2019,17,60 to 64,64,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,17,60 to 64,64,TRUE,2,Female,15,mortality,0.034960894,0.034960894,0.034960894
-D356,India,Ischemic heart disease,2019,18,65 to 69,65,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,18,65 to 69,65,FALSE,1,Male,15,mortality,0.02701274,0.02701274,0.02701274
-D356,India,Ischemic heart disease,2019,18,65 to 69,65,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,18,65 to 69,65,FALSE,2,Female,15,mortality,0.031485397,0.031485397,0.031485397
-D356,India,Ischemic heart disease,2019,18,65 to 69,66,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,18,65 to 69,66,TRUE,1,Male,15,mortality,0.02701274,0.02701274,0.02701274
-D356,India,Ischemic heart disease,2019,18,65 to 69,66,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,18,65 to 69,66,TRUE,2,Female,15,mortality,0.031485397,0.031485397,0.031485397
-D356,India,Ischemic heart disease,2019,18,65 to 69,67,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,18,65 to 69,67,TRUE,1,Male,15,mortality,0.02701274,0.02701274,0.02701274
-D356,India,Ischemic heart disease,2019,18,65 to 69,67,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,18,65 to 69,67,TRUE,2,Female,15,mortality,0.031485397,0.031485397,0.031485397
-D356,India,Ischemic heart disease,2019,18,65 to 69,68,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,18,65 to 69,68,TRUE,1,Male,15,mortality,0.02701274,0.02701274,0.02701274
-D356,India,Ischemic heart disease,2019,18,65 to 69,68,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,18,65 to 69,68,TRUE,2,Female,15,mortality,0.031485397,0.031485397,0.031485397
-D356,India,Ischemic heart disease,2019,18,65 to 69,69,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,18,65 to 69,69,TRUE,1,Male,15,mortality,0.02701274,0.02701274,0.02701274
-D356,India,Ischemic heart disease,2019,18,65 to 69,69,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,18,65 to 69,69,TRUE,2,Female,15,mortality,0.031485397,0.031485397,0.031485397
-D356,India,Ischemic heart disease,2019,19,70 to 74,70,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,19,70 to 74,70,FALSE,1,Male,15,mortality,0.02885118,0.02885118,0.02885118
-D356,India,Ischemic heart disease,2019,19,70 to 74,70,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,19,70 to 74,70,FALSE,2,Female,15,mortality,0.033927533,0.033927533,0.033927533
-D356,India,Ischemic heart disease,2019,19,70 to 74,71,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,19,70 to 74,71,TRUE,1,Male,15,mortality,0.02885118,0.02885118,0.02885118
-D356,India,Ischemic heart disease,2019,19,70 to 74,71,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,19,70 to 74,71,TRUE,2,Female,15,mortality,0.033927533,0.033927533,0.033927533
-D356,India,Ischemic heart disease,2019,19,70 to 74,72,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,19,70 to 74,72,TRUE,1,Male,15,mortality,0.02885118,0.02885118,0.02885118
-D356,India,Ischemic heart disease,2019,19,70 to 74,72,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,19,70 to 74,72,TRUE,2,Female,15,mortality,0.033927533,0.033927533,0.033927533
-D356,India,Ischemic heart disease,2019,19,70 to 74,73,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,19,70 to 74,73,TRUE,1,Male,15,mortality,0.02885118,0.02885118,0.02885118
-D356,India,Ischemic heart disease,2019,19,70 to 74,73,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,19,70 to 74,73,TRUE,2,Female,15,mortality,0.033927533,0.033927533,0.033927533
-D356,India,Ischemic heart disease,2019,19,70 to 74,74,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,19,70 to 74,74,TRUE,1,Male,15,mortality,0.02885118,0.02885118,0.02885118
-D356,India,Ischemic heart disease,2019,19,70 to 74,74,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,19,70 to 74,74,TRUE,2,Female,15,mortality,0.033927533,0.033927533,0.033927533
-D356,India,Ischemic heart disease,2019,20,75 to 79,75,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,20,75 to 79,75,FALSE,1,Male,15,mortality,0.033934126,0.033934126,0.033934126
-D356,India,Ischemic heart disease,2019,20,75 to 79,75,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,20,75 to 79,75,FALSE,2,Female,15,mortality,0.039962835,0.039962835,0.039962835
-D356,India,Ischemic heart disease,2019,20,75 to 79,76,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,20,75 to 79,76,TRUE,1,Male,15,mortality,0.033934126,0.033934126,0.033934126
-D356,India,Ischemic heart disease,2019,20,75 to 79,76,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,20,75 to 79,76,TRUE,2,Female,15,mortality,0.039962835,0.039962835,0.039962835
-D356,India,Ischemic heart disease,2019,20,75 to 79,77,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,20,75 to 79,77,TRUE,1,Male,15,mortality,0.033934126,0.033934126,0.033934126
-D356,India,Ischemic heart disease,2019,20,75 to 79,77,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,20,75 to 79,77,TRUE,2,Female,15,mortality,0.039962835,0.039962835,0.039962835
-D356,India,Ischemic heart disease,2019,20,75 to 79,78,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,20,75 to 79,78,TRUE,1,Male,15,mortality,0.033934126,0.033934126,0.033934126
-D356,India,Ischemic heart disease,2019,20,75 to 79,78,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,20,75 to 79,78,TRUE,2,Female,15,mortality,0.039962835,0.039962835,0.039962835
-D356,India,Ischemic heart disease,2019,20,75 to 79,79,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,20,75 to 79,79,TRUE,1,Male,15,mortality,0.033934126,0.033934126,0.033934126
-D356,India,Ischemic heart disease,2019,20,75 to 79,79,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,20,75 to 79,79,TRUE,2,Female,15,mortality,0.039962835,0.039962835,0.039962835
-D356,India,Ischemic heart disease,2019,30,80 to 84,80,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,30,80 to 84,80,FALSE,1,Male,15,mortality,0.04956013,0.04956013,0.04956013
-D356,India,Ischemic heart disease,2019,30,80 to 84,80,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,30,80 to 84,80,FALSE,2,Female,15,mortality,0.058585637,0.058585637,0.058585637
-D356,India,Ischemic heart disease,2019,30,80 to 84,81,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,30,80 to 84,81,TRUE,1,Male,15,mortality,0.04956013,0.04956013,0.04956013
-D356,India,Ischemic heart disease,2019,30,80 to 84,81,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,30,80 to 84,81,TRUE,2,Female,15,mortality,0.058585637,0.058585637,0.058585637
-D356,India,Ischemic heart disease,2019,30,80 to 84,82,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,30,80 to 84,82,TRUE,1,Male,15,mortality,0.04956013,0.04956013,0.04956013
-D356,India,Ischemic heart disease,2019,30,80 to 84,82,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,30,80 to 84,82,TRUE,2,Female,15,mortality,0.058585637,0.058585637,0.058585637
-D356,India,Ischemic heart disease,2019,30,80 to 84,83,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,30,80 to 84,83,TRUE,1,Male,15,mortality,0.04956013,0.04956013,0.04956013
-D356,India,Ischemic heart disease,2019,30,80 to 84,83,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,30,80 to 84,83,TRUE,2,Female,15,mortality,0.058585637,0.058585637,0.058585637
-D356,India,Ischemic heart disease,2019,30,80 to 84,84,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,30,80 to 84,84,TRUE,1,Male,15,mortality,0.04956013,0.04956013,0.04956013
-D356,India,Ischemic heart disease,2019,30,80 to 84,84,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,30,80 to 84,84,TRUE,2,Female,15,mortality,0.058585637,0.058585637,0.058585637
-D356,India,Ischemic heart disease,2019,31,85 to 89,85,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,31,85 to 89,85,FALSE,1,Male,15,mortality,0.064610442,0.064610442,0.064610442
-D356,India,Ischemic heart disease,2019,31,85 to 89,85,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,31,85 to 89,85,FALSE,2,Female,15,mortality,0.073790879,0.073790879,0.073790879
-D356,India,Ischemic heart disease,2019,31,85 to 89,86,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,31,85 to 89,86,TRUE,1,Male,15,mortality,0.064610442,0.064610442,0.064610442
-D356,India,Ischemic heart disease,2019,31,85 to 89,86,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,31,85 to 89,86,TRUE,2,Female,15,mortality,0.073790879,0.073790879,0.073790879
-D356,India,Ischemic heart disease,2019,31,85 to 89,87,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,31,85 to 89,87,TRUE,1,Male,15,mortality,0.064610442,0.064610442,0.064610442
-D356,India,Ischemic heart disease,2019,31,85 to 89,87,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,31,85 to 89,87,TRUE,2,Female,15,mortality,0.073790879,0.073790879,0.073790879
-D356,India,Ischemic heart disease,2019,31,85 to 89,88,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,31,85 to 89,88,TRUE,1,Male,15,mortality,0.064610442,0.064610442,0.064610442
-D356,India,Ischemic heart disease,2019,31,85 to 89,88,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,31,85 to 89,88,TRUE,2,Female,15,mortality,0.073790879,0.073790879,0.073790879
-D356,India,Ischemic heart disease,2019,31,85 to 89,89,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,31,85 to 89,89,TRUE,1,Male,15,mortality,0.064610442,0.064610442,0.064610442
-D356,India,Ischemic heart disease,2019,31,85 to 89,89,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,31,85 to 89,89,TRUE,2,Female,15,mortality,0.073790879,0.073790879,0.073790879
-D356,India,Ischemic heart disease,2019,32,90 to 94,90,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,32,90 to 94,90,FALSE,1,Male,15,mortality,0.105399253,0.105399253,0.105399253
-D356,India,Ischemic heart disease,2019,32,90 to 94,90,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,32,90 to 94,90,FALSE,2,Female,15,mortality,0.121150941,0.121150941,0.121150941
-D356,India,Ischemic heart disease,2019,32,90 to 94,91,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,32,90 to 94,91,TRUE,1,Male,15,mortality,0.105399253,0.105399253,0.105399253
-D356,India,Ischemic heart disease,2019,32,90 to 94,91,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,32,90 to 94,91,TRUE,2,Female,15,mortality,0.121150941,0.121150941,0.121150941
-D356,India,Ischemic heart disease,2019,32,90 to 94,92,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,32,90 to 94,92,TRUE,1,Male,15,mortality,0.105399253,0.105399253,0.105399253
-D356,India,Ischemic heart disease,2019,32,90 to 94,92,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,32,90 to 94,92,TRUE,2,Female,15,mortality,0.121150941,0.121150941,0.121150941
-D356,India,Ischemic heart disease,2019,32,90 to 94,93,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,32,90 to 94,93,TRUE,1,Male,15,mortality,0.105399253,0.105399253,0.105399253
-D356,India,Ischemic heart disease,2019,32,90 to 94,93,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,32,90 to 94,93,TRUE,2,Female,15,mortality,0.121150941,0.121150941,0.121150941
-D356,India,Ischemic heart disease,2019,32,90 to 94,94,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,32,90 to 94,94,TRUE,1,Male,15,mortality,0.105399253,0.105399253,0.105399253
-D356,India,Ischemic heart disease,2019,32,90 to 94,94,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,32,90 to 94,94,TRUE,2,Female,15,mortality,0.121150941,0.121150941,0.121150941
-D356,India,Ischemic heart disease,2019,235,95 plus,95,FALSE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,95,FALSE,1,Male,15,mortality,0.168428955,0.168428955,0.168428955
-D356,India,Ischemic heart disease,2019,235,95 plus,95,FALSE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,95,FALSE,2,Female,15,mortality,0.200020299,0.200020299,0.200020299
-D356,India,Ischemic heart disease,2019,235,95 plus,96,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,96,TRUE,1,Male,15,mortality,0.168428955,0.168428955,0.168428955
-D356,India,Ischemic heart disease,2019,235,95 plus,96,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,96,TRUE,2,Female,15,mortality,0.200020299,0.200020299,0.200020299
-D356,India,Ischemic heart disease,2019,235,95 plus,97,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,97,TRUE,1,Male,15,mortality,0.168428955,0.168428955,0.168428955
-D356,India,Ischemic heart disease,2019,235,95 plus,97,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,97,TRUE,2,Female,15,mortality,0.200020299,0.200020299,0.200020299
-D356,India,Ischemic heart disease,2019,235,95 plus,98,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,98,TRUE,1,Male,15,mortality,0.168428955,0.168428955,0.168428955
-D356,India,Ischemic heart disease,2019,235,95 plus,98,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,98,TRUE,2,Female,15,mortality,0.200020299,0.200020299,0.200020299
-D356,India,Ischemic heart disease,2019,235,95 plus,99,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,99,TRUE,1,Male,15,mortality,0.168428955,0.168428955,0.168428955
-D356,India,Ischemic heart disease,2019,235,95 plus,99,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,99,TRUE,2,Female,15,mortality,0.200020299,0.200020299,0.200020299
-D356,India,Ischemic heart disease,2019,235,95 plus,100,TRUE,1,Male,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,100,TRUE,1,Male,15,mortality,0.168428955,0.168428955,0.168428955
-D356,India,Ischemic heart disease,2019,235,95 plus,100,TRUE,2,Female,7,remission,0,0,0
-D356,India,Ischemic heart disease,2019,235,95 plus,100,TRUE,2,Female,15,mortality,0.200020299,0.200020299,0.200020299
+"location_id","location","disease","time","age_group_id","age_group","age","is_filled","gender_id","gender","measure_id","measure","mean","lower","upper"
+356,"India","Ischemic heart disease",2021,6,"5-9 years",5,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",5,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",5,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",5,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",6,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",6,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",6,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",6,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",7,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",7,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",7,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",7,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",8,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",8,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",8,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",8,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",9,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",9,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",9,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",9,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",5,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",5,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",5,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",5,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",6,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",6,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",6,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",6,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",7,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",7,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",7,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",7,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",8,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",8,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",8,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",8,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",9,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",9,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",9,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,6,"5-9 years",9,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",10,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",10,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",10,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",10,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",11,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",11,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",11,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",11,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",12,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",12,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",12,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",12,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",13,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",13,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",13,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",13,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",14,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",14,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",14,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",14,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",10,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",10,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",10,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",10,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",11,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",11,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",11,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",11,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",12,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",12,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",12,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",12,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",13,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",13,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",13,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",13,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",14,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",14,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",14,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,7,"10-14 years",14,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,8,"15-19 years",15,TRUE,1,"Male",5,"prevalence",0.0001141258925219,6.5157136879e-05,0.0001872049016905
+356,"India","Ischemic heart disease",2021,8,"15-19 years",15,TRUE,1,"Male",6,"incidence",3.97259153888e-05,5.1778360934e-06,9.97782641434e-05
+356,"India","Ischemic heart disease",2021,8,"15-19 years",15,TRUE,1,"Male",15,"mortality",0.121125228700162,0.167271074445336,0.0899506071455529
+356,"India","Ischemic heart disease",2021,8,"15-19 years",15,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,8,"15-19 years",16,TRUE,1,"Male",5,"prevalence",0.0001141258925219,6.5157136879e-05,0.0001872049016905
+356,"India","Ischemic heart disease",2021,8,"15-19 years",16,TRUE,1,"Male",6,"incidence",3.97259153888e-05,5.1778360934e-06,9.97782641434e-05
+356,"India","Ischemic heart disease",2021,8,"15-19 years",16,TRUE,1,"Male",15,"mortality",0.121125228700162,0.167271074445336,0.0899506071455529
+356,"India","Ischemic heart disease",2021,8,"15-19 years",16,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,8,"15-19 years",17,TRUE,1,"Male",5,"prevalence",0.0001141258925219,6.5157136879e-05,0.0001872049016905
+356,"India","Ischemic heart disease",2021,8,"15-19 years",17,TRUE,1,"Male",6,"incidence",3.97259153888e-05,5.1778360934e-06,9.97782641434e-05
+356,"India","Ischemic heart disease",2021,8,"15-19 years",17,TRUE,1,"Male",15,"mortality",0.121125228700162,0.167271074445336,0.0899506071455529
+356,"India","Ischemic heart disease",2021,8,"15-19 years",17,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,8,"15-19 years",18,TRUE,1,"Male",5,"prevalence",0.0001141258925219,6.5157136879e-05,0.0001872049016905
+356,"India","Ischemic heart disease",2021,8,"15-19 years",18,TRUE,1,"Male",6,"incidence",3.97259153888e-05,5.1778360934e-06,9.97782641434e-05
+356,"India","Ischemic heart disease",2021,8,"15-19 years",18,TRUE,1,"Male",15,"mortality",0.121125228700162,0.167271074445336,0.0899506071455529
+356,"India","Ischemic heart disease",2021,8,"15-19 years",18,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,8,"15-19 years",19,TRUE,1,"Male",5,"prevalence",0.0001141258925219,6.5157136879e-05,0.0001872049016905
+356,"India","Ischemic heart disease",2021,8,"15-19 years",19,TRUE,1,"Male",6,"incidence",3.97259153888e-05,5.1778360934e-06,9.97782641434e-05
+356,"India","Ischemic heart disease",2021,8,"15-19 years",19,TRUE,1,"Male",15,"mortality",0.121125228700162,0.167271074445336,0.0899506071455529
+356,"India","Ischemic heart disease",2021,8,"15-19 years",19,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,8,"15-19 years",15,TRUE,2,"Female",5,"prevalence",0.0001231298965048,7.23801101869e-05,0.0001966794134413
+356,"India","Ischemic heart disease",2021,8,"15-19 years",15,TRUE,2,"Female",6,"incidence",3.79745939841e-05,4.9233191335e-06,9.66990552063e-05
+356,"India","Ischemic heart disease",2021,8,"15-19 years",15,TRUE,2,"Female",15,"mortality",0.139977841901942,0.198092659593673,0.105206554310915
+356,"India","Ischemic heart disease",2021,8,"15-19 years",15,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,8,"15-19 years",16,TRUE,2,"Female",5,"prevalence",0.0001231298965048,7.23801101869e-05,0.0001966794134413
+356,"India","Ischemic heart disease",2021,8,"15-19 years",16,TRUE,2,"Female",6,"incidence",3.79745939841e-05,4.9233191335e-06,9.66990552063e-05
+356,"India","Ischemic heart disease",2021,8,"15-19 years",16,TRUE,2,"Female",15,"mortality",0.139977841901942,0.198092659593673,0.105206554310915
+356,"India","Ischemic heart disease",2021,8,"15-19 years",16,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,8,"15-19 years",17,TRUE,2,"Female",5,"prevalence",0.0001231298965048,7.23801101869e-05,0.0001966794134413
+356,"India","Ischemic heart disease",2021,8,"15-19 years",17,TRUE,2,"Female",6,"incidence",3.79745939841e-05,4.9233191335e-06,9.66990552063e-05
+356,"India","Ischemic heart disease",2021,8,"15-19 years",17,TRUE,2,"Female",15,"mortality",0.139977841901942,0.198092659593673,0.105206554310915
+356,"India","Ischemic heart disease",2021,8,"15-19 years",17,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,8,"15-19 years",18,TRUE,2,"Female",5,"prevalence",0.0001231298965048,7.23801101869e-05,0.0001966794134413
+356,"India","Ischemic heart disease",2021,8,"15-19 years",18,TRUE,2,"Female",6,"incidence",3.79745939841e-05,4.9233191335e-06,9.66990552063e-05
+356,"India","Ischemic heart disease",2021,8,"15-19 years",18,TRUE,2,"Female",15,"mortality",0.139977841901942,0.198092659593673,0.105206554310915
+356,"India","Ischemic heart disease",2021,8,"15-19 years",18,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,8,"15-19 years",19,TRUE,2,"Female",5,"prevalence",0.0001231298965048,7.23801101869e-05,0.0001966794134413
+356,"India","Ischemic heart disease",2021,8,"15-19 years",19,TRUE,2,"Female",6,"incidence",3.79745939841e-05,4.9233191335e-06,9.66990552063e-05
+356,"India","Ischemic heart disease",2021,8,"15-19 years",19,TRUE,2,"Female",15,"mortality",0.139977841901942,0.198092659593673,0.105206554310915
+356,"India","Ischemic heart disease",2021,8,"15-19 years",19,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,9,"20-24 years",20,TRUE,1,"Male",5,"prevalence",0.0003970536482331,0.0003071215239345,0.000513748338814
+356,"India","Ischemic heart disease",2021,9,"20-24 years",20,TRUE,1,"Male",6,"incidence",0.0001499685249186,7.71158948758e-05,0.0002460108311161
+356,"India","Ischemic heart disease",2021,9,"20-24 years",20,TRUE,1,"Male",15,"mortality",0.116715715669824,0.12802965812184,0.104644120399395
+356,"India","Ischemic heart disease",2021,9,"20-24 years",20,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,9,"20-24 years",21,TRUE,1,"Male",5,"prevalence",0.0003970536482331,0.0003071215239345,0.000513748338814
+356,"India","Ischemic heart disease",2021,9,"20-24 years",21,TRUE,1,"Male",6,"incidence",0.0001499685249186,7.71158948758e-05,0.0002460108311161
+356,"India","Ischemic heart disease",2021,9,"20-24 years",21,TRUE,1,"Male",15,"mortality",0.116715715669824,0.12802965812184,0.104644120399395
+356,"India","Ischemic heart disease",2021,9,"20-24 years",21,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,9,"20-24 years",22,TRUE,1,"Male",5,"prevalence",0.0003970536482331,0.0003071215239345,0.000513748338814
+356,"India","Ischemic heart disease",2021,9,"20-24 years",22,TRUE,1,"Male",6,"incidence",0.0001499685249186,7.71158948758e-05,0.0002460108311161
+356,"India","Ischemic heart disease",2021,9,"20-24 years",22,TRUE,1,"Male",15,"mortality",0.116715715669824,0.12802965812184,0.104644120399395
+356,"India","Ischemic heart disease",2021,9,"20-24 years",22,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,9,"20-24 years",23,TRUE,1,"Male",5,"prevalence",0.0003970536482331,0.0003071215239345,0.000513748338814
+356,"India","Ischemic heart disease",2021,9,"20-24 years",23,TRUE,1,"Male",6,"incidence",0.0001499685249186,7.71158948758e-05,0.0002460108311161
+356,"India","Ischemic heart disease",2021,9,"20-24 years",23,TRUE,1,"Male",15,"mortality",0.116715715669824,0.12802965812184,0.104644120399395
+356,"India","Ischemic heart disease",2021,9,"20-24 years",23,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,9,"20-24 years",24,TRUE,1,"Male",5,"prevalence",0.0003970536482331,0.0003071215239345,0.000513748338814
+356,"India","Ischemic heart disease",2021,9,"20-24 years",24,TRUE,1,"Male",6,"incidence",0.0001499685249186,7.71158948758e-05,0.0002460108311161
+356,"India","Ischemic heart disease",2021,9,"20-24 years",24,TRUE,1,"Male",15,"mortality",0.116715715669824,0.12802965812184,0.104644120399395
+356,"India","Ischemic heart disease",2021,9,"20-24 years",24,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,9,"20-24 years",20,TRUE,2,"Female",5,"prevalence",0.000367350724796,0.0002759381400724,0.0004935589144824
+356,"India","Ischemic heart disease",2021,9,"20-24 years",20,TRUE,2,"Female",6,"incidence",0.0001303453834457,6.44572098997e-05,0.0002187664696206
+356,"India","Ischemic heart disease",2021,9,"20-24 years",20,TRUE,2,"Female",15,"mortality",0.0840195987775884,0.0918530183243826,0.075798458065067
+356,"India","Ischemic heart disease",2021,9,"20-24 years",20,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,9,"20-24 years",21,TRUE,2,"Female",5,"prevalence",0.000367350724796,0.0002759381400724,0.0004935589144824
+356,"India","Ischemic heart disease",2021,9,"20-24 years",21,TRUE,2,"Female",6,"incidence",0.0001303453834457,6.44572098997e-05,0.0002187664696206
+356,"India","Ischemic heart disease",2021,9,"20-24 years",21,TRUE,2,"Female",15,"mortality",0.0840195987775884,0.0918530183243826,0.075798458065067
+356,"India","Ischemic heart disease",2021,9,"20-24 years",21,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,9,"20-24 years",22,TRUE,2,"Female",5,"prevalence",0.000367350724796,0.0002759381400724,0.0004935589144824
+356,"India","Ischemic heart disease",2021,9,"20-24 years",22,TRUE,2,"Female",6,"incidence",0.0001303453834457,6.44572098997e-05,0.0002187664696206
+356,"India","Ischemic heart disease",2021,9,"20-24 years",22,TRUE,2,"Female",15,"mortality",0.0840195987775884,0.0918530183243826,0.075798458065067
+356,"India","Ischemic heart disease",2021,9,"20-24 years",22,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,9,"20-24 years",23,TRUE,2,"Female",5,"prevalence",0.000367350724796,0.0002759381400724,0.0004935589144824
+356,"India","Ischemic heart disease",2021,9,"20-24 years",23,TRUE,2,"Female",6,"incidence",0.0001303453834457,6.44572098997e-05,0.0002187664696206
+356,"India","Ischemic heart disease",2021,9,"20-24 years",23,TRUE,2,"Female",15,"mortality",0.0840195987775884,0.0918530183243826,0.075798458065067
+356,"India","Ischemic heart disease",2021,9,"20-24 years",23,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,9,"20-24 years",24,TRUE,2,"Female",5,"prevalence",0.000367350724796,0.0002759381400724,0.0004935589144824
+356,"India","Ischemic heart disease",2021,9,"20-24 years",24,TRUE,2,"Female",6,"incidence",0.0001303453834457,6.44572098997e-05,0.0002187664696206
+356,"India","Ischemic heart disease",2021,9,"20-24 years",24,TRUE,2,"Female",15,"mortality",0.0840195987775884,0.0918530183243826,0.075798458065067
+356,"India","Ischemic heart disease",2021,9,"20-24 years",24,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,10,"25-29 years",25,TRUE,1,"Male",5,"prevalence",0.0011635522482482,0.0008385645543899,0.0016474513009771
+356,"India","Ischemic heart disease",2021,10,"25-29 years",25,TRUE,1,"Male",6,"incidence",0.0002911654199893,0.0001289426102803,0.0004893058887165
+356,"India","Ischemic heart disease",2021,10,"25-29 years",25,TRUE,1,"Male",15,"mortality",0.0776160949060043,0.0937892542542947,0.0622032202002026
+356,"India","Ischemic heart disease",2021,10,"25-29 years",25,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,10,"25-29 years",26,TRUE,1,"Male",5,"prevalence",0.0011635522482482,0.0008385645543899,0.0016474513009771
+356,"India","Ischemic heart disease",2021,10,"25-29 years",26,TRUE,1,"Male",6,"incidence",0.0002911654199893,0.0001289426102803,0.0004893058887165
+356,"India","Ischemic heart disease",2021,10,"25-29 years",26,TRUE,1,"Male",15,"mortality",0.0776160949060043,0.0937892542542947,0.0622032202002026
+356,"India","Ischemic heart disease",2021,10,"25-29 years",26,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,10,"25-29 years",27,TRUE,1,"Male",5,"prevalence",0.0011635522482482,0.0008385645543899,0.0016474513009771
+356,"India","Ischemic heart disease",2021,10,"25-29 years",27,TRUE,1,"Male",6,"incidence",0.0002911654199893,0.0001289426102803,0.0004893058887165
+356,"India","Ischemic heart disease",2021,10,"25-29 years",27,TRUE,1,"Male",15,"mortality",0.0776160949060043,0.0937892542542947,0.0622032202002026
+356,"India","Ischemic heart disease",2021,10,"25-29 years",27,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,10,"25-29 years",28,TRUE,1,"Male",5,"prevalence",0.0011635522482482,0.0008385645543899,0.0016474513009771
+356,"India","Ischemic heart disease",2021,10,"25-29 years",28,TRUE,1,"Male",6,"incidence",0.0002911654199893,0.0001289426102803,0.0004893058887165
+356,"India","Ischemic heart disease",2021,10,"25-29 years",28,TRUE,1,"Male",15,"mortality",0.0776160949060043,0.0937892542542947,0.0622032202002026
+356,"India","Ischemic heart disease",2021,10,"25-29 years",28,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,10,"25-29 years",29,TRUE,1,"Male",5,"prevalence",0.0011635522482482,0.0008385645543899,0.0016474513009771
+356,"India","Ischemic heart disease",2021,10,"25-29 years",29,TRUE,1,"Male",6,"incidence",0.0002911654199893,0.0001289426102803,0.0004893058887165
+356,"India","Ischemic heart disease",2021,10,"25-29 years",29,TRUE,1,"Male",15,"mortality",0.0776160949060043,0.0937892542542947,0.0622032202002026
+356,"India","Ischemic heart disease",2021,10,"25-29 years",29,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,10,"25-29 years",25,TRUE,2,"Female",5,"prevalence",0.00102220758744,0.0007135038616963,0.0014370586427273
+356,"India","Ischemic heart disease",2021,10,"25-29 years",25,TRUE,2,"Female",6,"incidence",0.0002392130743073,0.0001007140797617,0.0004004478001039
+356,"India","Ischemic heart disease",2021,10,"25-29 years",25,TRUE,2,"Female",15,"mortality",0.0492564346482296,0.0581153558131995,0.0431588876972511
+356,"India","Ischemic heart disease",2021,10,"25-29 years",25,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,10,"25-29 years",26,TRUE,2,"Female",5,"prevalence",0.00102220758744,0.0007135038616963,0.0014370586427273
+356,"India","Ischemic heart disease",2021,10,"25-29 years",26,TRUE,2,"Female",6,"incidence",0.0002392130743073,0.0001007140797617,0.0004004478001039
+356,"India","Ischemic heart disease",2021,10,"25-29 years",26,TRUE,2,"Female",15,"mortality",0.0492564346482296,0.0581153558131995,0.0431588876972511
+356,"India","Ischemic heart disease",2021,10,"25-29 years",26,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,10,"25-29 years",27,TRUE,2,"Female",5,"prevalence",0.00102220758744,0.0007135038616963,0.0014370586427273
+356,"India","Ischemic heart disease",2021,10,"25-29 years",27,TRUE,2,"Female",6,"incidence",0.0002392130743073,0.0001007140797617,0.0004004478001039
+356,"India","Ischemic heart disease",2021,10,"25-29 years",27,TRUE,2,"Female",15,"mortality",0.0492564346482296,0.0581153558131995,0.0431588876972511
+356,"India","Ischemic heart disease",2021,10,"25-29 years",27,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,10,"25-29 years",28,TRUE,2,"Female",5,"prevalence",0.00102220758744,0.0007135038616963,0.0014370586427273
+356,"India","Ischemic heart disease",2021,10,"25-29 years",28,TRUE,2,"Female",6,"incidence",0.0002392130743073,0.0001007140797617,0.0004004478001039
+356,"India","Ischemic heart disease",2021,10,"25-29 years",28,TRUE,2,"Female",15,"mortality",0.0492564346482296,0.0581153558131995,0.0431588876972511
+356,"India","Ischemic heart disease",2021,10,"25-29 years",28,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,10,"25-29 years",29,TRUE,2,"Female",5,"prevalence",0.00102220758744,0.0007135038616963,0.0014370586427273
+356,"India","Ischemic heart disease",2021,10,"25-29 years",29,TRUE,2,"Female",6,"incidence",0.0002392130743073,0.0001007140797617,0.0004004478001039
+356,"India","Ischemic heart disease",2021,10,"25-29 years",29,TRUE,2,"Female",15,"mortality",0.0492564346482296,0.0581153558131995,0.0431588876972511
+356,"India","Ischemic heart disease",2021,10,"25-29 years",29,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,11,"30-34 years",30,TRUE,1,"Male",5,"prevalence",0.0030217515103043,0.0021297970387548,0.0041274992687556
+356,"India","Ischemic heart disease",2021,11,"30-34 years",30,TRUE,1,"Male",6,"incidence",0.0007695050592433,0.0004653336273791,0.0011009464659948
+356,"India","Ischemic heart disease",2021,11,"30-34 years",30,TRUE,1,"Male",15,"mortality",0.0741532697545957,0.0921649784379656,0.0607947354137935
+356,"India","Ischemic heart disease",2021,11,"30-34 years",30,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,11,"30-34 years",31,TRUE,1,"Male",5,"prevalence",0.0030217515103043,0.0021297970387548,0.0041274992687556
+356,"India","Ischemic heart disease",2021,11,"30-34 years",31,TRUE,1,"Male",6,"incidence",0.0007695050592433,0.0004653336273791,0.0011009464659948
+356,"India","Ischemic heart disease",2021,11,"30-34 years",31,TRUE,1,"Male",15,"mortality",0.0741532697545957,0.0921649784379656,0.0607947354137935
+356,"India","Ischemic heart disease",2021,11,"30-34 years",31,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,11,"30-34 years",32,TRUE,1,"Male",5,"prevalence",0.0030217515103043,0.0021297970387548,0.0041274992687556
+356,"India","Ischemic heart disease",2021,11,"30-34 years",32,TRUE,1,"Male",6,"incidence",0.0007695050592433,0.0004653336273791,0.0011009464659948
+356,"India","Ischemic heart disease",2021,11,"30-34 years",32,TRUE,1,"Male",15,"mortality",0.0741532697545957,0.0921649784379656,0.0607947354137935
+356,"India","Ischemic heart disease",2021,11,"30-34 years",32,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,11,"30-34 years",33,TRUE,1,"Male",5,"prevalence",0.0030217515103043,0.0021297970387548,0.0041274992687556
+356,"India","Ischemic heart disease",2021,11,"30-34 years",33,TRUE,1,"Male",6,"incidence",0.0007695050592433,0.0004653336273791,0.0011009464659948
+356,"India","Ischemic heart disease",2021,11,"30-34 years",33,TRUE,1,"Male",15,"mortality",0.0741532697545957,0.0921649784379656,0.0607947354137935
+356,"India","Ischemic heart disease",2021,11,"30-34 years",33,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,11,"30-34 years",34,TRUE,1,"Male",5,"prevalence",0.0030217515103043,0.0021297970387548,0.0041274992687556
+356,"India","Ischemic heart disease",2021,11,"30-34 years",34,TRUE,1,"Male",6,"incidence",0.0007695050592433,0.0004653336273791,0.0011009464659948
+356,"India","Ischemic heart disease",2021,11,"30-34 years",34,TRUE,1,"Male",15,"mortality",0.0741532697545957,0.0921649784379656,0.0607947354137935
+356,"India","Ischemic heart disease",2021,11,"30-34 years",34,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,11,"30-34 years",30,TRUE,2,"Female",5,"prevalence",0.0024664880454794,0.0016995962135046,0.0034211481756814
+356,"India","Ischemic heart disease",2021,11,"30-34 years",30,TRUE,2,"Female",6,"incidence",0.0005206545870045,0.0002978730479166,0.0007616284405199
+356,"India","Ischemic heart disease",2021,11,"30-34 years",30,TRUE,2,"Female",15,"mortality",0.0393262846536258,0.0465672480731427,0.0343590212695279
+356,"India","Ischemic heart disease",2021,11,"30-34 years",30,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,11,"30-34 years",31,TRUE,2,"Female",5,"prevalence",0.0024664880454794,0.0016995962135046,0.0034211481756814
+356,"India","Ischemic heart disease",2021,11,"30-34 years",31,TRUE,2,"Female",6,"incidence",0.0005206545870045,0.0002978730479166,0.0007616284405199
+356,"India","Ischemic heart disease",2021,11,"30-34 years",31,TRUE,2,"Female",15,"mortality",0.0393262846536258,0.0465672480731427,0.0343590212695279
+356,"India","Ischemic heart disease",2021,11,"30-34 years",31,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,11,"30-34 years",32,TRUE,2,"Female",5,"prevalence",0.0024664880454794,0.0016995962135046,0.0034211481756814
+356,"India","Ischemic heart disease",2021,11,"30-34 years",32,TRUE,2,"Female",6,"incidence",0.0005206545870045,0.0002978730479166,0.0007616284405199
+356,"India","Ischemic heart disease",2021,11,"30-34 years",32,TRUE,2,"Female",15,"mortality",0.0393262846536258,0.0465672480731427,0.0343590212695279
+356,"India","Ischemic heart disease",2021,11,"30-34 years",32,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,11,"30-34 years",33,TRUE,2,"Female",5,"prevalence",0.0024664880454794,0.0016995962135046,0.0034211481756814
+356,"India","Ischemic heart disease",2021,11,"30-34 years",33,TRUE,2,"Female",6,"incidence",0.0005206545870045,0.0002978730479166,0.0007616284405199
+356,"India","Ischemic heart disease",2021,11,"30-34 years",33,TRUE,2,"Female",15,"mortality",0.0393262846536258,0.0465672480731427,0.0343590212695279
+356,"India","Ischemic heart disease",2021,11,"30-34 years",33,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,11,"30-34 years",34,TRUE,2,"Female",5,"prevalence",0.0024664880454794,0.0016995962135046,0.0034211481756814
+356,"India","Ischemic heart disease",2021,11,"30-34 years",34,TRUE,2,"Female",6,"incidence",0.0005206545870045,0.0002978730479166,0.0007616284405199
+356,"India","Ischemic heart disease",2021,11,"30-34 years",34,TRUE,2,"Female",15,"mortality",0.0393262846536258,0.0465672480731427,0.0343590212695279
+356,"India","Ischemic heart disease",2021,11,"30-34 years",34,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,12,"35-39 years",35,TRUE,1,"Male",5,"prevalence",0.0075778850303332,0.0054313291064047,0.0102305211295797
+356,"India","Ischemic heart disease",2021,12,"35-39 years",35,TRUE,1,"Male",6,"incidence",0.0015833869254401,0.0008479202203288,0.0024895116607953
+356,"India","Ischemic heart disease",2021,12,"35-39 years",35,TRUE,1,"Male",15,"mortality",0.049117483720169,0.0598320711617696,0.041025746878957
+356,"India","Ischemic heart disease",2021,12,"35-39 years",35,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,12,"35-39 years",36,TRUE,1,"Male",5,"prevalence",0.0075778850303332,0.0054313291064047,0.0102305211295797
+356,"India","Ischemic heart disease",2021,12,"35-39 years",36,TRUE,1,"Male",6,"incidence",0.0015833869254401,0.0008479202203288,0.0024895116607953
+356,"India","Ischemic heart disease",2021,12,"35-39 years",36,TRUE,1,"Male",15,"mortality",0.049117483720169,0.0598320711617696,0.041025746878957
+356,"India","Ischemic heart disease",2021,12,"35-39 years",36,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,12,"35-39 years",37,TRUE,1,"Male",5,"prevalence",0.0075778850303332,0.0054313291064047,0.0102305211295797
+356,"India","Ischemic heart disease",2021,12,"35-39 years",37,TRUE,1,"Male",6,"incidence",0.0015833869254401,0.0008479202203288,0.0024895116607953
+356,"India","Ischemic heart disease",2021,12,"35-39 years",37,TRUE,1,"Male",15,"mortality",0.049117483720169,0.0598320711617696,0.041025746878957
+356,"India","Ischemic heart disease",2021,12,"35-39 years",37,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,12,"35-39 years",38,TRUE,1,"Male",5,"prevalence",0.0075778850303332,0.0054313291064047,0.0102305211295797
+356,"India","Ischemic heart disease",2021,12,"35-39 years",38,TRUE,1,"Male",6,"incidence",0.0015833869254401,0.0008479202203288,0.0024895116607953
+356,"India","Ischemic heart disease",2021,12,"35-39 years",38,TRUE,1,"Male",15,"mortality",0.049117483720169,0.0598320711617696,0.041025746878957
+356,"India","Ischemic heart disease",2021,12,"35-39 years",38,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,12,"35-39 years",39,TRUE,1,"Male",5,"prevalence",0.0075778850303332,0.0054313291064047,0.0102305211295797
+356,"India","Ischemic heart disease",2021,12,"35-39 years",39,TRUE,1,"Male",6,"incidence",0.0015833869254401,0.0008479202203288,0.0024895116607953
+356,"India","Ischemic heart disease",2021,12,"35-39 years",39,TRUE,1,"Male",15,"mortality",0.049117483720169,0.0598320711617696,0.041025746878957
+356,"India","Ischemic heart disease",2021,12,"35-39 years",39,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,12,"35-39 years",35,TRUE,2,"Female",5,"prevalence",0.0055968954630939,0.0040121263002216,0.0075485897752185
+356,"India","Ischemic heart disease",2021,12,"35-39 years",35,TRUE,2,"Female",6,"incidence",0.0009744166491373,0.0005146092860563,0.0015717609861468
+356,"India","Ischemic heart disease",2021,12,"35-39 years",35,TRUE,2,"Female",15,"mortality",0.0258008326302319,0.0298351000248171,0.0231013888023817
+356,"India","Ischemic heart disease",2021,12,"35-39 years",35,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,12,"35-39 years",36,TRUE,2,"Female",5,"prevalence",0.0055968954630939,0.0040121263002216,0.0075485897752185
+356,"India","Ischemic heart disease",2021,12,"35-39 years",36,TRUE,2,"Female",6,"incidence",0.0009744166491373,0.0005146092860563,0.0015717609861468
+356,"India","Ischemic heart disease",2021,12,"35-39 years",36,TRUE,2,"Female",15,"mortality",0.0258008326302319,0.0298351000248171,0.0231013888023817
+356,"India","Ischemic heart disease",2021,12,"35-39 years",36,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,12,"35-39 years",37,TRUE,2,"Female",5,"prevalence",0.0055968954630939,0.0040121263002216,0.0075485897752185
+356,"India","Ischemic heart disease",2021,12,"35-39 years",37,TRUE,2,"Female",6,"incidence",0.0009744166491373,0.0005146092860563,0.0015717609861468
+356,"India","Ischemic heart disease",2021,12,"35-39 years",37,TRUE,2,"Female",15,"mortality",0.0258008326302319,0.0298351000248171,0.0231013888023817
+356,"India","Ischemic heart disease",2021,12,"35-39 years",37,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,12,"35-39 years",38,TRUE,2,"Female",5,"prevalence",0.0055968954630939,0.0040121263002216,0.0075485897752185
+356,"India","Ischemic heart disease",2021,12,"35-39 years",38,TRUE,2,"Female",6,"incidence",0.0009744166491373,0.0005146092860563,0.0015717609861468
+356,"India","Ischemic heart disease",2021,12,"35-39 years",38,TRUE,2,"Female",15,"mortality",0.0258008326302319,0.0298351000248171,0.0231013888023817
+356,"India","Ischemic heart disease",2021,12,"35-39 years",38,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,12,"35-39 years",39,TRUE,2,"Female",5,"prevalence",0.0055968954630939,0.0040121263002216,0.0075485897752185
+356,"India","Ischemic heart disease",2021,12,"35-39 years",39,TRUE,2,"Female",6,"incidence",0.0009744166491373,0.0005146092860563,0.0015717609861468
+356,"India","Ischemic heart disease",2021,12,"35-39 years",39,TRUE,2,"Female",15,"mortality",0.0258008326302319,0.0298351000248171,0.0231013888023817
+356,"India","Ischemic heart disease",2021,12,"35-39 years",39,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,13,"40-44 years",40,TRUE,1,"Male",5,"prevalence",0.0172482523083916,0.0126295362988539,0.0235773108806159
+356,"India","Ischemic heart disease",2021,13,"40-44 years",40,TRUE,1,"Male",6,"incidence",0.0039155362125114,0.0026937620818218,0.0053267413389991
+356,"India","Ischemic heart disease",2021,13,"40-44 years",40,TRUE,1,"Male",15,"mortality",0.0466897817252832,0.0551397563347479,0.0389787903188808
+356,"India","Ischemic heart disease",2021,13,"40-44 years",40,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,13,"40-44 years",41,TRUE,1,"Male",5,"prevalence",0.0172482523083916,0.0126295362988539,0.0235773108806159
+356,"India","Ischemic heart disease",2021,13,"40-44 years",41,TRUE,1,"Male",6,"incidence",0.0039155362125114,0.0026937620818218,0.0053267413389991
+356,"India","Ischemic heart disease",2021,13,"40-44 years",41,TRUE,1,"Male",15,"mortality",0.0466897817252832,0.0551397563347479,0.0389787903188808
+356,"India","Ischemic heart disease",2021,13,"40-44 years",41,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,13,"40-44 years",42,TRUE,1,"Male",5,"prevalence",0.0172482523083916,0.0126295362988539,0.0235773108806159
+356,"India","Ischemic heart disease",2021,13,"40-44 years",42,TRUE,1,"Male",6,"incidence",0.0039155362125114,0.0026937620818218,0.0053267413389991
+356,"India","Ischemic heart disease",2021,13,"40-44 years",42,TRUE,1,"Male",15,"mortality",0.0466897817252832,0.0551397563347479,0.0389787903188808
+356,"India","Ischemic heart disease",2021,13,"40-44 years",42,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,13,"40-44 years",43,TRUE,1,"Male",5,"prevalence",0.0172482523083916,0.0126295362988539,0.0235773108806159
+356,"India","Ischemic heart disease",2021,13,"40-44 years",43,TRUE,1,"Male",6,"incidence",0.0039155362125114,0.0026937620818218,0.0053267413389991
+356,"India","Ischemic heart disease",2021,13,"40-44 years",43,TRUE,1,"Male",15,"mortality",0.0466897817252832,0.0551397563347479,0.0389787903188808
+356,"India","Ischemic heart disease",2021,13,"40-44 years",43,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,13,"40-44 years",44,TRUE,1,"Male",5,"prevalence",0.0172482523083916,0.0126295362988539,0.0235773108806159
+356,"India","Ischemic heart disease",2021,13,"40-44 years",44,TRUE,1,"Male",6,"incidence",0.0039155362125114,0.0026937620818218,0.0053267413389991
+356,"India","Ischemic heart disease",2021,13,"40-44 years",44,TRUE,1,"Male",15,"mortality",0.0466897817252832,0.0551397563347479,0.0389787903188808
+356,"India","Ischemic heart disease",2021,13,"40-44 years",44,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,13,"40-44 years",40,TRUE,2,"Female",5,"prevalence",0.0118179696189521,0.008741236556138,0.0158700104737863
+356,"India","Ischemic heart disease",2021,13,"40-44 years",40,TRUE,2,"Female",6,"incidence",0.0020671167323392,0.001322083012763,0.0029099835522338
+356,"India","Ischemic heart disease",2021,13,"40-44 years",40,TRUE,2,"Female",15,"mortality",0.0253287825374327,0.028566097501681,0.0222692995456456
+356,"India","Ischemic heart disease",2021,13,"40-44 years",40,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,13,"40-44 years",41,TRUE,2,"Female",5,"prevalence",0.0118179696189521,0.008741236556138,0.0158700104737863
+356,"India","Ischemic heart disease",2021,13,"40-44 years",41,TRUE,2,"Female",6,"incidence",0.0020671167323392,0.001322083012763,0.0029099835522338
+356,"India","Ischemic heart disease",2021,13,"40-44 years",41,TRUE,2,"Female",15,"mortality",0.0253287825374327,0.028566097501681,0.0222692995456456
+356,"India","Ischemic heart disease",2021,13,"40-44 years",41,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,13,"40-44 years",42,TRUE,2,"Female",5,"prevalence",0.0118179696189521,0.008741236556138,0.0158700104737863
+356,"India","Ischemic heart disease",2021,13,"40-44 years",42,TRUE,2,"Female",6,"incidence",0.0020671167323392,0.001322083012763,0.0029099835522338
+356,"India","Ischemic heart disease",2021,13,"40-44 years",42,TRUE,2,"Female",15,"mortality",0.0253287825374327,0.028566097501681,0.0222692995456456
+356,"India","Ischemic heart disease",2021,13,"40-44 years",42,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,13,"40-44 years",43,TRUE,2,"Female",5,"prevalence",0.0118179696189521,0.008741236556138,0.0158700104737863
+356,"India","Ischemic heart disease",2021,13,"40-44 years",43,TRUE,2,"Female",6,"incidence",0.0020671167323392,0.001322083012763,0.0029099835522338
+356,"India","Ischemic heart disease",2021,13,"40-44 years",43,TRUE,2,"Female",15,"mortality",0.0253287825374327,0.028566097501681,0.0222692995456456
+356,"India","Ischemic heart disease",2021,13,"40-44 years",43,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,13,"40-44 years",44,TRUE,2,"Female",5,"prevalence",0.0118179696189521,0.008741236556138,0.0158700104737863
+356,"India","Ischemic heart disease",2021,13,"40-44 years",44,TRUE,2,"Female",6,"incidence",0.0020671167323392,0.001322083012763,0.0029099835522338
+356,"India","Ischemic heart disease",2021,13,"40-44 years",44,TRUE,2,"Female",15,"mortality",0.0253287825374327,0.028566097501681,0.0222692995456456
+356,"India","Ischemic heart disease",2021,13,"40-44 years",44,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,14,"45-49 years",45,TRUE,1,"Male",5,"prevalence",0.0384467377251226,0.0287097846623206,0.0506249251402948
+356,"India","Ischemic heart disease",2021,14,"45-49 years",45,TRUE,1,"Male",6,"incidence",0.0077725322417111,0.0049265076305516,0.0116997551458505
+356,"India","Ischemic heart disease",2021,14,"45-49 years",45,TRUE,1,"Male",15,"mortality",0.0329349416453983,0.0377863672246944,0.0289423745956076
+356,"India","Ischemic heart disease",2021,14,"45-49 years",45,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,14,"45-49 years",46,TRUE,1,"Male",5,"prevalence",0.0384467377251226,0.0287097846623206,0.0506249251402948
+356,"India","Ischemic heart disease",2021,14,"45-49 years",46,TRUE,1,"Male",6,"incidence",0.0077725322417111,0.0049265076305516,0.0116997551458505
+356,"India","Ischemic heart disease",2021,14,"45-49 years",46,TRUE,1,"Male",15,"mortality",0.0329349416453983,0.0377863672246944,0.0289423745956076
+356,"India","Ischemic heart disease",2021,14,"45-49 years",46,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,14,"45-49 years",47,TRUE,1,"Male",5,"prevalence",0.0384467377251226,0.0287097846623206,0.0506249251402948
+356,"India","Ischemic heart disease",2021,14,"45-49 years",47,TRUE,1,"Male",6,"incidence",0.0077725322417111,0.0049265076305516,0.0116997551458505
+356,"India","Ischemic heart disease",2021,14,"45-49 years",47,TRUE,1,"Male",15,"mortality",0.0329349416453983,0.0377863672246944,0.0289423745956076
+356,"India","Ischemic heart disease",2021,14,"45-49 years",47,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,14,"45-49 years",48,TRUE,1,"Male",5,"prevalence",0.0384467377251226,0.0287097846623206,0.0506249251402948
+356,"India","Ischemic heart disease",2021,14,"45-49 years",48,TRUE,1,"Male",6,"incidence",0.0077725322417111,0.0049265076305516,0.0116997551458505
+356,"India","Ischemic heart disease",2021,14,"45-49 years",48,TRUE,1,"Male",15,"mortality",0.0329349416453983,0.0377863672246944,0.0289423745956076
+356,"India","Ischemic heart disease",2021,14,"45-49 years",48,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,14,"45-49 years",49,TRUE,1,"Male",5,"prevalence",0.0384467377251226,0.0287097846623206,0.0506249251402948
+356,"India","Ischemic heart disease",2021,14,"45-49 years",49,TRUE,1,"Male",6,"incidence",0.0077725322417111,0.0049265076305516,0.0116997551458505
+356,"India","Ischemic heart disease",2021,14,"45-49 years",49,TRUE,1,"Male",15,"mortality",0.0329349416453983,0.0377863672246944,0.0289423745956076
+356,"India","Ischemic heart disease",2021,14,"45-49 years",49,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,14,"45-49 years",45,TRUE,2,"Female",5,"prevalence",0.0244802302610167,0.0185446195082946,0.0320473686939293
+356,"India","Ischemic heart disease",2021,14,"45-49 years",45,TRUE,2,"Female",6,"incidence",0.0038024276418963,0.0022510087090832,0.0060239156315315
+356,"India","Ischemic heart disease",2021,14,"45-49 years",45,TRUE,2,"Female",15,"mortality",0.0227956715678034,0.025530387646022,0.0203717942043682
+356,"India","Ischemic heart disease",2021,14,"45-49 years",45,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,14,"45-49 years",46,TRUE,2,"Female",5,"prevalence",0.0244802302610167,0.0185446195082946,0.0320473686939293
+356,"India","Ischemic heart disease",2021,14,"45-49 years",46,TRUE,2,"Female",6,"incidence",0.0038024276418963,0.0022510087090832,0.0060239156315315
+356,"India","Ischemic heart disease",2021,14,"45-49 years",46,TRUE,2,"Female",15,"mortality",0.0227956715678034,0.025530387646022,0.0203717942043682
+356,"India","Ischemic heart disease",2021,14,"45-49 years",46,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,14,"45-49 years",47,TRUE,2,"Female",5,"prevalence",0.0244802302610167,0.0185446195082946,0.0320473686939293
+356,"India","Ischemic heart disease",2021,14,"45-49 years",47,TRUE,2,"Female",6,"incidence",0.0038024276418963,0.0022510087090832,0.0060239156315315
+356,"India","Ischemic heart disease",2021,14,"45-49 years",47,TRUE,2,"Female",15,"mortality",0.0227956715678034,0.025530387646022,0.0203717942043682
+356,"India","Ischemic heart disease",2021,14,"45-49 years",47,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,14,"45-49 years",48,TRUE,2,"Female",5,"prevalence",0.0244802302610167,0.0185446195082946,0.0320473686939293
+356,"India","Ischemic heart disease",2021,14,"45-49 years",48,TRUE,2,"Female",6,"incidence",0.0038024276418963,0.0022510087090832,0.0060239156315315
+356,"India","Ischemic heart disease",2021,14,"45-49 years",48,TRUE,2,"Female",15,"mortality",0.0227956715678034,0.025530387646022,0.0203717942043682
+356,"India","Ischemic heart disease",2021,14,"45-49 years",48,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,14,"45-49 years",49,TRUE,2,"Female",5,"prevalence",0.0244802302610167,0.0185446195082946,0.0320473686939293
+356,"India","Ischemic heart disease",2021,14,"45-49 years",49,TRUE,2,"Female",6,"incidence",0.0038024276418963,0.0022510087090832,0.0060239156315315
+356,"India","Ischemic heart disease",2021,14,"45-49 years",49,TRUE,2,"Female",15,"mortality",0.0227956715678034,0.025530387646022,0.0203717942043682
+356,"India","Ischemic heart disease",2021,14,"45-49 years",49,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,15,"50-54 years",50,TRUE,1,"Male",5,"prevalence",0.0749104705314145,0.0529480094061128,0.101752428475249
+356,"India","Ischemic heart disease",2021,15,"50-54 years",50,TRUE,1,"Male",6,"incidence",0.0130227733090576,0.0092171002936291,0.0179530844759869
+356,"India","Ischemic heart disease",2021,15,"50-54 years",50,TRUE,1,"Male",15,"mortality",0.0296537654987254,0.0358301413503942,0.0252945513859431
+356,"India","Ischemic heart disease",2021,15,"50-54 years",50,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,15,"50-54 years",51,TRUE,1,"Male",5,"prevalence",0.0749104705314145,0.0529480094061128,0.101752428475249
+356,"India","Ischemic heart disease",2021,15,"50-54 years",51,TRUE,1,"Male",6,"incidence",0.0130227733090576,0.0092171002936291,0.0179530844759869
+356,"India","Ischemic heart disease",2021,15,"50-54 years",51,TRUE,1,"Male",15,"mortality",0.0296537654987254,0.0358301413503942,0.0252945513859431
+356,"India","Ischemic heart disease",2021,15,"50-54 years",51,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,15,"50-54 years",52,TRUE,1,"Male",5,"prevalence",0.0749104705314145,0.0529480094061128,0.101752428475249
+356,"India","Ischemic heart disease",2021,15,"50-54 years",52,TRUE,1,"Male",6,"incidence",0.0130227733090576,0.0092171002936291,0.0179530844759869
+356,"India","Ischemic heart disease",2021,15,"50-54 years",52,TRUE,1,"Male",15,"mortality",0.0296537654987254,0.0358301413503942,0.0252945513859431
+356,"India","Ischemic heart disease",2021,15,"50-54 years",52,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,15,"50-54 years",53,TRUE,1,"Male",5,"prevalence",0.0749104705314145,0.0529480094061128,0.101752428475249
+356,"India","Ischemic heart disease",2021,15,"50-54 years",53,TRUE,1,"Male",6,"incidence",0.0130227733090576,0.0092171002936291,0.0179530844759869
+356,"India","Ischemic heart disease",2021,15,"50-54 years",53,TRUE,1,"Male",15,"mortality",0.0296537654987254,0.0358301413503942,0.0252945513859431
+356,"India","Ischemic heart disease",2021,15,"50-54 years",53,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,15,"50-54 years",54,TRUE,1,"Male",5,"prevalence",0.0749104705314145,0.0529480094061128,0.101752428475249
+356,"India","Ischemic heart disease",2021,15,"50-54 years",54,TRUE,1,"Male",6,"incidence",0.0130227733090576,0.0092171002936291,0.0179530844759869
+356,"India","Ischemic heart disease",2021,15,"50-54 years",54,TRUE,1,"Male",15,"mortality",0.0296537654987254,0.0358301413503942,0.0252945513859431
+356,"India","Ischemic heart disease",2021,15,"50-54 years",54,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,15,"50-54 years",50,TRUE,2,"Female",5,"prevalence",0.0465473469866938,0.0338055096126392,0.0625642700759649
+356,"India","Ischemic heart disease",2021,15,"50-54 years",50,TRUE,2,"Female",6,"incidence",0.0067801753048438,0.0046822983609448,0.0095146179504437
+356,"India","Ischemic heart disease",2021,15,"50-54 years",50,TRUE,2,"Female",15,"mortality",0.0180371414036958,0.020804600655673,0.0158386529143006
+356,"India","Ischemic heart disease",2021,15,"50-54 years",50,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,15,"50-54 years",51,TRUE,2,"Female",5,"prevalence",0.0465473469866938,0.0338055096126392,0.0625642700759649
+356,"India","Ischemic heart disease",2021,15,"50-54 years",51,TRUE,2,"Female",6,"incidence",0.0067801753048438,0.0046822983609448,0.0095146179504437
+356,"India","Ischemic heart disease",2021,15,"50-54 years",51,TRUE,2,"Female",15,"mortality",0.0180371414036958,0.020804600655673,0.0158386529143006
+356,"India","Ischemic heart disease",2021,15,"50-54 years",51,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,15,"50-54 years",52,TRUE,2,"Female",5,"prevalence",0.0465473469866938,0.0338055096126392,0.0625642700759649
+356,"India","Ischemic heart disease",2021,15,"50-54 years",52,TRUE,2,"Female",6,"incidence",0.0067801753048438,0.0046822983609448,0.0095146179504437
+356,"India","Ischemic heart disease",2021,15,"50-54 years",52,TRUE,2,"Female",15,"mortality",0.0180371414036958,0.020804600655673,0.0158386529143006
+356,"India","Ischemic heart disease",2021,15,"50-54 years",52,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,15,"50-54 years",53,TRUE,2,"Female",5,"prevalence",0.0465473469866938,0.0338055096126392,0.0625642700759649
+356,"India","Ischemic heart disease",2021,15,"50-54 years",53,TRUE,2,"Female",6,"incidence",0.0067801753048438,0.0046822983609448,0.0095146179504437
+356,"India","Ischemic heart disease",2021,15,"50-54 years",53,TRUE,2,"Female",15,"mortality",0.0180371414036958,0.020804600655673,0.0158386529143006
+356,"India","Ischemic heart disease",2021,15,"50-54 years",53,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,15,"50-54 years",54,TRUE,2,"Female",5,"prevalence",0.0465473469866938,0.0338055096126392,0.0625642700759649
+356,"India","Ischemic heart disease",2021,15,"50-54 years",54,TRUE,2,"Female",6,"incidence",0.0067801753048438,0.0046822983609448,0.0095146179504437
+356,"India","Ischemic heart disease",2021,15,"50-54 years",54,TRUE,2,"Female",15,"mortality",0.0180371414036958,0.020804600655673,0.0158386529143006
+356,"India","Ischemic heart disease",2021,15,"50-54 years",54,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,16,"55-59 years",55,TRUE,1,"Male",5,"prevalence",0.125646637122031,0.0944175713092842,0.161188677946481
+356,"India","Ischemic heart disease",2021,16,"55-59 years",55,TRUE,1,"Male",6,"incidence",0.019664859862235,0.0123456061000938,0.0292455433696468
+356,"India","Ischemic heart disease",2021,16,"55-59 years",55,TRUE,1,"Male",15,"mortality",0.0290033411238641,0.0332439923655208,0.026291084646927
+356,"India","Ischemic heart disease",2021,16,"55-59 years",55,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,16,"55-59 years",56,TRUE,1,"Male",5,"prevalence",0.125646637122031,0.0944175713092842,0.161188677946481
+356,"India","Ischemic heart disease",2021,16,"55-59 years",56,TRUE,1,"Male",6,"incidence",0.019664859862235,0.0123456061000938,0.0292455433696468
+356,"India","Ischemic heart disease",2021,16,"55-59 years",56,TRUE,1,"Male",15,"mortality",0.0290033411238641,0.0332439923655208,0.026291084646927
+356,"India","Ischemic heart disease",2021,16,"55-59 years",56,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,16,"55-59 years",57,TRUE,1,"Male",5,"prevalence",0.125646637122031,0.0944175713092842,0.161188677946481
+356,"India","Ischemic heart disease",2021,16,"55-59 years",57,TRUE,1,"Male",6,"incidence",0.019664859862235,0.0123456061000938,0.0292455433696468
+356,"India","Ischemic heart disease",2021,16,"55-59 years",57,TRUE,1,"Male",15,"mortality",0.0290033411238641,0.0332439923655208,0.026291084646927
+356,"India","Ischemic heart disease",2021,16,"55-59 years",57,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,16,"55-59 years",58,TRUE,1,"Male",5,"prevalence",0.125646637122031,0.0944175713092842,0.161188677946481
+356,"India","Ischemic heart disease",2021,16,"55-59 years",58,TRUE,1,"Male",6,"incidence",0.019664859862235,0.0123456061000938,0.0292455433696468
+356,"India","Ischemic heart disease",2021,16,"55-59 years",58,TRUE,1,"Male",15,"mortality",0.0290033411238641,0.0332439923655208,0.026291084646927
+356,"India","Ischemic heart disease",2021,16,"55-59 years",58,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,16,"55-59 years",59,TRUE,1,"Male",5,"prevalence",0.125646637122031,0.0944175713092842,0.161188677946481
+356,"India","Ischemic heart disease",2021,16,"55-59 years",59,TRUE,1,"Male",6,"incidence",0.019664859862235,0.0123456061000938,0.0292455433696468
+356,"India","Ischemic heart disease",2021,16,"55-59 years",59,TRUE,1,"Male",15,"mortality",0.0290033411238641,0.0332439923655208,0.026291084646927
+356,"India","Ischemic heart disease",2021,16,"55-59 years",59,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,16,"55-59 years",55,TRUE,2,"Female",5,"prevalence",0.0798228367225421,0.0604341803604951,0.103745303286428
+356,"India","Ischemic heart disease",2021,16,"55-59 years",55,TRUE,2,"Female",6,"incidence",0.0110072377204191,0.0065620925866104,0.016753401090134
+356,"India","Ischemic heart disease",2021,16,"55-59 years",55,TRUE,2,"Female",15,"mortality",0.0250409475033722,0.0283269619557427,0.0224598491532546
+356,"India","Ischemic heart disease",2021,16,"55-59 years",55,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,16,"55-59 years",56,TRUE,2,"Female",5,"prevalence",0.0798228367225421,0.0604341803604951,0.103745303286428
+356,"India","Ischemic heart disease",2021,16,"55-59 years",56,TRUE,2,"Female",6,"incidence",0.0110072377204191,0.0065620925866104,0.016753401090134
+356,"India","Ischemic heart disease",2021,16,"55-59 years",56,TRUE,2,"Female",15,"mortality",0.0250409475033722,0.0283269619557427,0.0224598491532546
+356,"India","Ischemic heart disease",2021,16,"55-59 years",56,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,16,"55-59 years",57,TRUE,2,"Female",5,"prevalence",0.0798228367225421,0.0604341803604951,0.103745303286428
+356,"India","Ischemic heart disease",2021,16,"55-59 years",57,TRUE,2,"Female",6,"incidence",0.0110072377204191,0.0065620925866104,0.016753401090134
+356,"India","Ischemic heart disease",2021,16,"55-59 years",57,TRUE,2,"Female",15,"mortality",0.0250409475033722,0.0283269619557427,0.0224598491532546
+356,"India","Ischemic heart disease",2021,16,"55-59 years",57,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,16,"55-59 years",58,TRUE,2,"Female",5,"prevalence",0.0798228367225421,0.0604341803604951,0.103745303286428
+356,"India","Ischemic heart disease",2021,16,"55-59 years",58,TRUE,2,"Female",6,"incidence",0.0110072377204191,0.0065620925866104,0.016753401090134
+356,"India","Ischemic heart disease",2021,16,"55-59 years",58,TRUE,2,"Female",15,"mortality",0.0250409475033722,0.0283269619557427,0.0224598491532546
+356,"India","Ischemic heart disease",2021,16,"55-59 years",58,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,16,"55-59 years",59,TRUE,2,"Female",5,"prevalence",0.0798228367225421,0.0604341803604951,0.103745303286428
+356,"India","Ischemic heart disease",2021,16,"55-59 years",59,TRUE,2,"Female",6,"incidence",0.0110072377204191,0.0065620925866104,0.016753401090134
+356,"India","Ischemic heart disease",2021,16,"55-59 years",59,TRUE,2,"Female",15,"mortality",0.0250409475033722,0.0283269619557427,0.0224598491532546
+356,"India","Ischemic heart disease",2021,16,"55-59 years",59,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,17,"60-64 years",60,TRUE,1,"Male",5,"prevalence",0.188686137101366,0.142790295667118,0.238970019518954
+356,"India","Ischemic heart disease",2021,17,"60-64 years",60,TRUE,1,"Male",6,"incidence",0.0256049950687783,0.0169268014772919,0.0360608802406619
+356,"India","Ischemic heart disease",2021,17,"60-64 years",60,TRUE,1,"Male",15,"mortality",0.0268186667242543,0.0305520197305434,0.0245713633692647
+356,"India","Ischemic heart disease",2021,17,"60-64 years",60,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,17,"60-64 years",61,TRUE,1,"Male",5,"prevalence",0.188686137101366,0.142790295667118,0.238970019518954
+356,"India","Ischemic heart disease",2021,17,"60-64 years",61,TRUE,1,"Male",6,"incidence",0.0256049950687783,0.0169268014772919,0.0360608802406619
+356,"India","Ischemic heart disease",2021,17,"60-64 years",61,TRUE,1,"Male",15,"mortality",0.0268186667242543,0.0305520197305434,0.0245713633692647
+356,"India","Ischemic heart disease",2021,17,"60-64 years",61,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,17,"60-64 years",62,TRUE,1,"Male",5,"prevalence",0.188686137101366,0.142790295667118,0.238970019518954
+356,"India","Ischemic heart disease",2021,17,"60-64 years",62,TRUE,1,"Male",6,"incidence",0.0256049950687783,0.0169268014772919,0.0360608802406619
+356,"India","Ischemic heart disease",2021,17,"60-64 years",62,TRUE,1,"Male",15,"mortality",0.0268186667242543,0.0305520197305434,0.0245713633692647
+356,"India","Ischemic heart disease",2021,17,"60-64 years",62,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,17,"60-64 years",63,TRUE,1,"Male",5,"prevalence",0.188686137101366,0.142790295667118,0.238970019518954
+356,"India","Ischemic heart disease",2021,17,"60-64 years",63,TRUE,1,"Male",6,"incidence",0.0256049950687783,0.0169268014772919,0.0360608802406619
+356,"India","Ischemic heart disease",2021,17,"60-64 years",63,TRUE,1,"Male",15,"mortality",0.0268186667242543,0.0305520197305434,0.0245713633692647
+356,"India","Ischemic heart disease",2021,17,"60-64 years",63,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,17,"60-64 years",64,TRUE,1,"Male",5,"prevalence",0.188686137101366,0.142790295667118,0.238970019518954
+356,"India","Ischemic heart disease",2021,17,"60-64 years",64,TRUE,1,"Male",6,"incidence",0.0256049950687783,0.0169268014772919,0.0360608802406619
+356,"India","Ischemic heart disease",2021,17,"60-64 years",64,TRUE,1,"Male",15,"mortality",0.0268186667242543,0.0305520197305434,0.0245713633692647
+356,"India","Ischemic heart disease",2021,17,"60-64 years",64,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,17,"60-64 years",60,TRUE,2,"Female",5,"prevalence",0.123862179432676,0.09368432163165,0.15806731937351
+356,"India","Ischemic heart disease",2021,17,"60-64 years",60,TRUE,2,"Female",6,"incidence",0.0156254438879248,0.0102703560867899,0.0219765808457302
+356,"India","Ischemic heart disease",2021,17,"60-64 years",60,TRUE,2,"Female",15,"mortality",0.0205241601527895,0.0236149165245977,0.0184236626594018
+356,"India","Ischemic heart disease",2021,17,"60-64 years",60,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,17,"60-64 years",61,TRUE,2,"Female",5,"prevalence",0.123862179432676,0.09368432163165,0.15806731937351
+356,"India","Ischemic heart disease",2021,17,"60-64 years",61,TRUE,2,"Female",6,"incidence",0.0156254438879248,0.0102703560867899,0.0219765808457302
+356,"India","Ischemic heart disease",2021,17,"60-64 years",61,TRUE,2,"Female",15,"mortality",0.0205241601527895,0.0236149165245977,0.0184236626594018
+356,"India","Ischemic heart disease",2021,17,"60-64 years",61,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,17,"60-64 years",62,TRUE,2,"Female",5,"prevalence",0.123862179432676,0.09368432163165,0.15806731937351
+356,"India","Ischemic heart disease",2021,17,"60-64 years",62,TRUE,2,"Female",6,"incidence",0.0156254438879248,0.0102703560867899,0.0219765808457302
+356,"India","Ischemic heart disease",2021,17,"60-64 years",62,TRUE,2,"Female",15,"mortality",0.0205241601527895,0.0236149165245977,0.0184236626594018
+356,"India","Ischemic heart disease",2021,17,"60-64 years",62,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,17,"60-64 years",63,TRUE,2,"Female",5,"prevalence",0.123862179432676,0.09368432163165,0.15806731937351
+356,"India","Ischemic heart disease",2021,17,"60-64 years",63,TRUE,2,"Female",6,"incidence",0.0156254438879248,0.0102703560867899,0.0219765808457302
+356,"India","Ischemic heart disease",2021,17,"60-64 years",63,TRUE,2,"Female",15,"mortality",0.0205241601527895,0.0236149165245977,0.0184236626594018
+356,"India","Ischemic heart disease",2021,17,"60-64 years",63,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,17,"60-64 years",64,TRUE,2,"Female",5,"prevalence",0.123862179432676,0.09368432163165,0.15806731937351
+356,"India","Ischemic heart disease",2021,17,"60-64 years",64,TRUE,2,"Female",6,"incidence",0.0156254438879248,0.0102703560867899,0.0219765808457302
+356,"India","Ischemic heart disease",2021,17,"60-64 years",64,TRUE,2,"Female",15,"mortality",0.0205241601527895,0.0236149165245977,0.0184236626594018
+356,"India","Ischemic heart disease",2021,17,"60-64 years",64,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,18,"65-69 years",65,TRUE,1,"Male",5,"prevalence",0.284279208617002,0.222763626059084,0.355447536045931
+356,"India","Ischemic heart disease",2021,18,"65-69 years",65,TRUE,1,"Male",6,"incidence",0.030809333822814,0.0181320046934541,0.0472341351813901
+356,"India","Ischemic heart disease",2021,18,"65-69 years",65,TRUE,1,"Male",15,"mortality",0.0258107287794069,0.0286421728386583,0.0237323317855802
+356,"India","Ischemic heart disease",2021,18,"65-69 years",65,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,18,"65-69 years",66,TRUE,1,"Male",5,"prevalence",0.284279208617002,0.222763626059084,0.355447536045931
+356,"India","Ischemic heart disease",2021,18,"65-69 years",66,TRUE,1,"Male",6,"incidence",0.030809333822814,0.0181320046934541,0.0472341351813901
+356,"India","Ischemic heart disease",2021,18,"65-69 years",66,TRUE,1,"Male",15,"mortality",0.0258107287794069,0.0286421728386583,0.0237323317855802
+356,"India","Ischemic heart disease",2021,18,"65-69 years",66,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,18,"65-69 years",67,TRUE,1,"Male",5,"prevalence",0.284279208617002,0.222763626059084,0.355447536045931
+356,"India","Ischemic heart disease",2021,18,"65-69 years",67,TRUE,1,"Male",6,"incidence",0.030809333822814,0.0181320046934541,0.0472341351813901
+356,"India","Ischemic heart disease",2021,18,"65-69 years",67,TRUE,1,"Male",15,"mortality",0.0258107287794069,0.0286421728386583,0.0237323317855802
+356,"India","Ischemic heart disease",2021,18,"65-69 years",67,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,18,"65-69 years",68,TRUE,1,"Male",5,"prevalence",0.284279208617002,0.222763626059084,0.355447536045931
+356,"India","Ischemic heart disease",2021,18,"65-69 years",68,TRUE,1,"Male",6,"incidence",0.030809333822814,0.0181320046934541,0.0472341351813901
+356,"India","Ischemic heart disease",2021,18,"65-69 years",68,TRUE,1,"Male",15,"mortality",0.0258107287794069,0.0286421728386583,0.0237323317855802
+356,"India","Ischemic heart disease",2021,18,"65-69 years",68,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,18,"65-69 years",69,TRUE,1,"Male",5,"prevalence",0.284279208617002,0.222763626059084,0.355447536045931
+356,"India","Ischemic heart disease",2021,18,"65-69 years",69,TRUE,1,"Male",6,"incidence",0.030809333822814,0.0181320046934541,0.0472341351813901
+356,"India","Ischemic heart disease",2021,18,"65-69 years",69,TRUE,1,"Male",15,"mortality",0.0258107287794069,0.0286421728386583,0.0237323317855802
+356,"India","Ischemic heart disease",2021,18,"65-69 years",69,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,18,"65-69 years",65,TRUE,2,"Female",5,"prevalence",0.192009127977933,0.148853298745178,0.243549431438408
+356,"India","Ischemic heart disease",2021,18,"65-69 years",65,TRUE,2,"Female",6,"incidence",0.0205714162567565,0.0121832650586557,0.031888047771743
+356,"India","Ischemic heart disease",2021,18,"65-69 years",65,TRUE,2,"Female",15,"mortality",0.0227460499127508,0.0257858297453526,0.0202926585844859
+356,"India","Ischemic heart disease",2021,18,"65-69 years",65,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,18,"65-69 years",66,TRUE,2,"Female",5,"prevalence",0.192009127977933,0.148853298745178,0.243549431438408
+356,"India","Ischemic heart disease",2021,18,"65-69 years",66,TRUE,2,"Female",6,"incidence",0.0205714162567565,0.0121832650586557,0.031888047771743
+356,"India","Ischemic heart disease",2021,18,"65-69 years",66,TRUE,2,"Female",15,"mortality",0.0227460499127508,0.0257858297453526,0.0202926585844859
+356,"India","Ischemic heart disease",2021,18,"65-69 years",66,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,18,"65-69 years",67,TRUE,2,"Female",5,"prevalence",0.192009127977933,0.148853298745178,0.243549431438408
+356,"India","Ischemic heart disease",2021,18,"65-69 years",67,TRUE,2,"Female",6,"incidence",0.0205714162567565,0.0121832650586557,0.031888047771743
+356,"India","Ischemic heart disease",2021,18,"65-69 years",67,TRUE,2,"Female",15,"mortality",0.0227460499127508,0.0257858297453526,0.0202926585844859
+356,"India","Ischemic heart disease",2021,18,"65-69 years",67,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,18,"65-69 years",68,TRUE,2,"Female",5,"prevalence",0.192009127977933,0.148853298745178,0.243549431438408
+356,"India","Ischemic heart disease",2021,18,"65-69 years",68,TRUE,2,"Female",6,"incidence",0.0205714162567565,0.0121832650586557,0.031888047771743
+356,"India","Ischemic heart disease",2021,18,"65-69 years",68,TRUE,2,"Female",15,"mortality",0.0227460499127508,0.0257858297453526,0.0202926585844859
+356,"India","Ischemic heart disease",2021,18,"65-69 years",68,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,18,"65-69 years",69,TRUE,2,"Female",5,"prevalence",0.192009127977933,0.148853298745178,0.243549431438408
+356,"India","Ischemic heart disease",2021,18,"65-69 years",69,TRUE,2,"Female",6,"incidence",0.0205714162567565,0.0121832650586557,0.031888047771743
+356,"India","Ischemic heart disease",2021,18,"65-69 years",69,TRUE,2,"Female",15,"mortality",0.0227460499127508,0.0257858297453526,0.0202926585844859
+356,"India","Ischemic heart disease",2021,18,"65-69 years",69,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,19,"70-74 years",70,TRUE,1,"Male",5,"prevalence",0.360938386301193,0.288271102315977,0.44758715935673
+356,"India","Ischemic heart disease",2021,19,"70-74 years",70,TRUE,1,"Male",6,"incidence",0.0374172590719023,0.0245062006494154,0.0542913112107289
+356,"India","Ischemic heart disease",2021,19,"70-74 years",70,TRUE,1,"Male",15,"mortality",0.0301749527911156,0.0328738465538047,0.0278086963897971
+356,"India","Ischemic heart disease",2021,19,"70-74 years",70,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,19,"70-74 years",71,TRUE,1,"Male",5,"prevalence",0.360938386301193,0.288271102315977,0.44758715935673
+356,"India","Ischemic heart disease",2021,19,"70-74 years",71,TRUE,1,"Male",6,"incidence",0.0374172590719023,0.0245062006494154,0.0542913112107289
+356,"India","Ischemic heart disease",2021,19,"70-74 years",71,TRUE,1,"Male",15,"mortality",0.0301749527911156,0.0328738465538047,0.0278086963897971
+356,"India","Ischemic heart disease",2021,19,"70-74 years",71,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,19,"70-74 years",72,TRUE,1,"Male",5,"prevalence",0.360938386301193,0.288271102315977,0.44758715935673
+356,"India","Ischemic heart disease",2021,19,"70-74 years",72,TRUE,1,"Male",6,"incidence",0.0374172590719023,0.0245062006494154,0.0542913112107289
+356,"India","Ischemic heart disease",2021,19,"70-74 years",72,TRUE,1,"Male",15,"mortality",0.0301749527911156,0.0328738465538047,0.0278086963897971
+356,"India","Ischemic heart disease",2021,19,"70-74 years",72,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,19,"70-74 years",73,TRUE,1,"Male",5,"prevalence",0.360938386301193,0.288271102315977,0.44758715935673
+356,"India","Ischemic heart disease",2021,19,"70-74 years",73,TRUE,1,"Male",6,"incidence",0.0374172590719023,0.0245062006494154,0.0542913112107289
+356,"India","Ischemic heart disease",2021,19,"70-74 years",73,TRUE,1,"Male",15,"mortality",0.0301749527911156,0.0328738465538047,0.0278086963897971
+356,"India","Ischemic heart disease",2021,19,"70-74 years",73,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,19,"70-74 years",74,TRUE,1,"Male",5,"prevalence",0.360938386301193,0.288271102315977,0.44758715935673
+356,"India","Ischemic heart disease",2021,19,"70-74 years",74,TRUE,1,"Male",6,"incidence",0.0374172590719023,0.0245062006494154,0.0542913112107289
+356,"India","Ischemic heart disease",2021,19,"70-74 years",74,TRUE,1,"Male",15,"mortality",0.0301749527911156,0.0328738465538047,0.0278086963897971
+356,"India","Ischemic heart disease",2021,19,"70-74 years",74,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,19,"70-74 years",70,TRUE,2,"Female",5,"prevalence",0.250071716806081,0.195502322089633,0.317398926254403
+356,"India","Ischemic heart disease",2021,19,"70-74 years",70,TRUE,2,"Female",6,"incidence",0.0266620206545075,0.0177322059463345,0.0381955984516104
+356,"India","Ischemic heart disease",2021,19,"70-74 years",70,TRUE,2,"Female",15,"mortality",0.0257899735776995,0.0287006522931843,0.0230831343264116
+356,"India","Ischemic heart disease",2021,19,"70-74 years",70,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,19,"70-74 years",71,TRUE,2,"Female",5,"prevalence",0.250071716806081,0.195502322089633,0.317398926254403
+356,"India","Ischemic heart disease",2021,19,"70-74 years",71,TRUE,2,"Female",6,"incidence",0.0266620206545075,0.0177322059463345,0.0381955984516104
+356,"India","Ischemic heart disease",2021,19,"70-74 years",71,TRUE,2,"Female",15,"mortality",0.0257899735776995,0.0287006522931843,0.0230831343264116
+356,"India","Ischemic heart disease",2021,19,"70-74 years",71,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,19,"70-74 years",72,TRUE,2,"Female",5,"prevalence",0.250071716806081,0.195502322089633,0.317398926254403
+356,"India","Ischemic heart disease",2021,19,"70-74 years",72,TRUE,2,"Female",6,"incidence",0.0266620206545075,0.0177322059463345,0.0381955984516104
+356,"India","Ischemic heart disease",2021,19,"70-74 years",72,TRUE,2,"Female",15,"mortality",0.0257899735776995,0.0287006522931843,0.0230831343264116
+356,"India","Ischemic heart disease",2021,19,"70-74 years",72,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,19,"70-74 years",73,TRUE,2,"Female",5,"prevalence",0.250071716806081,0.195502322089633,0.317398926254403
+356,"India","Ischemic heart disease",2021,19,"70-74 years",73,TRUE,2,"Female",6,"incidence",0.0266620206545075,0.0177322059463345,0.0381955984516104
+356,"India","Ischemic heart disease",2021,19,"70-74 years",73,TRUE,2,"Female",15,"mortality",0.0257899735776995,0.0287006522931843,0.0230831343264116
+356,"India","Ischemic heart disease",2021,19,"70-74 years",73,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,19,"70-74 years",74,TRUE,2,"Female",5,"prevalence",0.250071716806081,0.195502322089633,0.317398926254403
+356,"India","Ischemic heart disease",2021,19,"70-74 years",74,TRUE,2,"Female",6,"incidence",0.0266620206545075,0.0177322059463345,0.0381955984516104
+356,"India","Ischemic heart disease",2021,19,"70-74 years",74,TRUE,2,"Female",15,"mortality",0.0257899735776995,0.0287006522931843,0.0230831343264116
+356,"India","Ischemic heart disease",2021,19,"70-74 years",74,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,20,"75-79 years",75,TRUE,1,"Male",5,"prevalence",0.429105845838396,0.342097811993678,0.522302404510756
+356,"India","Ischemic heart disease",2021,20,"75-79 years",75,TRUE,1,"Male",6,"incidence",0.0454702621318556,0.0293155283274542,0.0669286091702282
+356,"India","Ischemic heart disease",2021,20,"75-79 years",75,TRUE,1,"Male",15,"mortality",0.0353261726036575,0.0389098053338934,0.0328531497979283
+356,"India","Ischemic heart disease",2021,20,"75-79 years",75,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,20,"75-79 years",76,TRUE,1,"Male",5,"prevalence",0.429105845838396,0.342097811993678,0.522302404510756
+356,"India","Ischemic heart disease",2021,20,"75-79 years",76,TRUE,1,"Male",6,"incidence",0.0454702621318556,0.0293155283274542,0.0669286091702282
+356,"India","Ischemic heart disease",2021,20,"75-79 years",76,TRUE,1,"Male",15,"mortality",0.0353261726036575,0.0389098053338934,0.0328531497979283
+356,"India","Ischemic heart disease",2021,20,"75-79 years",76,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,20,"75-79 years",77,TRUE,1,"Male",5,"prevalence",0.429105845838396,0.342097811993678,0.522302404510756
+356,"India","Ischemic heart disease",2021,20,"75-79 years",77,TRUE,1,"Male",6,"incidence",0.0454702621318556,0.0293155283274542,0.0669286091702282
+356,"India","Ischemic heart disease",2021,20,"75-79 years",77,TRUE,1,"Male",15,"mortality",0.0353261726036575,0.0389098053338934,0.0328531497979283
+356,"India","Ischemic heart disease",2021,20,"75-79 years",77,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,20,"75-79 years",78,TRUE,1,"Male",5,"prevalence",0.429105845838396,0.342097811993678,0.522302404510756
+356,"India","Ischemic heart disease",2021,20,"75-79 years",78,TRUE,1,"Male",6,"incidence",0.0454702621318556,0.0293155283274542,0.0669286091702282
+356,"India","Ischemic heart disease",2021,20,"75-79 years",78,TRUE,1,"Male",15,"mortality",0.0353261726036575,0.0389098053338934,0.0328531497979283
+356,"India","Ischemic heart disease",2021,20,"75-79 years",78,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,20,"75-79 years",79,TRUE,1,"Male",5,"prevalence",0.429105845838396,0.342097811993678,0.522302404510756
+356,"India","Ischemic heart disease",2021,20,"75-79 years",79,TRUE,1,"Male",6,"incidence",0.0454702621318556,0.0293155283274542,0.0669286091702282
+356,"India","Ischemic heart disease",2021,20,"75-79 years",79,TRUE,1,"Male",15,"mortality",0.0353261726036575,0.0389098053338934,0.0328531497979283
+356,"India","Ischemic heart disease",2021,20,"75-79 years",79,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,20,"75-79 years",75,TRUE,2,"Female",5,"prevalence",0.305017427135691,0.23763881333902,0.382949746508299
+356,"India","Ischemic heart disease",2021,20,"75-79 years",75,TRUE,2,"Female",6,"incidence",0.0339502745296611,0.0216021430207383,0.0501184129084838
+356,"India","Ischemic heart disease",2021,20,"75-79 years",75,TRUE,2,"Female",15,"mortality",0.0321505539296768,0.0356096541357659,0.0288893083528822
+356,"India","Ischemic heart disease",2021,20,"75-79 years",75,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,20,"75-79 years",76,TRUE,2,"Female",5,"prevalence",0.305017427135691,0.23763881333902,0.382949746508299
+356,"India","Ischemic heart disease",2021,20,"75-79 years",76,TRUE,2,"Female",6,"incidence",0.0339502745296611,0.0216021430207383,0.0501184129084838
+356,"India","Ischemic heart disease",2021,20,"75-79 years",76,TRUE,2,"Female",15,"mortality",0.0321505539296768,0.0356096541357659,0.0288893083528822
+356,"India","Ischemic heart disease",2021,20,"75-79 years",76,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,20,"75-79 years",77,TRUE,2,"Female",5,"prevalence",0.305017427135691,0.23763881333902,0.382949746508299
+356,"India","Ischemic heart disease",2021,20,"75-79 years",77,TRUE,2,"Female",6,"incidence",0.0339502745296611,0.0216021430207383,0.0501184129084838
+356,"India","Ischemic heart disease",2021,20,"75-79 years",77,TRUE,2,"Female",15,"mortality",0.0321505539296768,0.0356096541357659,0.0288893083528822
+356,"India","Ischemic heart disease",2021,20,"75-79 years",77,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,20,"75-79 years",78,TRUE,2,"Female",5,"prevalence",0.305017427135691,0.23763881333902,0.382949746508299
+356,"India","Ischemic heart disease",2021,20,"75-79 years",78,TRUE,2,"Female",6,"incidence",0.0339502745296611,0.0216021430207383,0.0501184129084838
+356,"India","Ischemic heart disease",2021,20,"75-79 years",78,TRUE,2,"Female",15,"mortality",0.0321505539296768,0.0356096541357659,0.0288893083528822
+356,"India","Ischemic heart disease",2021,20,"75-79 years",78,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,20,"75-79 years",79,TRUE,2,"Female",5,"prevalence",0.305017427135691,0.23763881333902,0.382949746508299
+356,"India","Ischemic heart disease",2021,20,"75-79 years",79,TRUE,2,"Female",6,"incidence",0.0339502745296611,0.0216021430207383,0.0501184129084838
+356,"India","Ischemic heart disease",2021,20,"75-79 years",79,TRUE,2,"Female",15,"mortality",0.0321505539296768,0.0356096541357659,0.0288893083528822
+356,"India","Ischemic heart disease",2021,20,"75-79 years",79,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,30,"80-84 years",80,TRUE,1,"Male",5,"prevalence",0.467583346095282,0.370230959660184,0.57709272599233
+356,"India","Ischemic heart disease",2021,30,"80-84 years",80,TRUE,1,"Male",6,"incidence",0.0555756135197401,0.0369743695411654,0.0784178773504966
+356,"India","Ischemic heart disease",2021,30,"80-84 years",80,TRUE,1,"Male",15,"mortality",0.0474461668326854,0.0528057715822182,0.0434264747189521
+356,"India","Ischemic heart disease",2021,30,"80-84 years",80,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,30,"80-84 years",81,TRUE,1,"Male",5,"prevalence",0.467583346095282,0.370230959660184,0.57709272599233
+356,"India","Ischemic heart disease",2021,30,"80-84 years",81,TRUE,1,"Male",6,"incidence",0.0555756135197401,0.0369743695411654,0.0784178773504966
+356,"India","Ischemic heart disease",2021,30,"80-84 years",81,TRUE,1,"Male",15,"mortality",0.0474461668326854,0.0528057715822182,0.0434264747189521
+356,"India","Ischemic heart disease",2021,30,"80-84 years",81,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,30,"80-84 years",82,TRUE,1,"Male",5,"prevalence",0.467583346095282,0.370230959660184,0.57709272599233
+356,"India","Ischemic heart disease",2021,30,"80-84 years",82,TRUE,1,"Male",6,"incidence",0.0555756135197401,0.0369743695411654,0.0784178773504966
+356,"India","Ischemic heart disease",2021,30,"80-84 years",82,TRUE,1,"Male",15,"mortality",0.0474461668326854,0.0528057715822182,0.0434264747189521
+356,"India","Ischemic heart disease",2021,30,"80-84 years",82,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,30,"80-84 years",83,TRUE,1,"Male",5,"prevalence",0.467583346095282,0.370230959660184,0.57709272599233
+356,"India","Ischemic heart disease",2021,30,"80-84 years",83,TRUE,1,"Male",6,"incidence",0.0555756135197401,0.0369743695411654,0.0784178773504966
+356,"India","Ischemic heart disease",2021,30,"80-84 years",83,TRUE,1,"Male",15,"mortality",0.0474461668326854,0.0528057715822182,0.0434264747189521
+356,"India","Ischemic heart disease",2021,30,"80-84 years",83,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,30,"80-84 years",84,TRUE,1,"Male",5,"prevalence",0.467583346095282,0.370230959660184,0.57709272599233
+356,"India","Ischemic heart disease",2021,30,"80-84 years",84,TRUE,1,"Male",6,"incidence",0.0555756135197401,0.0369743695411654,0.0784178773504966
+356,"India","Ischemic heart disease",2021,30,"80-84 years",84,TRUE,1,"Male",15,"mortality",0.0474461668326854,0.0528057715822182,0.0434264747189521
+356,"India","Ischemic heart disease",2021,30,"80-84 years",84,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,30,"80-84 years",80,TRUE,2,"Female",5,"prevalence",0.343748127660445,0.268619479457374,0.44108733678861
+356,"India","Ischemic heart disease",2021,30,"80-84 years",80,TRUE,2,"Female",6,"incidence",0.0429901306431503,0.0287889022800855,0.0603169724300826
+356,"India","Ischemic heart disease",2021,30,"80-84 years",80,TRUE,2,"Female",15,"mortality",0.044088888519139,0.0483375651489064,0.0392589940698932
+356,"India","Ischemic heart disease",2021,30,"80-84 years",80,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,30,"80-84 years",81,TRUE,2,"Female",5,"prevalence",0.343748127660445,0.268619479457374,0.44108733678861
+356,"India","Ischemic heart disease",2021,30,"80-84 years",81,TRUE,2,"Female",6,"incidence",0.0429901306431503,0.0287889022800855,0.0603169724300826
+356,"India","Ischemic heart disease",2021,30,"80-84 years",81,TRUE,2,"Female",15,"mortality",0.044088888519139,0.0483375651489064,0.0392589940698932
+356,"India","Ischemic heart disease",2021,30,"80-84 years",81,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,30,"80-84 years",82,TRUE,2,"Female",5,"prevalence",0.343748127660445,0.268619479457374,0.44108733678861
+356,"India","Ischemic heart disease",2021,30,"80-84 years",82,TRUE,2,"Female",6,"incidence",0.0429901306431503,0.0287889022800855,0.0603169724300826
+356,"India","Ischemic heart disease",2021,30,"80-84 years",82,TRUE,2,"Female",15,"mortality",0.044088888519139,0.0483375651489064,0.0392589940698932
+356,"India","Ischemic heart disease",2021,30,"80-84 years",82,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,30,"80-84 years",83,TRUE,2,"Female",5,"prevalence",0.343748127660445,0.268619479457374,0.44108733678861
+356,"India","Ischemic heart disease",2021,30,"80-84 years",83,TRUE,2,"Female",6,"incidence",0.0429901306431503,0.0287889022800855,0.0603169724300826
+356,"India","Ischemic heart disease",2021,30,"80-84 years",83,TRUE,2,"Female",15,"mortality",0.044088888519139,0.0483375651489064,0.0392589940698932
+356,"India","Ischemic heart disease",2021,30,"80-84 years",83,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,30,"80-84 years",84,TRUE,2,"Female",5,"prevalence",0.343748127660445,0.268619479457374,0.44108733678861
+356,"India","Ischemic heart disease",2021,30,"80-84 years",84,TRUE,2,"Female",6,"incidence",0.0429901306431503,0.0287889022800855,0.0603169724300826
+356,"India","Ischemic heart disease",2021,30,"80-84 years",84,TRUE,2,"Female",15,"mortality",0.044088888519139,0.0483375651489064,0.0392589940698932
+356,"India","Ischemic heart disease",2021,30,"80-84 years",84,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,31,"85-89 years",85,TRUE,1,"Male",5,"prevalence",0.477894375794727,0.367029590622685,0.585863925444415
+356,"India","Ischemic heart disease",2021,31,"85-89 years",85,TRUE,1,"Male",6,"incidence",0.0678052395583773,0.0411117019102323,0.104615300126005
+356,"India","Ischemic heart disease",2021,31,"85-89 years",85,TRUE,1,"Male",15,"mortality",0.0716303091373569,0.0835010164516788,0.0652638983407306
+356,"India","Ischemic heart disease",2021,31,"85-89 years",85,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,31,"85-89 years",86,TRUE,1,"Male",5,"prevalence",0.477894375794727,0.367029590622685,0.585863925444415
+356,"India","Ischemic heart disease",2021,31,"85-89 years",86,TRUE,1,"Male",6,"incidence",0.0678052395583773,0.0411117019102323,0.104615300126005
+356,"India","Ischemic heart disease",2021,31,"85-89 years",86,TRUE,1,"Male",15,"mortality",0.0716303091373569,0.0835010164516788,0.0652638983407306
+356,"India","Ischemic heart disease",2021,31,"85-89 years",86,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,31,"85-89 years",87,TRUE,1,"Male",5,"prevalence",0.477894375794727,0.367029590622685,0.585863925444415
+356,"India","Ischemic heart disease",2021,31,"85-89 years",87,TRUE,1,"Male",6,"incidence",0.0678052395583773,0.0411117019102323,0.104615300126005
+356,"India","Ischemic heart disease",2021,31,"85-89 years",87,TRUE,1,"Male",15,"mortality",0.0716303091373569,0.0835010164516788,0.0652638983407306
+356,"India","Ischemic heart disease",2021,31,"85-89 years",87,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,31,"85-89 years",88,TRUE,1,"Male",5,"prevalence",0.477894375794727,0.367029590622685,0.585863925444415
+356,"India","Ischemic heart disease",2021,31,"85-89 years",88,TRUE,1,"Male",6,"incidence",0.0678052395583773,0.0411117019102323,0.104615300126005
+356,"India","Ischemic heart disease",2021,31,"85-89 years",88,TRUE,1,"Male",15,"mortality",0.0716303091373569,0.0835010164516788,0.0652638983407306
+356,"India","Ischemic heart disease",2021,31,"85-89 years",88,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,31,"85-89 years",89,TRUE,1,"Male",5,"prevalence",0.477894375794727,0.367029590622685,0.585863925444415
+356,"India","Ischemic heart disease",2021,31,"85-89 years",89,TRUE,1,"Male",6,"incidence",0.0678052395583773,0.0411117019102323,0.104615300126005
+356,"India","Ischemic heart disease",2021,31,"85-89 years",89,TRUE,1,"Male",15,"mortality",0.0716303091373569,0.0835010164516788,0.0652638983407306
+356,"India","Ischemic heart disease",2021,31,"85-89 years",89,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,31,"85-89 years",85,TRUE,2,"Female",5,"prevalence",0.36770292753145,0.276765360208858,0.464674063534488
+356,"India","Ischemic heart disease",2021,31,"85-89 years",85,TRUE,2,"Female",6,"incidence",0.0541356150825653,0.0326854397191891,0.0841172403339307
+356,"India","Ischemic heart disease",2021,31,"85-89 years",85,TRUE,2,"Female",15,"mortality",0.0482875385033796,0.0533849442799625,0.0446393895539564
+356,"India","Ischemic heart disease",2021,31,"85-89 years",85,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,31,"85-89 years",86,TRUE,2,"Female",5,"prevalence",0.36770292753145,0.276765360208858,0.464674063534488
+356,"India","Ischemic heart disease",2021,31,"85-89 years",86,TRUE,2,"Female",6,"incidence",0.0541356150825653,0.0326854397191891,0.0841172403339307
+356,"India","Ischemic heart disease",2021,31,"85-89 years",86,TRUE,2,"Female",15,"mortality",0.0482875385033796,0.0533849442799625,0.0446393895539564
+356,"India","Ischemic heart disease",2021,31,"85-89 years",86,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,31,"85-89 years",87,TRUE,2,"Female",5,"prevalence",0.36770292753145,0.276765360208858,0.464674063534488
+356,"India","Ischemic heart disease",2021,31,"85-89 years",87,TRUE,2,"Female",6,"incidence",0.0541356150825653,0.0326854397191891,0.0841172403339307
+356,"India","Ischemic heart disease",2021,31,"85-89 years",87,TRUE,2,"Female",15,"mortality",0.0482875385033796,0.0533849442799625,0.0446393895539564
+356,"India","Ischemic heart disease",2021,31,"85-89 years",87,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,31,"85-89 years",88,TRUE,2,"Female",5,"prevalence",0.36770292753145,0.276765360208858,0.464674063534488
+356,"India","Ischemic heart disease",2021,31,"85-89 years",88,TRUE,2,"Female",6,"incidence",0.0541356150825653,0.0326854397191891,0.0841172403339307
+356,"India","Ischemic heart disease",2021,31,"85-89 years",88,TRUE,2,"Female",15,"mortality",0.0482875385033796,0.0533849442799625,0.0446393895539564
+356,"India","Ischemic heart disease",2021,31,"85-89 years",88,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,31,"85-89 years",89,TRUE,2,"Female",5,"prevalence",0.36770292753145,0.276765360208858,0.464674063534488
+356,"India","Ischemic heart disease",2021,31,"85-89 years",89,TRUE,2,"Female",6,"incidence",0.0541356150825653,0.0326854397191891,0.0841172403339307
+356,"India","Ischemic heart disease",2021,31,"85-89 years",89,TRUE,2,"Female",15,"mortality",0.0482875385033796,0.0533849442799625,0.0446393895539564
+356,"India","Ischemic heart disease",2021,31,"85-89 years",89,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,32,"90-94 years",90,TRUE,1,"Male",5,"prevalence",0.475859913294752,0.330148954882292,0.611016325533261
+356,"India","Ischemic heart disease",2021,32,"90-94 years",90,TRUE,1,"Male",6,"incidence",0.0836296290272082,0.0517022973417053,0.11878056572422
+356,"India","Ischemic heart disease",2021,32,"90-94 years",90,TRUE,1,"Male",15,"mortality",0.113447454291581,0.14362915600634,0.0981124906583791
+356,"India","Ischemic heart disease",2021,32,"90-94 years",90,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,32,"90-94 years",91,TRUE,1,"Male",5,"prevalence",0.475859913294752,0.330148954882292,0.611016325533261
+356,"India","Ischemic heart disease",2021,32,"90-94 years",91,TRUE,1,"Male",6,"incidence",0.0836296290272082,0.0517022973417053,0.11878056572422
+356,"India","Ischemic heart disease",2021,32,"90-94 years",91,TRUE,1,"Male",15,"mortality",0.113447454291581,0.14362915600634,0.0981124906583791
+356,"India","Ischemic heart disease",2021,32,"90-94 years",91,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,32,"90-94 years",92,TRUE,1,"Male",5,"prevalence",0.475859913294752,0.330148954882292,0.611016325533261
+356,"India","Ischemic heart disease",2021,32,"90-94 years",92,TRUE,1,"Male",6,"incidence",0.0836296290272082,0.0517022973417053,0.11878056572422
+356,"India","Ischemic heart disease",2021,32,"90-94 years",92,TRUE,1,"Male",15,"mortality",0.113447454291581,0.14362915600634,0.0981124906583791
+356,"India","Ischemic heart disease",2021,32,"90-94 years",92,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,32,"90-94 years",93,TRUE,1,"Male",5,"prevalence",0.475859913294752,0.330148954882292,0.611016325533261
+356,"India","Ischemic heart disease",2021,32,"90-94 years",93,TRUE,1,"Male",6,"incidence",0.0836296290272082,0.0517022973417053,0.11878056572422
+356,"India","Ischemic heart disease",2021,32,"90-94 years",93,TRUE,1,"Male",15,"mortality",0.113447454291581,0.14362915600634,0.0981124906583791
+356,"India","Ischemic heart disease",2021,32,"90-94 years",93,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,32,"90-94 years",94,TRUE,1,"Male",5,"prevalence",0.475859913294752,0.330148954882292,0.611016325533261
+356,"India","Ischemic heart disease",2021,32,"90-94 years",94,TRUE,1,"Male",6,"incidence",0.0836296290272082,0.0517022973417053,0.11878056572422
+356,"India","Ischemic heart disease",2021,32,"90-94 years",94,TRUE,1,"Male",15,"mortality",0.113447454291581,0.14362915600634,0.0981124906583791
+356,"India","Ischemic heart disease",2021,32,"90-94 years",94,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,32,"90-94 years",90,TRUE,2,"Female",5,"prevalence",0.384313923688138,0.258731004363395,0.504141336800978
+356,"India","Ischemic heart disease",2021,32,"90-94 years",90,TRUE,2,"Female",6,"incidence",0.0703921973845457,0.0437249308826299,0.0995745377735656
+356,"India","Ischemic heart disease",2021,32,"90-94 years",90,TRUE,2,"Female",15,"mortality",0.0752456805858901,0.0915323857710359,0.0667096079330535
+356,"India","Ischemic heart disease",2021,32,"90-94 years",90,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,32,"90-94 years",91,TRUE,2,"Female",5,"prevalence",0.384313923688138,0.258731004363395,0.504141336800978
+356,"India","Ischemic heart disease",2021,32,"90-94 years",91,TRUE,2,"Female",6,"incidence",0.0703921973845457,0.0437249308826299,0.0995745377735656
+356,"India","Ischemic heart disease",2021,32,"90-94 years",91,TRUE,2,"Female",15,"mortality",0.0752456805858901,0.0915323857710359,0.0667096079330535
+356,"India","Ischemic heart disease",2021,32,"90-94 years",91,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,32,"90-94 years",92,TRUE,2,"Female",5,"prevalence",0.384313923688138,0.258731004363395,0.504141336800978
+356,"India","Ischemic heart disease",2021,32,"90-94 years",92,TRUE,2,"Female",6,"incidence",0.0703921973845457,0.0437249308826299,0.0995745377735656
+356,"India","Ischemic heart disease",2021,32,"90-94 years",92,TRUE,2,"Female",15,"mortality",0.0752456805858901,0.0915323857710359,0.0667096079330535
+356,"India","Ischemic heart disease",2021,32,"90-94 years",92,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,32,"90-94 years",93,TRUE,2,"Female",5,"prevalence",0.384313923688138,0.258731004363395,0.504141336800978
+356,"India","Ischemic heart disease",2021,32,"90-94 years",93,TRUE,2,"Female",6,"incidence",0.0703921973845457,0.0437249308826299,0.0995745377735656
+356,"India","Ischemic heart disease",2021,32,"90-94 years",93,TRUE,2,"Female",15,"mortality",0.0752456805858901,0.0915323857710359,0.0667096079330535
+356,"India","Ischemic heart disease",2021,32,"90-94 years",93,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,32,"90-94 years",94,TRUE,2,"Female",5,"prevalence",0.384313923688138,0.258731004363395,0.504141336800978
+356,"India","Ischemic heart disease",2021,32,"90-94 years",94,TRUE,2,"Female",6,"incidence",0.0703921973845457,0.0437249308826299,0.0995745377735656
+356,"India","Ischemic heart disease",2021,32,"90-94 years",94,TRUE,2,"Female",15,"mortality",0.0752456805858901,0.0915323857710359,0.0667096079330535
+356,"India","Ischemic heart disease",2021,32,"90-94 years",94,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",95,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",95,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",95,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",95,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",96,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",96,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",96,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",96,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",97,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",97,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",97,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",97,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",98,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",98,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",98,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",98,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",99,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",99,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",99,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",99,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",100,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",100,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",100,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",100,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",101,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",101,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",101,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",101,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",102,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",102,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",102,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",102,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",103,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",103,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",103,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",103,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",104,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",104,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",104,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",104,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",105,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",105,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",105,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",105,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",106,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",106,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",106,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",106,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",107,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",107,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",107,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",107,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",108,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",108,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",108,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",108,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",109,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",109,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",109,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",109,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",110,TRUE,1,"Male",5,"prevalence",0.485270576251446,0.311464338512947,0.642233871163478
+356,"India","Ischemic heart disease",2021,235,"95+ years",110,TRUE,1,"Male",6,"incidence",0.104567905396492,0.0536376704718759,0.19131051415779
+356,"India","Ischemic heart disease",2021,235,"95+ years",110,TRUE,1,"Male",15,"mortality",0.150351428916227,0.20067997131891,0.128119142548658
+356,"India","Ischemic heart disease",2021,235,"95+ years",110,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",95,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",95,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",95,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",95,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",96,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",96,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",96,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",96,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",97,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",97,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",97,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",97,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",98,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",98,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",98,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",98,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",99,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",99,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",99,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",99,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",100,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",100,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",100,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",100,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",101,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",101,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",101,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",101,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",102,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",102,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",102,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",102,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",103,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",103,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",103,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",103,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",104,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",104,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",104,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",104,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",105,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",105,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",105,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",105,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",106,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",106,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",106,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",106,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",107,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",107,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",107,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",107,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",108,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",108,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",108,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",108,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",109,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",109,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",109,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",109,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,235,"95+ years",110,TRUE,2,"Female",5,"prevalence",0.400782215647414,0.256411066807143,0.538204283198669
+356,"India","Ischemic heart disease",2021,235,"95+ years",110,TRUE,2,"Female",6,"incidence",0.0903737532547312,0.0465136825387264,0.16294851910802
+356,"India","Ischemic heart disease",2021,235,"95+ years",110,TRUE,2,"Female",15,"mortality",0.108479908829089,0.132158882022275,0.0967809920305915
+356,"India","Ischemic heart disease",2021,235,"95+ years",110,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",0,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",0,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",0,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",0,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",0,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",0,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",0,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",0,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",2,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",2,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",2,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",2,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",3,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",3,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",3,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",3,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",4,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",4,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",4,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",4,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",2,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",2,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",2,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",2,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",3,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",3,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",3,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",3,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",4,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",4,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",4,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",4,TRUE,2,"Female",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",1,TRUE,1,"Male",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",1,TRUE,1,"Male",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",1,TRUE,1,"Male",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",1,TRUE,1,"Male",7,"remission",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",1,TRUE,2,"Female",5,"prevalence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",1,TRUE,2,"Female",6,"incidence",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",1,TRUE,2,"Female",15,"mortality",0,0,0
+356,"India","Ischemic heart disease",2021,5,"1 to 4",1,TRUE,2,"Female",7,"remission",0,0,0

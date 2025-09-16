@@ -19,27 +19,6 @@ ScenarioNames		= c("10p", "20p", "40p")
 
 HGPS_diseases 		= list.dirs(getwd(), full.names = FALSE, recursive = FALSE)
 
-#HGPS_diseases	= c(
-#		"chronickidneydisease",
-#		"ischemicheartdisease",
-#		"stroke",
-#		"diabetes",
-#		"gallbladder",
-#		"asthma",
-#		"lowbackpain",
-#		"alzheimer",
-#		"osteoarthritiship",
-#		"osteoarthritisknee",
-#		"colorectalcancer",
-#		"esophaguscancer",
-#		"kidneycancer",
-#		"breastcancer",
-#		"trachealbronchuslungcancer",
-#		"ischemicstroke",
-#		"intracerebralhemorrhage",
-#		"subarachnoidhemorrhage"
-#)
-
 ConvertYearStringToVector = function(YearString)
 {
 	if (YearString == "80+")
@@ -58,7 +37,6 @@ ConvertYearStringToVector = function(YearString)
 		UpperBound = as.numeric(substr(YearString, 4,5))
 	}
 	return (LowerBound:UpperBound)
-#	return (c(LowerBound, UpperBound))
 }
 
 RiskFactor 		= RiskFactors[2]
@@ -137,7 +115,6 @@ for (RiskFactor in RiskFactors)
 	# Expand years pot intervention data
 	IF_Data_Raw$years_post_int = gsub(pattern = " years", replacement = "", IF_Data_Raw$years_post_int)
 	YearsPostInt = unique(IF_Data_Raw$years_post_int)
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "IHD")] 			= "ischemicheartdisease"
 	YearsPostInt
 
 	Disease = DiseasesToProcess[1]
