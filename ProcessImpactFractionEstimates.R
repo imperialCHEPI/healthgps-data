@@ -39,7 +39,8 @@ ConvertYearStringToVector = function(YearString)
 	return (LowerBound:UpperBound)
 }
 
-RiskFactor 		= RiskFactors[2]
+RiskFactor 		= RiskFactors[1]
+#RiskFactor 		= RiskFactors[2]
 ScenarioNumber 	= 1
 
 for (RiskFactor in RiskFactors)
@@ -95,16 +96,28 @@ for (RiskFactor in RiskFactors)
 	# "diabetes", "stroke" already in same format
 
 	# Diseases in smoking analysis
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "IHD")] 			= "ischemicheartdisease"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "lung_cancer")] 	= "trachealbronchuslungcancer"
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "other_resp_dis")] = "asthma"
-
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "COPD")] 					= "pulmonary"
+	#IF_Data_Raw$disease[which(IF_Data_Raw$disease == "diabetes")] 				= "diabetes"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "IHD")] 					= "ischemicheartdisease"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "lung_cancer")] 			= "trachealbronchuslungcancer"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "mouth_orophar_cancer")] 	= "lipandoralcavitycancer"
+	#IF_Data_Raw$disease[which(IF_Data_Raw$disease == "other_CVD")] 				= "???????"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "other_resp_dis")] 		= "asthma"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "stroke")] 				= "stroke"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "cervix_uter_cancer")] 	= "cervicalcancer"
+	
 	# Diseases in alcohol analysis
-	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "liver_cancer")] 				= "livercancer"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "alcohol_use_disorders")] 		= "alcoholusedisorders"
 	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "liver_cirrhosis")] 			= "cirrhosis"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "lip_oral_cancer")] 			= "lipandoralcavitycancer"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "liver_cancer")] 				= "livercancer"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "other_pharyngeal_cancers")] 	= "otherpharynxcancer"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "road_injury")] 				= "roadinjuries"
+	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "self_harm")] 					= "selfharm"
 	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "intracerebral_haemorrhage")] 	= "intracerebralhemorrhage"
 	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "ischaemic_stroke")] 			= "ischemicstroke"
-
+	#IF_Data_Raw$disease[which(IF_Data_Raw$disease == "tuberculosis")] 			= "tuberculosis"
+	
 	DiseasesIFData = unique(IF_Data_Raw$disease)
 	DiseasesIFData
 
