@@ -105,7 +105,7 @@ for (RiskFactor in RiskFactors)
 	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "other_resp_dis")] 		= "asthma"
 	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "stroke")] 				= "stroke"
 	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "cervix_uter_cancer")] 	= "cervicalcancer"
-	
+
 	# Diseases in alcohol analysis
 	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "alcohol_use_disorders")] 		= "alcoholusedisorders"
 	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "liver_cirrhosis")] 			= "cirrhosis"
@@ -117,7 +117,7 @@ for (RiskFactor in RiskFactors)
 	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "intracerebral_haemorrhage")] 	= "intracerebralhemorrhage"
 	IF_Data_Raw$disease[which(IF_Data_Raw$disease == "ischaemic_stroke")] 			= "ischemicstroke"
 	#IF_Data_Raw$disease[which(IF_Data_Raw$disease == "tuberculosis")] 			= "tuberculosis"
-	
+
 	DiseasesIFData = unique(IF_Data_Raw$disease)
 	DiseasesIFData
 
