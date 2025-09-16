@@ -117,22 +117,22 @@ for (RiskFactor in RiskFactors)
 			if (Disease_IF  == "other_resp_dis") 		DiseasesHGPS_Data = c("asthma", "lowerrespiratoryinfections", "tuberculosis")
 			if (Disease_IF  == "stroke") 				DiseasesHGPS_Data = "stroke"
 			if (Disease_IF  == "cervix_uter_cancer") 	DiseasesHGPS_Data = "cervicalcancer"
-			
+
 		} else if (RiskFactor == "Alcohol")
 		{
 			# Diseases in alcohol analysis
-			if (Disease_IF  == "alcohol_use_disorders") 	DiseasesHGPS_Data = "alcoholusedisorders"     
-			if (Disease_IF 	== "liver_cirrhosis") 			DiseasesHGPS_Data = "cirrhosis"               
-			if (Disease_IF  == "lip_oral_cancer") 			DiseasesHGPS_Data = "lipandoralcavitycancer"  
-			if (Disease_IF  == "liver_cancer") 				DiseasesHGPS_Data = "livercancer"             
-			if (Disease_IF  == "other_pharyngeal_cancers") 	DiseasesHGPS_Data = "otherpharynxcancer"      
-			if (Disease_IF  == "road_injury") 				DiseasesHGPS_Data = "roadinjuries"            
-			if (Disease_IF  == "self_harm") 				DiseasesHGPS_Data = "selfharm"                
-			if (Disease_IF  == "intracerebral_haemorrhage") DiseasesHGPS_Data = c("intracerebralhemorrhage", "subarachnoidhemorrhage") 
-			if (Disease_IF  == "ischaemic_stroke") 			DiseasesHGPS_Data = "ischemicstroke"          
-			if (Disease_IF  == "tuberculosis") 				DiseasesHGPS_Data = "tuberculosis"          
-		}	
-		
+			if (Disease_IF  == "alcohol_use_disorders") 	DiseasesHGPS_Data = "alcoholusedisorders"
+			if (Disease_IF 	== "liver_cirrhosis") 			DiseasesHGPS_Data = "cirrhosis"
+			if (Disease_IF  == "lip_oral_cancer") 			DiseasesHGPS_Data = "lipandoralcavitycancer"
+			if (Disease_IF  == "liver_cancer") 				DiseasesHGPS_Data = "livercancer"
+			if (Disease_IF  == "other_pharyngeal_cancers") 	DiseasesHGPS_Data = "otherpharynxcancer"
+			if (Disease_IF  == "road_injury") 				DiseasesHGPS_Data = "roadinjuries"
+			if (Disease_IF  == "self_harm") 				DiseasesHGPS_Data = "selfharm"
+			if (Disease_IF  == "intracerebral_haemorrhage") DiseasesHGPS_Data = c("intracerebralhemorrhage", "subarachnoidhemorrhage")
+			if (Disease_IF  == "ischaemic_stroke") 			DiseasesHGPS_Data = "ischemicstroke"
+			if (Disease_IF  == "tuberculosis") 				DiseasesHGPS_Data = "tuberculosis"
+		}
+
 		## Subset raw data
 		IF_Data_Raw_thisDisease = IF_Data_Raw[which(IF_Data_Raw$disease == Disease_IF), ]
 		#head(IF_Data_Raw_thisDisease)
@@ -174,7 +174,7 @@ for (RiskFactor in RiskFactors)
 		{
 			Dir = file.path(getwd(), Disease_HGPS_Data, "PIF", RiskFactor, paste0("Scenario", ScenarioNumber))
 			dir.create(Dir, recursive = T)
-			
+
 			# write Processed data to relevant disease folder.
 			write.table(Processed_IFData_thisDisease,
 					file = file.path(Dir, paste0("IF", COUNTRY_CODE, ".csv")),
