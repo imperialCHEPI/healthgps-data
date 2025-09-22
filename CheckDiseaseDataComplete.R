@@ -6,8 +6,8 @@
 
 rm(list = ls())
 
-#CountryCode = 356 # India
-CountryCode = 826 # UK
+CountryCode = 356 # India
+#CountryCode = 826 # UK
 
 setwd(file.path("C:", "healthgps-data", "data", "diseases"))
 getwd()
@@ -25,26 +25,33 @@ getwd()
 #		"intracerebralhemorrhage",
 #		"subarachnoidhemorrhage"
 #)
-Diseases	= c(
-		"chronickidneydisease",
-		"ischemicheartdisease",
-		"stroke",
-		"diabetes",
-		"gallbladder",
-		"asthma",
-		"lowbackpain",
-		"alzheimer",
-		"osteoarthritiship",
-		"osteoarthritisknee",
-		"colorectalcancer",
-		"esophaguscancer",
-		"kidneycancer",
-		"breastcancer",
-		"trachealbronchuslungcancer",
-		"ischemicstroke",
-		"intracerebralhemorrhage",
-		"subarachnoidhemorrhage"
-		)
+#Diseases	= c(
+#		"chronickidneydisease",
+#		"ischemicheartdisease",
+#		"stroke",
+#		"diabetes",
+#		"gallbladder",
+#		"asthma",
+#		"lowbackpain",
+#		"alzheimer",
+#		"osteoarthritiship",
+#		"osteoarthritisknee",
+#		"colorectalcancer",
+#		"esophaguscancer",
+#		"kidneycancer",
+#		"breastcancer",
+#		"trachealbronchuslungcancer",
+#		"ischemicstroke",
+#		"intracerebralhemorrhage",
+#		"subarachnoidhemorrhage"
+#		)
+
+#Diseases	= list.dirs(getwd(), full.names = FALSE, recursive = FALSE)
+
+Dir = "C:\\Users\\dlaydon\\OneDrive - Imperial College London\\Health-GPS_SHARED\\healthgps_data_update\\disease\\Health-GPS_disease_India_2021"
+Diseases	= list.dirs(Dir, full.names = FALSE, recursive = FALSE)
+
+
 
 Sexes				= c("male", "female")
 SentenceCaseSexes 	= c("Male", "Female")
@@ -60,28 +67,36 @@ DiseaseDataChecks = expand.grid(Sex = Sexes, Measure = Measures, Disease = Disea
 DiseaseDataChecks = DiseaseDataChecks[, c("Disease", "Measure", "Sex")]
 DiseaseDataChecks$AllAgesPresent 	= 1
 DiseaseDataChecks$AllAgesHaveValue 	= 1
-DiseaseDataChecks$AllAgesFinite 	= 1
+#DiseaseDataChecks$AllAgesFinite 	= 1
 
 #colnames(DiseaseDataChecks) = Measures
 #rownames(DiseaseDataChecks) = Diseases
 
 #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ==== #### ====
 #### ==== First Check overall disease data "D{COUNTRY_CODE}.csv"
+DiseaseIndex = 2
 for (DiseaseIndex in 1:length(Diseases))
 {
 	Disease = Diseases[DiseaseIndex]
 
 	## Load D{COUNTRY_CODE}.csv
 	DiseaseData = read.csv(file = paste0(Disease, "/D", CountryCode,  ".csv"))
+#	head(DiseaseData)
 	# take relevant columns only
 	DiseaseData = DiseaseData[, c("gender", "age", "measure", "mean", "lower", "upper")]
+	DiseaseData$measure[which(DiseaseData$measure == "Prevalence")] = "prevalence"
+	DiseaseData$measure[which(DiseaseData$measure == "Incidence" )] = "incidence"
+	DiseaseData$measure[which(DiseaseData$measure == "Mortality" )] = "mortality"
+	DiseaseData$measure[which(DiseaseData$measure == "Remission" )] = "remission"
 
+	DiseaseData$gender[which(DiseaseData$gender == "Male" )] = "male"
+	DiseaseData$gender[which(DiseaseData$gender == "Female" )] = "female"
 
 	# checks
-	Measure = "prevalence"
-	Sex = "Male"
+	Measure = Measures[1]
+	Sex = Sexes[1]
 	for (Measure in Measures)
-		 for (Sex in SentenceCaseSexes)
+		 for (Sex in Sexes)
 		 {
 			 # get index
 			 RowIndex = which(DiseaseDataChecks$Disease == Disease &
@@ -93,29 +108,31 @@ for (DiseaseIndex in 1:length(Diseases))
 			 ## all ages present?
 			 if (!identical(sort(SubDiseaseData$age), Ages))
 			 {
-				 DiseaseDataChecks[DiseaseIndex, Measure] = NA
+				 DiseaseDataChecks[RowIndex, "AllAgesPresent"] = NA
+
+
 				 cat(paste0("\nDisease ", DiseaseIndex, " = ", Disease, ", ", Measure, ", ", Sex, ", Incomplete ages"))
 			 }
 
 			 ## all ages have a value?
 			 if (any (is.na(SubDiseaseData[, c("mean", "lower", "upper")])))
 			 {
-				 DiseaseDataChecks[DiseaseIndex, Measure] = NA
-				 cat(paste0("\nDisease ", DiseaseIndex, " = ", Disease, ", ", Quantity, ", ", Sex, ", has NAs"))
+				 DiseaseDataChecks[RowIndex, "AllAgesHaveValue"] = NA
+				 cat(paste0("\nDisease ", DiseaseIndex, " = ", Disease, ", ", Measure, ", ", Sex, ", has NAs"))
 			 }
 
-			 ## all ages have finite value?
-			 if (any (SubDiseaseData[, c("mean", "lower", "upper")] == Inf))
-			 {
-				 DiseaseDataChecks[DiseaseIndex, Quantity] = NA
-				 cat(paste0("\nDisease ", DiseaseIndex, " = ", Disease, ", ", Quantity, ", ", Sex, ", has Infs"))
-			 }
+#			 ## all ages have finite value?
+#			 if (any (SubDiseaseData[, c("mean", "lower", "upper")] == Inf) || any (SubDiseaseData[, c("mean", "lower", "upper")] == Inf))
+#			 {
+#				 DiseaseDataChecks[RowIndex, "AllAgesFinite"] = NA
+#				 cat(paste0("\nDisease ", DiseaseIndex, " = ", Disease, ", ", Measure, ", ", Sex, ", has Infs"))
+#			 }
 		 }
 }
 
 FilesWithIssues = DiseaseDataChecks[!complete.cases(DiseaseDataChecks),]
 FilesWithIssues
-#write.table(FilesWithIssues, file = file.path(getwd(), paste0("FilesWithIssues.txt")), row.names = F, col.names = T, quote = F, sep = "\t")
+write.table(FilesWithIssues, file = file.path(getwd(), paste0(CountryCode, "_FilesWithIssues.txt")), row.names = F, col.names = T, quote = F, sep = "\t")
 
 
 
