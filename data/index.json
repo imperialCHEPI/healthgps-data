@@ -111,7 +111,7 @@
             },
             {
                 "group": "other",
-                "id": "pulmonar",
+                "id": "pulmonary",
                 "name": "Chronic Obstructive Pulmonary Disease"
             },
             {
@@ -230,9 +230,49 @@
                 "name": "Chronic kidney disease"
             },
             {
+                "group": "other",
+                "id": "otherpharynxcancer",
+                "name": "Other pharynx cancer"
+            },
+            {
+                "group": "other",
+                "id": "lowerrespiratoryinfections",
+                "name": "Lower respiratory infections"
+            },
+            {
+                "group": "other",
+                "id": "tuberculosis",
+                "name": "Tuberculosis"
+            },
+            {
+                "group": "other",
+                "id": "roadinjuries",
+                "name": "Road injuries"
+            },
+            {
+                "group": "other",
+                "id": "selfharm",
+                "name": "Self-harm"
+            },
+            {
+                "group": "other",
+                "id": "alcoholusedisorders",
+                "name": "Alcohol use disorders"
+            },
+            {
                 "group": "cancer",
                 "id": "breastcancer",
                 "name": "Breast Cancer"
+            },
+            {
+                "group": "cancer",
+                "id": "lipandoralcavitycancer",
+                "name": "Lip and oral cavity cancer"
+            },
+            {
+                "group": "cancer",
+                "id": "cervicalcancer",
+                "name": "Cervical cancer"
             },
             {
                 "group": "cancer",
