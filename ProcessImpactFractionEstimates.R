@@ -62,8 +62,8 @@ for (RiskFactor in RiskFactors)
 	IF_Data_Raw_Male 	= read.csv(file = Filename_Male)
 	IF_Data_Raw_Female 	= read.csv(file = Filename_Female)
 	IF_Data_Raw 		= rbind(IF_Data_Raw_Male, IF_Data_Raw_Female)
-	
-		
+
+
 
 	# Change column names to be consistent with HGPS
 	colnames(IF_Data_Raw) = gsub(pattern = "sex"		, replacement = "Gender"	, colnames(IF_Data_Raw))
@@ -135,8 +135,8 @@ for (RiskFactor in RiskFactors)
 			if (Disease_IF  == "intracerebral_haemorrhage") DiseasesHGPS_Data = c("intracerebralhemorrhage", "subarachnoidhemorrhage")
 			if (Disease_IF  == "ischaemic_stroke") 			DiseasesHGPS_Data = "ischemicstroke"
 			if (Disease_IF  == "tuberculosis") 				DiseasesHGPS_Data = "tuberculosis"
-		
-		} 
+
+		}
 
 		## Subset raw data
 		IF_Data_Raw_thisDisease = IF_Data_Raw[which(IF_Data_Raw$disease == Disease_IF), ]
@@ -185,7 +185,7 @@ for (RiskFactor in RiskFactors)
 					file = file.path(Dir, paste0("IF", COUNTRY_CODE, ".csv")),
 					row.names = F, col.names = T, quote = F, sep = ",")
 		}
-		
+
 		rm(DiseasesHGPS_Data, Disease_HGPS_Data)
 	}
 }
