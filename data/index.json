@@ -321,6 +321,11 @@
             },
             {
                 "group": "cancer",
+                "id": "larynxcancer",
+                "name": "Larynx cancer"
+            },
+            {
+                "group": "cancer",
                 "id": "thyroidcancer",
                 "name": "Thyroid Cancer"
             }
