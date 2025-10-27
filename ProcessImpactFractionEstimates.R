@@ -13,7 +13,8 @@ Sexes				= 0:1
 SexNames			= c("Male", "Female")
 Ages 				= 0:110
 Years 				= 0:29
-RiskFactors 		= c("Smoking", "Alcohol")
+#RiskFactors 		= c("Smoking", "Alcohol")
+RiskFactors 		= c("Smoking")
 #RiskFactors 		= c("Alcohol", "Smoking")
 ScenarioNumbers		= 1:3
 ScenarioNames		= c("10p", "20p", "40p")
@@ -41,7 +42,7 @@ ConvertYearStringToVector = function(YearString)
 }
 
 RiskFactor 		= RiskFactors[1]
-RiskFactor 		= RiskFactors[2]
+#RiskFactor 		= RiskFactors[2]
 #RiskFactor
 ScenarioNumber 	= 1
 
@@ -55,8 +56,15 @@ for (RiskFactor in RiskFactors)
 	if (RiskFactor == "Smoking") Filename = paste0(Filename, "-MORBIDITY")
 	Filename = paste0(Filename, "_", ScenarioNames[ScenarioNumber], "-increase-in-price_")
 
-	Filename_Male 		= paste0(Filename, "Male.csv")
-	Filename_Female 	= paste0(Filename, "Female.csv")
+	Filename_Male 		= paste0(Filename, "Male")
+	Filename_Female 	= paste0(Filename, "Female")
+	if (RiskFactor == "Smoking")
+	{
+		Filename_Male 		= paste0(Filename_Male	, "_rev5yAvg")
+		Filename_Female 	= paste0(Filename_Female, "_rev5yAvg")
+	}
+	Filename_Male 		= paste0(Filename_Male	, "csv")
+	Filename_Female 	= paste0(Filename_Female, "csv")
 
 	# Load impact fraction raw data (for both males then females then combine
 	IF_Data_Raw_Male 	= read.csv(file = Filename_Male)
@@ -115,7 +123,7 @@ for (RiskFactor in RiskFactors)
 			if (Disease_IF  == "COPD") 					DiseasesHGPS_Data = "pulmonary"
 			if (Disease_IF 	== "diabetes") 				DiseasesHGPS_Data = "diabetes"
 			if (Disease_IF  == "IHD")					DiseasesHGPS_Data = "ischemicheartdisease"
-			if (Disease_IF  == "lung_cancer") 			DiseasesHGPS_Data = "trachealbronchuslungcancer"
+			if (Disease_IF  == "lung_cancer") 			DiseasesHGPS_Data = c("larynxcancer", "trachealbronchuslungcancer")
 			if (Disease_IF  == "mouth_orophar_cancer") 	DiseasesHGPS_Data = "otherpharynxcancer"
 			if (Disease_IF  == "other_resp_dis") 		DiseasesHGPS_Data = c("asthma", "lowerrespiratoryinfections", "tuberculosis")
 			if (Disease_IF  == "stroke") 				DiseasesHGPS_Data = "stroke"
@@ -135,7 +143,6 @@ for (RiskFactor in RiskFactors)
 			if (Disease_IF  == "intracerebral_haemorrhage") DiseasesHGPS_Data = c("intracerebralhemorrhage", "subarachnoidhemorrhage")
 			if (Disease_IF  == "ischaemic_stroke") 			DiseasesHGPS_Data = "ischemicstroke"
 			if (Disease_IF  == "tuberculosis") 				DiseasesHGPS_Data = "tuberculosis"
-
 		}
 
 		## Subset raw data
