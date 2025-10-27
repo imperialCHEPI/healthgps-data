@@ -63,8 +63,8 @@ for (RiskFactor in RiskFactors)
 		Filename_Male 		= paste0(Filename_Male	, "_rev5yAvg")
 		Filename_Female 	= paste0(Filename_Female, "_rev5yAvg")
 	}
-	Filename_Male 		= paste0(Filename_Male	, "csv")
-	Filename_Female 	= paste0(Filename_Female, "csv")
+	Filename_Male 		= paste0(Filename_Male	, ".csv")
+	Filename_Female 	= paste0(Filename_Female, ".csv")
 
 	# Load impact fraction raw data (for both males then females then combine
 	IF_Data_Raw_Male 	= read.csv(file = Filename_Male)
