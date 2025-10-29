@@ -57,9 +57,9 @@ for (RiskFactor in RiskFactors)
 	if (RiskFactor == "Joint")
 	{
 		Filename = paste0("PIF-joint_", ScenarioNames[ScenarioNumber], "-increase-in-price_")
-	
+
 	} else	{
-		
+
 		Filename = paste0(RiskFactor, "_PIF")
 		if (RiskFactor == "Smoking") Filename = paste0(Filename, "-MORBIDITY")
 		Filename = paste0(Filename, "_", ScenarioNames[ScenarioNumber], "-increase-in-price_")
@@ -71,7 +71,7 @@ for (RiskFactor in RiskFactors)
 	{
 		Filename_Male 		= paste0(Filename_Male	, "_rev5yAvg")
 		Filename_Female 	= paste0(Filename_Female, "_rev5yAvg")
-	
+
 	} else if (RiskFactor == "Joint")
 	{
 		Filename_Male 		= paste0(Filename_Male	, "_35over")
@@ -157,7 +157,7 @@ for (RiskFactor in RiskFactors)
 			if (Disease_IF  == "intracerebral_haemorrhage") DiseasesHGPS_Data = c("intracerebralhemorrhage", "subarachnoidhemorrhage")
 			if (Disease_IF  == "ischaemic_stroke") 			DiseasesHGPS_Data = "ischemicstroke"
 			if (Disease_IF  == "tuberculosis") 				DiseasesHGPS_Data = "tuberculosis"
-		
+
 		} else if (RiskFactor == "Joint")
 		{
 			# Diseases in Joint (smoking+alcohol) analysis
