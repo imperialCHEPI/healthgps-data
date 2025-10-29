@@ -14,7 +14,8 @@ SexNames			= c("Male", "Female")
 Ages 				= 0:110
 Years 				= 0:29
 #RiskFactors 		= c("Smoking", "Alcohol")
-RiskFactors 		= c("Smoking")
+#RiskFactors 		= c("Smoking")
+RiskFactors 		= c("Joint")
 #RiskFactors 		= c("Alcohol", "Smoking")
 ScenarioNumbers		= 1:3
 ScenarioNames		= c("10p", "20p", "40p")
@@ -52,9 +53,16 @@ for (RiskFactor in RiskFactors)
 	cat(paste(RiskFactor, ScenarioNumber, "\n"))
 
 	# Create Filename
-	Filename = paste0(RiskFactor, "_PIF")
-	if (RiskFactor == "Smoking") Filename = paste0(Filename, "-MORBIDITY")
-	Filename = paste0(Filename, "_", ScenarioNames[ScenarioNumber], "-increase-in-price_")
+	if (RiskFactor == "Joint")
+	{
+		Filename = paste0("PIF-joint_", ScenarioNames[ScenarioNumber], "-increase-in-price_")
+	
+	} else	{
+		
+		Filename = paste0(RiskFactor, "_PIF")
+		if (RiskFactor == "Smoking") Filename = paste0(Filename, "-MORBIDITY")
+		Filename = paste0(Filename, "_", ScenarioNames[ScenarioNumber], "-increase-in-price_")
+	}
 
 	Filename_Male 		= paste0(Filename, "Male")
 	Filename_Female 	= paste0(Filename, "Female")
@@ -62,6 +70,11 @@ for (RiskFactor in RiskFactors)
 	{
 		Filename_Male 		= paste0(Filename_Male	, "_rev5yAvg")
 		Filename_Female 	= paste0(Filename_Female, "_rev5yAvg")
+	
+	} else if (RiskFactor == "Joint")
+	{
+		Filename_Male 		= paste0(Filename_Male	, "_35over")
+		Filename_Female 	= paste0(Filename_Female, "_35over")
 	}
 	Filename_Male 		= paste0(Filename_Male	, ".csv")
 	Filename_Female 	= paste0(Filename_Female, ".csv")
@@ -70,7 +83,7 @@ for (RiskFactor in RiskFactors)
 	IF_Data_Raw_Male 	= read.csv(file = Filename_Male)
 	IF_Data_Raw_Female 	= read.csv(file = Filename_Female)
 	IF_Data_Raw 		= rbind(IF_Data_Raw_Male, IF_Data_Raw_Female)
-
+	str(IF_Data_Raw)
 
 
 	# Change column names to be consistent with HGPS
@@ -143,6 +156,14 @@ for (RiskFactor in RiskFactors)
 			if (Disease_IF  == "intracerebral_haemorrhage") DiseasesHGPS_Data = c("intracerebralhemorrhage", "subarachnoidhemorrhage")
 			if (Disease_IF  == "ischaemic_stroke") 			DiseasesHGPS_Data = "ischemicstroke"
 			if (Disease_IF  == "tuberculosis") 				DiseasesHGPS_Data = "tuberculosis"
+		
+		} else if (RiskFactor == "Joint")
+		{
+			# Diseases in Joint (smoking+alcohol) analysis
+			if (Disease_IF  == "intracerebral_haemorrhage") DiseasesHGPS_Data = c("intracerebralhemorrhage", "subarachnoidhemorrhage")
+			if (Disease_IF  == "ischaemic_stroke") 			DiseasesHGPS_Data = "ischemicstroke"
+			if (Disease_IF  == "other_pharyngeal_cancers") 	DiseasesHGPS_Data = "otherpharynxcancer"
+			if (Disease_IF  == "tuberculosis") 				DiseasesHGPS_Data = "tuberculosis"
 		}
 
 		## Subset raw data
@@ -155,6 +176,7 @@ for (RiskFactor in RiskFactors)
 		IF_Mean_ThisDisease 			= rep(0, dim(Processed_IFData_thisDisease)[1])
 		Processed_IFData_thisDisease 	= cbind(Processed_IFData_thisDisease, IF_Mean = IF_Mean_ThisDisease)
 		#head(Processed_IFData_thisDisease)
+		if (RiskFactor == "Joint") PIFVariableName = "pif_joint" else PIFVariableName = "IF_Mean"
 
 		Row = 1
 		for (Row in 1:dim(IF_Data_Raw_thisDisease)[1])
@@ -165,7 +187,7 @@ for (RiskFactor in RiskFactors)
 			Ages_ThisRow 			= ConvertYearStringToVector(AgeGroup_ThisRow)
 			years_post_int_ThisRow 	= IF_Data_Raw_thisDisease$years_post_int[Row]
 			years_post_int_ThisRow	= ConvertYearStringToVector(years_post_int_ThisRow)
-			IF_Mean_ThisRow			= IF_Data_Raw_thisDisease$IF_Mean[Row]
+			IF_Mean_ThisRow			= IF_Data_Raw_thisDisease[Row, PIFVariableName]
 
 			Gender_ThisRow
 			Ages_ThisRow
@@ -173,7 +195,7 @@ for (RiskFactor in RiskFactors)
 
 			# find relevant indices
 			IndicesOfProcessedData 	= which(
-					Processed_IFData_thisDisease$Gender 			== 		Gender_ThisRow 			&
+							Processed_IFData_thisDisease$Gender 		== 		Gender_ThisRow 			&
 							Processed_IFData_thisDisease$Age 			%in% 	Ages_ThisRow 			&
 							Processed_IFData_thisDisease$YearPostInt 	%in% 	years_post_int_ThisRow 	)
 
