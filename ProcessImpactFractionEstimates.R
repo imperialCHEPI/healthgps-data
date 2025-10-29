@@ -218,15 +218,15 @@ for (RiskFactor in RiskFactors)
 
 		rm(DiseasesHGPS_Data, Disease_HGPS_Data)
 	}
-	
+
 	## ### for joint analysis, need to also include individual smoking and alcohol estimates where no joint estimates were available
 
-	
+
 	if (RiskFactor == "Joint")
 	{
-		ExtraDiseases_Smoking = c("COPD", "diabetes", "IHD", "lung_cancer", 
+		ExtraDiseases_Smoking = c("COPD", "diabetes", "IHD", "lung_cancer",
 				"mouth_orophar_cancer",	"other_resp_dis", "stroke",	"cervix_uter_cancer")
-		
+
 		ExtraSmokingDisease = ExtraDiseases_Smoking[1]
 		for (ExtraSmokingDisease in ExtraDiseases_Smoking)
 		{
@@ -240,22 +240,22 @@ for (RiskFactor in RiskFactors)
 			if (ExtraSmokingDisease == "other_resp_dis") 		DiseasesHGPS_Data = c("asthma", "lowerrespiratoryinfections", "tuberculosis")
 			if (ExtraSmokingDisease == "stroke") 				DiseasesHGPS_Data = "stroke"
 			if (ExtraSmokingDisease == "cervix_uter_cancer") 	DiseasesHGPS_Data = "cervicalcancer"
-			
+
 			Disease_HGPS_Data = DiseasesHGPS_Data[1]
 			for (Disease_HGPS_Data in DiseasesHGPS_Data)
 			{
 				SmokingDir 	= file.path(getwd(), Disease_HGPS_Data, "PIF", "Smoking", paste0("Scenario", ScenarioNumber))
 				JointDir 	= file.path(getwd(), Disease_HGPS_Data, "PIF", "Joint"	, paste0("Scenario", ScenarioNumber))
 				dir.create(JointDir, recursive = T)
-				
-				file.copy(from = file.path(SmokingDir	, paste0("IF", COUNTRY_CODE, ".csv"))	, 
+
+				file.copy(from = file.path(SmokingDir	, paste0("IF", COUNTRY_CODE, ".csv"))	,
 							to = file.path(JointDir		, paste0("IF", COUNTRY_CODE, ".csv"))	)
 			}
 			rm(DiseasesHGPS_Data, Disease_HGPS_Data)
 		}
-		
-		ExtraDiseases_Alcohol = c("alcohol_use_disorders", "liver_cirrhosis", "lip_oral_cancer", 
-				"liver_cancer", "road_injury", "self_harm") 
+
+		ExtraDiseases_Alcohol = c("alcohol_use_disorders", "liver_cirrhosis", "lip_oral_cancer",
+				"liver_cancer", "road_injury", "self_harm")
 		ExtraAlcoholDisease = ExtraDiseases_Smoking[1]
 		for (ExtraAlcoholDisease in ExtraDiseases_Alcohol)
 		{
@@ -267,15 +267,15 @@ for (RiskFactor in RiskFactors)
 			if (ExtraAlcoholDisease == "liver_cancer") 				DiseasesHGPS_Data = "livercancer"
 			if (ExtraAlcoholDisease == "road_injury") 				DiseasesHGPS_Data = "roadinjuries"
 			if (ExtraAlcoholDisease == "self_harm") 				DiseasesHGPS_Data = "selfharm"
-			
+
 			Disease_HGPS_Data = DiseasesHGPS_Data[1]
 			for (Disease_HGPS_Data in DiseasesHGPS_Data)
 			{
 				AlcoholDir 	= file.path(getwd(), Disease_HGPS_Data, "PIF", "Alcohol", paste0("Scenario", ScenarioNumber))
 				JointDir 	= file.path(getwd(), Disease_HGPS_Data, "PIF", "Joint"	, paste0("Scenario", ScenarioNumber))
 				dir.create(JointDir, recursive = T)
-				
-				file.copy(from = file.path(AlcoholDir	, paste0("IF", COUNTRY_CODE, ".csv"))	, 
+
+				file.copy(from = file.path(AlcoholDir	, paste0("IF", COUNTRY_CODE, ".csv"))	,
 							to = file.path(JointDir		, paste0("IF", COUNTRY_CODE, ".csv"))	)
 			}
 			rm(DiseasesHGPS_Data, Disease_HGPS_Data)
@@ -286,26 +286,26 @@ for (RiskFactor in RiskFactors)
 ### check - all diseases, smoking or alcohol, should have a joint file.
 
 AllDiseaseSmokingAndAcohol_PIFNotation = c(
-		
-		"COPD"				            , 
-		"diabetes" 				        , 
-		"IHD"			                , 
-		"lung_cancer" 			        , 
-		"mouth_orophar_cancer" 	        , 
-		"other_resp_dis"                , 
-		"stroke"		                , 
-		"cervix_uter_cancer" 	        , 
-		"alcohol_use_disorders" 	    , 
-		"liver_cirrhosis"	       		, 
-		"lip_oral_cancer" 			    , 		
-		"liver_cancer"				    ,  			
-		"other_pharyngeal_cancers" 		, 	
-		"road_injury"          			, 
-		"self_harm"				        , 			
-		"intracerebral_haemorrhage"     , 
-		"ischaemic_stroke"	      		, 
-		"tuberculosis" 				    
-)  
+
+		"COPD"				            ,
+		"diabetes" 				        ,
+		"IHD"			                ,
+		"lung_cancer" 			        ,
+		"mouth_orophar_cancer" 	        ,
+		"other_resp_dis"                ,
+		"stroke"		                ,
+		"cervix_uter_cancer" 	        ,
+		"alcohol_use_disorders" 	    ,
+		"liver_cirrhosis"	       		,
+		"lip_oral_cancer" 			    ,
+		"liver_cancer"				    ,
+		"other_pharyngeal_cancers" 		,
+		"road_injury"          			,
+		"self_harm"				        ,
+		"intracerebral_haemorrhage"     ,
+		"ischaemic_stroke"	      		,
+		"tuberculosis"
+)
 
 AllDiseaseSmokingAndAcohol_HGPSNotation = c()
 for (Disease_IF in AllDiseaseSmokingAndAcohol_PIFNotation)
@@ -318,7 +318,7 @@ for (Disease_IF in AllDiseaseSmokingAndAcohol_PIFNotation)
 	if (Disease_IF  == "other_resp_dis") 		AllDiseaseSmokingAndAcohol_HGPSNotation = c(AllDiseaseSmokingAndAcohol_HGPSNotation, c("asthma", "lowerrespiratoryinfections", "tuberculosis") )
 	if (Disease_IF  == "stroke") 				AllDiseaseSmokingAndAcohol_HGPSNotation = c(AllDiseaseSmokingAndAcohol_HGPSNotation, "stroke"                                                  )
 	if (Disease_IF  == "cervix_uter_cancer") 	AllDiseaseSmokingAndAcohol_HGPSNotation = c(AllDiseaseSmokingAndAcohol_HGPSNotation, "cervicalcancer"                                          )
-	
+
 	if (Disease_IF  == "alcohol_use_disorders") 	AllDiseaseSmokingAndAcohol_HGPSNotation = c(AllDiseaseSmokingAndAcohol_HGPSNotation, "alcoholusedisorders"                                    )
 	if (Disease_IF 	== "liver_cirrhosis") 			AllDiseaseSmokingAndAcohol_HGPSNotation = c(AllDiseaseSmokingAndAcohol_HGPSNotation, "cirrhosis"                                              )
 	if (Disease_IF  == "lip_oral_cancer") 			AllDiseaseSmokingAndAcohol_HGPSNotation = c(AllDiseaseSmokingAndAcohol_HGPSNotation, "lipandoralcavitycancer"                                 )
@@ -341,18 +341,3 @@ for (Disease in AllDiseaseSmokingAndAcohol_HGPSNotation)
 	print(Disease)
 	print(list.files(Dir))
 }
-
-
-		         
-
-
-
-
-
-
-
-
-
-
-
-
