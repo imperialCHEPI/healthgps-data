@@ -5,7 +5,7 @@ anxiety,0.228666667
 asthma,0.061333333
 dermatitis,0.263666667
 cataract,0.187
-pulmonar,0.217333333
+pulmonary,0.217333333
 pancreatitis,0.149666667
 cirrhosis,0.21975
 diabetes,0.160333333
@@ -49,3 +49,4 @@ roadinjuries,0.2
 selfharm,0.46
 tuberculosis,0.333
 otherpharynxcancer,0.426333333
+
