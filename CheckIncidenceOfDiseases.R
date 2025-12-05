@@ -63,21 +63,21 @@ for (DiseaseIndex in 1:length(Diseases))
 	RemissionIndices = DiseaseData$measure == "remission"
 	IsRemissionAlwaysZero$AlswaysZero[DiseaseIndex] = all(DiseaseData$mean[RemissionIndices] == 0)
 #	DiseaseData[RemissionIndices,]
-	
-	
+
+
 #	str(DiseaseData)
 	DiseaseData = DiseaseData[which(DiseaseData$measure == "incidence"), ColumnsICareAbout]
 	DiseaseData = DiseaseData[which(DiseaseData$age <= MaxAge), ]
-	
+
 	MaleData 	= DiseaseData[which(DiseaseData$gender_id == 1), ]
 	FemaleData 	= DiseaseData[which(DiseaseData$gender_id == 2), ]
-	
+
 	OrderMale  		= order(MaleData$age)
 	OrderFemale  	= order(FemaleData$age)
-	
+
 	MaleData 	= MaleData	[OrderMale	, ]
 	FemaleData 	= FemaleData[OrderFemale, ]
-	
+
 	WeightedIncidence[DiseaseIndex, 1] = sum(MaleData$mean 		* PopData$ProportionMale)
 	WeightedIncidence[DiseaseIndex, 2] = sum(FemaleData$mean 	* PopData$ProportionFemale)
 }
@@ -114,7 +114,7 @@ Incidence_long <- pivot_longer(
 Incidence_long$Gender <- gsub("Incidence", "", Incidence_long$Gender)
 
 library(ggplot2)
-library(grid) 
+library(grid)
 
 png(filename = file.path(getwd(), "WeightedIncidencePlot.png"), units = "in", height = 7, width = 11, res = 300)
 ggplot(Incidence_long, aes(x = Disease, y = Weighted_Incidence, fill = Gender)) +
@@ -140,11 +140,3 @@ ggplot(Incidence_long, aes(x = Disease, y = Weighted_Incidence, fill = Gender)) 
 		# Use a distinct color palette
 		scale_fill_manual(values = c("Female" = "maroon", "Male" = "darkblue"))
 dev.off()
-
-
-
-
-
-
-
-
