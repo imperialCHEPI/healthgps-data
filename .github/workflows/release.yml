@@ -15,7 +15,7 @@ jobs:
       - name: Calculate SHA256 sum
         run: sha256sum data_${{ github.ref_name }}.zip > sha256sum.txt
       - name: Upload sha256sum file
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: |
             data_${{ github.ref_name }}.zip
