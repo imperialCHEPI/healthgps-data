@@ -43,6 +43,9 @@ D_ALLOWLIST: Dict[str, str] = {
     "thyroid_cancer": "thyroidcancer",
 }
 
+# Only these disease folders appear under output diseases/ (D and P).
+ALLOWED_DISEASE_FOLDERS: Set[str] = set(D_ALLOWLIST.values())
+
 # Country display name (from *_outputs_2026 folder / filename) -> ISO numeric code
 COUNTRY_NAME_TO_CODE: Dict[str, str] = {
     "belgium": "56",
@@ -59,10 +62,9 @@ COUNTRY_NAME_TO_CODE: Dict[str, str] = {
     "united kingdom": "826",
 }
 
-# Normalized P-source disease token -> healthgps folder
+# Normalized P-source disease token -> healthgps folder (allowlisted cancers only).
 # Keys are lowercase with non-alphanumeric stripped.
 P_DISEASE_MAP: Dict[str, str] = {
-    "bladdercancer": "bladdercancer",
     "breastcancer": "breastcancer",
     "cervicalcancer": "cervicalcancer",
     "cervixutericancer": "cervicalcancer",
@@ -80,25 +82,6 @@ P_DISEASE_MAP: Dict[str, str] = {
     "stomachcancer": "stomachcancer",
     "thyroidcancer": "thyroidcancer",
     "tracheabronchusandlungcancer": "trachealbronchuslungcancer",
-    "hypopharynxcancer": "hypopharynxcancer",
-    "oropharynxcancer": "oropharynxcancer",
-    "allcancersexclnonmelanomaskincancercancer": "allcancersexclnonmelanomaskincancer",
-    "braincentralnervoussystemcancer": "braincentralnervoussystemcancer",
-    "corpusutericancer": "corpusutericancer",
-    "hodgkinlymphomacancer": "hodgkinlymphoma",
-    "kaposisarcomacancer": "kaposisarcoma",
-    "leukaemiacancer": "leukaemia",
-    "melanomaofskincancer": "melanomaofskin",
-    "mesotheliomacancer": "mesothelioma",
-    "multiplemyelomacancer": "multiplemyeloma",
-    "nasopharynxcancer": "nasopharynxcancer",
-    "nonhodgkinlymphomacancer": "nonhodgkinlymphoma",
-    "peniscancer": "peniscancer",
-    "prostatecancer": "prostatecancer",
-    "salivaryglandscancer": "salivaryglandscancer",
-    "testiscancer": "testiscancer",
-    "vaginacancer": "vaginacancer",
-    "vulvacancer": "vulvacancer",
 }
 
 DFILE_RE = re.compile(
@@ -151,6 +134,7 @@ class Stats:
     created: List[str] = field(default_factory=list)
     skipped_existing: List[str] = field(default_factory=list)
     d_ignored: List[str] = field(default_factory=list)
+    p_ignored: List[str] = field(default_factory=list)
     unmapped: List[str] = field(default_factory=list)
     single_sex: List[str] = field(default_factory=list)
     missing_metric: List[str] = field(default_factory=list)
@@ -162,6 +146,7 @@ class Stats:
             f"created:           {len(self.created)}",
             f"skipped_existing:  {len(self.skipped_existing)}",
             f"D_IGNORED:         {len(self.d_ignored)}",
+            f"P_IGNORED:         {len(self.p_ignored)}",
             f"unmapped:          {len(self.unmapped)}",
             f"SINGLE_SEX:        {len(self.single_sex)}",
             f"missing_metric:    {len(self.missing_metric)}",
@@ -304,17 +289,28 @@ def merge_sex_series(
     female: Optional[Dict[str, str]],
 ) -> Tuple[List[Tuple[str, str, str]], bool]:
     """
-    Outer-join on Time. Missing sex -> empty string.
+    Outer-join on Time.
+    Female-only diseases: Male column is 0.
+    Male-only diseases: Female column is 0.
     Returns (rows, is_single_sex).
     """
     male = male or {}
     female = female or {}
+    female_only = bool(female) and not male
+    male_only = bool(male) and not female
     times = sorted(
         set(male) | set(female),
         key=lambda t: (float(t) if _looks_numeric(t) else t),
     )
-    rows = [(t, male.get(t, ""), female.get(t, "")) for t in times]
-    single = (not male and bool(female)) or (not female and bool(male))
+    rows: List[Tuple[str, str, str]] = []
+    for t in times:
+        if female_only:
+            rows.append((t, "0", female.get(t, "")))
+        elif male_only:
+            rows.append((t, male.get(t, ""), "0"))
+        else:
+            rows.append((t, male.get(t, ""), female.get(t, "")))
+    single = female_only or male_only
     return rows, single
 
 
@@ -330,7 +326,10 @@ def map_p_disease(raw_disease: str, stats: Stats, source_name: str) -> Optional[
     key = normalize_disease_key(raw_disease)
     folder = P_DISEASE_MAP.get(key)
     if folder is None:
-        stats.unmapped.append(f"{source_name} -> key={key}")
+        stats.p_ignored.append(f"{source_name} -> key={key}")
+        return None
+    if folder not in ALLOWED_DISEASE_FOLDERS:
+        stats.p_ignored.append(f"{source_name} -> folder={folder}")
         return None
     return folder
 
