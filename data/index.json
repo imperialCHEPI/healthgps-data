@@ -231,11 +231,6 @@
             },
             {
                 "group": "other",
-                "id": "otherpharynxcancer",
-                "name": "Other pharynx cancer"
-            },
-            {
-                "group": "other",
                 "id": "lowerrespiratoryinfections",
                 "name": "Lower respiratory infections"
             },
@@ -268,6 +263,11 @@
                 "group": "cancer",
                 "id": "lipandoralcavitycancer",
                 "name": "Lip and oral cavity cancer"
+            },
+            {
+                "group": "other",
+                "id": "otherpharynxcancer",
+                "name": "Other pharynx cancer"
             },
             {
                 "group": "cancer",
