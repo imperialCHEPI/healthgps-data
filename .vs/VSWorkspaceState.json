@@ -1,8 +1,5 @@
 {
-  "ExpandedNodes": [
-    "",
-    "\\data"
-  ],
-  "SelectedNode": "\\data\\index.json",
-  "PreviewInSolutionExplorer": false
+    "ExpandedNodes": ["", "\\data"],
+    "SelectedNode": "\\data\\index.json",
+    "PreviewInSolutionExplorer": false
 }
