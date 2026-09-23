@@ -1,1 +1,4 @@
-node_modules/
+﻿node_modules/
+
+# Visual Studio / VS Code local workspace cache (machine-specific)
+.vs/

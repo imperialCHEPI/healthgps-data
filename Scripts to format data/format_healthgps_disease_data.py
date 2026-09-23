@@ -5,8 +5,13 @@ Format raw Downloads disease CSVs into healthgps-data layout.
 D-files (allowlisted cancers only) -> diseases/{disease}/D{code}.csv
 P-outputs (male/female merge)      -> diseases/{disease}/P{code}/
     prevalence_distribution.csv | death_weights.csv | survival_rate_parameters.csv
+analysis/cost BoD*.csv             -> analysis/cost/
+undb indicators/mortality/population -> unbd/{indicators,mortality,population}/
 
 Never modifies source files. Skips destinations that already exist.
+
+Note: output folder is named ``unbd`` to match the formatted_output layout
+(healthgps-data upstream uses ``undb``).
 """
 
 from __future__ import annotations
@@ -107,6 +112,19 @@ METRIC_OUT = {
     "death": "death_weights.csv",
     "survival": "survival_rate_parameters.csv",
 }
+
+# Output folder name matching formatted_output (upstream repo uses "undb").
+UNBD_OUTPUT_NAME = "unbd"
+UNBD_SUBDIRS = ("indicators", "mortality", "population")
+# Staging uses ``unbd``; live healthgps-data repo uses ``undb``.
+LIVE_UNDB_NAME = "undb"
+
+# Filename prefixes used under analysis/cost and unbd subfolders.
+ANALYSIS_BOD_RE = re.compile(r"^BoD(?P<code>\d+)\.csv$", re.IGNORECASE)
+UNBD_FILE_RE = re.compile(
+    r"^(?P<prefix>Pi|M|P)(?P<code>\d+)\.csv$",
+    re.IGNORECASE,
+)
 
 
 def normalize_disease_key(name: str) -> str:
@@ -470,8 +488,153 @@ def parse_country_filter(raw: Optional[str]) -> Optional[Set[str]]:
     return {part.strip().lower() for part in raw.split(",") if part.strip()}
 
 
+def country_filter_to_codes(
+    country_filter: Optional[Set[str]],
+    countries_csv: Dict[str, str],
+) -> Optional[Set[str]]:
+    """Map country name filter to ISO numeric code strings."""
+    if not country_filter:
+        return None
+    codes: Set[str] = set()
+    for name in country_filter:
+        code = resolve_country_code(name, countries_csv)
+        if code is None:
+            continue
+        codes.add(code)
+    return codes
+
+
+def resolve_undb_source(source_undb: Path) -> Optional[Path]:
+    """
+    Accept either:
+      source_undb/{indicators,mortality,population}
+    or:
+      source_undb/undb_update_*/{indicators,mortality,population}
+    """
+    if all((source_undb / sub).is_dir() for sub in UNBD_SUBDIRS):
+        return source_undb
+    updates = sorted(
+        p for p in source_undb.glob("undb_update_*") if p.is_dir()
+    )
+    for candidate in reversed(updates):  # prefer newest name lexicographically
+        if all((candidate / sub).is_dir() for sub in UNBD_SUBDIRS):
+            return candidate
+    return None
+
+
+def process_analysis(
+    source_analysis: Path,
+    output_root: Path,
+    *,
+    code_filter: Optional[Set[str]],
+    dry_run: bool,
+    stats: Stats,
+) -> None:
+    """Copy BoD{code}.csv into analysis/cost/."""
+    cost_src = source_analysis / "cost"
+    if not cost_src.is_dir():
+        # allow flat analysis/*.csv as well
+        cost_src = source_analysis
+    if not cost_src.is_dir():
+        stats.errors.append(f"analysis source not found: {source_analysis}")
+        return
+
+    for path in sorted(cost_src.glob("BoD*.csv")):
+        match = ANALYSIS_BOD_RE.match(path.name)
+        if not match:
+            stats.errors.append(f"analysis file not parsed: {path.name}")
+            continue
+        code = str(int(match.group("code")))
+        if code_filter and code not in code_filter:
+            continue
+        dest = output_root / "analysis" / "cost" / path.name
+
+        def _copy(dst: Path, src: Path = path) -> None:
+            shutil.copy2(src, dst)
+
+        write_or_skip(dest, dry_run=dry_run, stats=stats, writer=_copy)
+
+
+def process_undb(
+    source_undb: Path,
+    output_root: Path,
+    *,
+    code_filter: Optional[Set[str]],
+    dry_run: bool,
+    stats: Stats,
+) -> None:
+    """Copy unbd indicators/mortality/population CSVs into output unbd/."""
+    root = resolve_undb_source(source_undb)
+    if root is None:
+        stats.errors.append(
+            f"undb source not found under {source_undb} "
+            f"(need {list(UNBD_SUBDIRS)} or undb_update_*/...)"
+        )
+        return
+
+    for sub in UNBD_SUBDIRS:
+        sub_dir = root / sub
+        for path in sorted(sub_dir.glob("*.csv")):
+            match = UNBD_FILE_RE.match(path.name)
+            if not match:
+                stats.errors.append(f"unbd file not parsed: {sub}/{path.name}")
+                continue
+            code = str(int(match.group("code")))
+            if code_filter and code not in code_filter:
+                continue
+            dest = output_root / UNBD_OUTPUT_NAME / sub / path.name
+
+            def _copy(dst: Path, src: Path = path) -> None:
+                shutil.copy2(src, dst)
+
+            write_or_skip(dest, dry_run=dry_run, stats=stats, writer=_copy)
+
+
+def map_staging_rel_to_live(rel: Path) -> Path:
+    """Map staging relative path into live data path (unbd -> undb)."""
+    parts = list(rel.parts)
+    if parts and parts[0] == UNBD_OUTPUT_NAME:
+        parts[0] = LIVE_UNDB_NAME
+    return Path(*parts) if parts else Path(".")
+
+
+def merge_staging_into_live(
+    staging_root: Path,
+    live_root: Path,
+    *,
+    dry_run: bool,
+    stats: Stats,
+) -> None:
+    """
+    Add files from formatted staging into the original live data folder.
+    Never overwrites existing live files. Maps unbd/ -> undb/.
+    """
+    if not staging_root.is_dir():
+        stats.errors.append(f"staging root not found: {staging_root}")
+        return
+    if not live_root.is_dir():
+        stats.errors.append(f"live data root not found: {live_root}")
+        return
+
+    print(f"merge: {staging_root}  ->  {live_root}")
+    print(f"       ({UNBD_OUTPUT_NAME}/ mapped to {LIVE_UNDB_NAME}/)")
+
+    for path in sorted(staging_root.rglob("*")):
+        if not path.is_file():
+            continue
+        rel = path.relative_to(staging_root)
+        dest = live_root / map_staging_rel_to_live(rel)
+
+        def _copy(dst: Path, src: Path = path) -> None:
+            shutil.copy2(src, dst)
+
+        write_or_skip(dest, dry_run=dry_run, stats=stats, writer=_copy)
+
+
 def build_arg_parser() -> argparse.ArgumentParser:
     default_source = Path(r"c:\Users\mg423\Downloads\diseases")
+    default_analysis = Path(r"c:\Users\mg423\Downloads\analysis")
+    default_undb = Path(r"c:\Users\mg423\Downloads\undb")
     default_output = Path(r"C:\healthgps-data\formatted_output\data")
     default_countries = Path(r"C:\healthgps-data\data\countries.csv")
 
@@ -483,6 +646,18 @@ def build_arg_parser() -> argparse.ArgumentParser:
         type=Path,
         default=default_source,
         help=f"Root containing Dfiles/ and *_outputs_2026/ (default: {default_source})",
+    )
+    parser.add_argument(
+        "--source-analysis",
+        type=Path,
+        default=default_analysis,
+        help=f"Root containing cost/BoD*.csv (default: {default_analysis})",
+    )
+    parser.add_argument(
+        "--source-undb",
+        type=Path,
+        default=default_undb,
+        help=f"Root containing undb indicators/mortality/population (default: {default_undb})",
     )
     parser.add_argument(
         "--output",
@@ -522,6 +697,31 @@ def build_arg_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Skip P-output processing",
     )
+    parser.add_argument(
+        "--skip-analysis",
+        action="store_true",
+        help="Skip analysis/cost copy",
+    )
+    parser.add_argument(
+        "--skip-undb",
+        action="store_true",
+        help="Skip unbd indicators/mortality/population copy",
+    )
+    parser.add_argument(
+        "--merge-into",
+        type=Path,
+        default=None,
+        help=(
+            "After formatting (or with --merge-only), add staging files into this "
+            f"live data root (maps {UNBD_OUTPUT_NAME}/ -> {LIVE_UNDB_NAME}/; "
+            "never overwrites)."
+        ),
+    )
+    parser.add_argument(
+        "--merge-only",
+        action="store_true",
+        help="Skip formatting; only merge --output staging into --merge-into",
+    )
     return parser
 
 
@@ -530,34 +730,66 @@ def main(argv: Optional[Iterable[str]] = None) -> int:
     stats = Stats()
     country_filter = parse_country_filter(args.countries)
     countries_csv = load_countries_csv(args.countries_csv)
+    code_filter = country_filter_to_codes(country_filter, countries_csv)
 
     source: Path = args.source_diseases
     output: Path = args.output
 
-    print(f"source:  {source}")
-    print(f"output:  {output}")
+    print(f"source diseases:  {source}")
+    print(f"source analysis:  {args.source_analysis}")
+    print(f"source undb:      {args.source_undb}")
+    print(f"output:           {output}")
     print(f"dry_run: {args.dry_run}")
     if country_filter:
-        print(f"countries filter: {sorted(country_filter)}")
+        print(f"countries filter: {sorted(country_filter)} -> codes {sorted(code_filter or [])}")
 
-    if not args.skip_d:
-        process_dfiles(
-            source / "Dfiles",
+    if not args.merge_only:
+        if not args.skip_d:
+            process_dfiles(
+                source / "Dfiles",
+                output,
+                country_filter=country_filter,
+                dry_run=args.dry_run,
+                stats=stats,
+            )
+
+        if not args.skip_p:
+            process_p_outputs(
+                source,
+                output,
+                countries_csv,
+                country_filter=country_filter,
+                dry_run=args.dry_run,
+                stats=stats,
+            )
+
+        if not args.skip_analysis:
+            process_analysis(
+                args.source_analysis,
+                output,
+                code_filter=code_filter,
+                dry_run=args.dry_run,
+                stats=stats,
+            )
+
+        if not args.skip_undb:
+            process_undb(
+                args.source_undb,
+                output,
+                code_filter=code_filter,
+                dry_run=args.dry_run,
+                stats=stats,
+            )
+
+    if args.merge_into is not None:
+        merge_staging_into_live(
             output,
-            country_filter=country_filter,
+            args.merge_into,
             dry_run=args.dry_run,
             stats=stats,
         )
-
-    if not args.skip_p:
-        process_p_outputs(
-            source,
-            output,
-            countries_csv,
-            country_filter=country_filter,
-            dry_run=args.dry_run,
-            stats=stats,
-        )
+    elif args.merge_only:
+        stats.errors.append("--merge-only requires --merge-into")
 
     print(stats.summary())
 
